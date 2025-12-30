@@ -201,8 +201,9 @@ election-finder/
 ### Available Scripts
 
 - `npm run dev` - Start development server
-- `npm run build` - Build for production
+- `npm run build` - Build for production (handles locked directories automatically)
 - `npm run export` - Generate static export (same as build)
+- `npm run serve` - Serve the built static files locally on port 8080
 - `npm run start` - Start production server
 - `npm run lint` - Run ESLint
 
@@ -229,17 +230,22 @@ This creates an `out` directory containing:
 Test the static build locally:
 
 ```bash
-# Using Python
+# Easiest way (recommended)
+npm run serve
+
+# Or using Python
 cd out
 python -m http.server 8080
 
-# Using Node.js (serve)
+# Or using Node.js serve directly
 npx serve out -p 8080
 
-# Using PHP
+# Or using PHP
 cd out
 php -S localhost:8080
 ```
+
+**Note**: The build process now automatically handles locked directories and creates proper 404.html files for static hosting. If you encounter a locked directory error, the build script will provide clear instructions to resolve it.
 
 ### Deployment
 

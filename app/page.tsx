@@ -365,7 +365,7 @@ export default function Home() {
             </h1>
             <div className="flex items-center gap-3">
               <a
-                href="https://github.com/your-username/election-finder"
+                href="https://github.com/tashfeenMustafa/voting-center-finder"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`p-2.5 rounded-lg ${isDarkMode ? 'bg-slate-700 text-slate-300 hover:bg-slate-600' : 'bg-slate-100 text-slate-700 hover:bg-slate-200'} transition-all duration-200`}

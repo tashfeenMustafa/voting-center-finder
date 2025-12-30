@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "build:clean": "node -e \"const fs = require('fs'); const path = require('path'); const outDir = path.join(process.cwd(), 'out'); try { fs.rmSync(outDir, { recursive: true, force: true }); } catch(e) { console.log('Could not delete out directory:', e.message); }\" && next build",
-    "export": "next build",
+    "build": "node scripts/build.js",
+    "build:next": "next build",
+    "export": "npm run build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "serve": "npx serve out -p 8080"
   },
   "dependencies": {
     "next": "16.1.1",
