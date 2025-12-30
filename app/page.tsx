@@ -474,8 +474,13 @@ export default function Home() {
                 style={{ animationDelay: `${Math.min(index * 20, 300)}ms` }}
               >
                 <div className="mb-4">
-                  <div className="inline-block px-3.5 py-1.5 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-sm font-bold rounded-lg shadow-sm">
-                    {highlightText(language === 'en' ? constituency.no_en : constituency.no_bn, searchQuery, isDarkMode)}
+                  <div className="flex flex-wrap gap-2">
+                    <div className="inline-block px-3.5 py-1.5 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-sm font-bold rounded-lg shadow-sm">
+                      {highlightText(constituency.no_en, searchQuery, isDarkMode)}
+                    </div>
+                    <div className="inline-block px-3.5 py-1.5 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-sm font-bold rounded-lg shadow-sm">
+                      {highlightText(constituency.no_bn, searchQuery, isDarkMode)}
+                    </div>
                   </div>
                 </div>
                 <div className="space-y-3">
