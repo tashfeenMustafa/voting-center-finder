@@ -13,7 +13,6 @@ type Constituency = {
   composition_bn: string;
   thana: string[];
   thana_bn: string[];
-  wards: string[];
   unions: string[];
   unions_bn: string[];
   pauroshava: string[];
@@ -36,10 +35,6 @@ const VOTER_HUB_CONTENT = {
         {
           term: "Upazila vs. Thana",
           description: "In rural areas, administrative units are called Upazilas. In metropolitan cities like Dhaka or Chattogram, they are called Thanas. Your constituency is often determined by the Thana (Police Station) your address belongs to."
-        },
-        {
-          term: "What is a Ward?",
-          description: "A Ward is the smallest urban unit. In City Corporations, your Ward Number is the key to finding your specific polling center (usually a nearby school or community center)."
         },
         {
           term: "Constituency (Asan)",
@@ -95,10 +90,6 @@ const VOTER_HUB_CONTENT = {
           description: "পল্লি এলাকায় প্রশাসনিক ইউনিটকে উপজেলা বলা হয়। ঢাকা বা চট্টগ্রামের মতো মহানগরীতে এগুলোকে থানা বলা হয়। আপনার ঠিকানা কোন থানার অধীনে তা আপনার নির্বাচনী আসন নির্ধারণে গুরুত্বপূর্ণ।"
         },
         {
-          term: "ওয়ার্ড কী?",
-          description: "ওয়ার্ড হলো সবচেয়ে ছোট নগর ইউনিট। সিটি কর্পোরেশন এলাকায় আপনার ভোটকেন্দ্র (স্কুল বা কমিউনিটি সেন্টার) খুঁজে পেতে ওয়ার্ড নম্বরটি সবচেয়ে বেশি প্রয়োজন হয়।"
-        },
-        {
           term: "নির্বাচনী এলাকা (আসন)",
           description: "এটি আপনার সংসদীয় আসন (যেমন: ঢাকা-১০)। জাতীয় সংসদে আপনার প্রতিনিধিত্ব করার জন্য প্রতিটি আসন থেকে একজন সংসদ সদস্য (MP) নির্বাচিত হন।"
         }
@@ -144,14 +135,13 @@ const translations = {
   en: {
     title: 'Bangladesh Election Constituency Finder',
     heroTitle: 'Find your Constituency & Voting Center',
-    heroDescription: 'Search through all 300 parliamentary constituencies by district, thana, union, ward, or any related term.',
+    heroDescription: 'Search through all 300 parliamentary constituencies by district, thana, union, or any related term.',
     heroDisclaimer: '⚠️ This is NOT an official government website or affiliated with the Election Commission. This is for informational purposes only. Always verify information with Election Commission channels.',
-    searchPlaceholder: 'Search by District, Thana, Union, Ward, or any keyword...',
+    searchPlaceholder: 'Search by District, Thana, Union, or any keyword...',
     seatNumber: 'Seat Number',
     district: 'District',
     area: 'Area',
     thana: 'Thana',
-    wards: 'Wards',
     pauroshava: 'Pauroshava',
     unions: 'Unions',
     tags: 'Search Tags',
@@ -160,8 +150,6 @@ const translations = {
     faq: 'Frequently Asked Questions',
     faq1: 'What is a Thana?',
     faq1Answer: 'A Thana (also called Upazila) is an administrative division in Bangladesh, typically covering a sub-district area with multiple unions.',
-    faq2: 'What is a Ward?',
-    faq2Answer: 'A Ward is the smallest administrative unit in urban areas (Pauroshava/Municipality), representing a specific neighborhood or area within a city or town.',
     disclaimer: 'Disclaimer',
     disclaimerText: 'This is not an official government website. The information provided is for reference purposes only.',
     sources: 'Sources',
@@ -173,14 +161,13 @@ const translations = {
   bn: {
     title: 'বাংলাদেশ নির্বাচনী এলাকা খুঁজুন',
     heroTitle: 'আপনার নির্বাচনী এলাকা ও ভোট কেন্দ্র খুঁজুন',
-    heroDescription: 'জেলা, থানা, ইউনিয়ন, ওয়ার্ড বা যেকোনো সম্পর্কিত শব্দ দিয়ে ৩০০টি সংসদীয় নির্বাচনী এলাকা খুঁজুন।',
+    heroDescription: 'জেলা, থানা, ইউনিয়ন বা যেকোনো সম্পর্কিত শব্দ দিয়ে ৩০০টি সংসদীয় নির্বাচনী এলাকা খুঁজুন।',
     heroDisclaimer: '⚠️ এটি কোনো সরকারি ওয়েবসাইট নয় বা নির্বাচন কমিশনের সাথে সম্পর্কিত নয়। এটি শুধুমাত্র তথ্যগত উদ্দেশ্যে। সর্বদা নির্বাচন কমিশনের চ্যানেলের মাধ্যমে তথ্য যাচাই করুন।',
-    searchPlaceholder: 'জেলা, থানা, ইউনিয়ন, ওয়ার্ড বা যেকোনো শব্দ দিয়ে খুঁজুন...',
+    searchPlaceholder: 'জেলা, থানা, ইউনিয়ন বা যেকোনো শব্দ দিয়ে খুঁজুন...',
     seatNumber: 'আসন নম্বর',
     district: 'জেলা',
     area: 'এলাকা',
     thana: 'থানা',
-    wards: 'ওয়ার্ড',
     pauroshava: 'পৌরসভা',
     unions: 'ইউনিয়ন',
     tags: 'অনুসন্ধান ট্যাগ',
@@ -189,8 +176,6 @@ const translations = {
     faq: 'প্রায়শই জিজ্ঞাসিত প্রশ্ন',
     faq1: 'থানা কী?',
     faq1Answer: 'থানা (উপজেলা নামেও পরিচিত) বাংলাদেশের একটি প্রশাসনিক বিভাগ, যা সাধারণত একাধিক ইউনিয়ন নিয়ে গঠিত একটি উপজেলা এলাকা কভার করে।',
-    faq2: 'ওয়ার্ড কী?',
-    faq2Answer: 'ওয়ার্ড হল শহরাঞ্চলে (পৌরসভা/পৌর কর্পোরেশন) সবচেয়ে ছোট প্রশাসনিক ইউনিট, যা একটি শহর বা শহরের মধ্যে একটি নির্দিষ্ট এলাকা বা পাড়া উপস্থাপন করে।',
     disclaimer: 'দায়বদ্ধতা অস্বীকার',
     disclaimerText: 'এটি কোনো সরকারি ওয়েবসাইট নয়। প্রদত্ত তথ্য শুধুমাত্র রেফারেন্সের উদ্দেশ্যে।',
     sources: 'উৎস',
@@ -305,9 +290,6 @@ export default function Home() {
         // Union names (English and Bangla)
         ...constituency.unions,
         ...(constituency.unions_bn || []),
-        // Wards with "ward" prefix for natural search like "ward 9"
-        ...constituency.wards.map((w) => `ward ${w}`),
-        ...constituency.wards.map((w) => w), // Also without prefix
         // Pauroshava names (English and Bangla)
         ...constituency.pauroshava,
         ...(constituency.pauroshava_bn || []),
@@ -319,7 +301,6 @@ export default function Home() {
       const searchableText = searchableFields.join(' ');
 
       // For multi-word queries, check if all terms match (anywhere in the text)
-      // This allows queries like "ward 9 dhaka" or "dhaka ward 9" to match
       const allTermsMatch = queryTerms.every(term => {
         // Check if term matches directly
         if (searchableText.includes(term)) {
@@ -540,25 +521,6 @@ export default function Home() {
                                 </span>
                               );
                             })}
-                          </div>
-                        </div>
-                      )}
-
-                      {constituency.wards.length > 0 && (
-                        <div>
-                          <span className={`text-xs font-semibold uppercase tracking-wide ${isDarkMode ? 'text-emerald-400' : 'text-emerald-700'}`}>
-                            {t.wards}
-                          </span>
-                          <div className="flex flex-wrap gap-1.5 mt-1.5">
-                            {constituency.wards.map((ward, idx) => (
-                              <span key={idx} className={`px-2.5 py-1 text-xs font-medium rounded-md border ${
-                                isDarkMode 
-                                  ? 'bg-emerald-900/50 text-emerald-300 border-emerald-700' 
-                                  : 'bg-emerald-100 text-emerald-700 border-emerald-300'
-                              }`}>
-                                {highlightText(`${t.wards} ${ward}`, searchQuery, isDarkMode)}
-                              </span>
-                            ))}
                           </div>
                         </div>
                       )}
