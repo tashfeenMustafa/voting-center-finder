@@ -13,7 +13,7 @@
     "pauroshava_bn": ["পঞ্চগড়"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Panchagarh-1", "পঞ্চগড়-১", "Panchagarh Sadar", "Tetulia", "Atwari"]
+    "search_tags": ["Panchagarh-1", "পঞ্চগড়-১", "Panchagarh Sadar", "Tetulia", "Atwari", "Panchagarh Paurashava"]
   },
   {
     "id": 2,
@@ -25,11 +25,11 @@
     "composition_en": "(a) Unions of Boda Upazila, (b) Boda Paurashava and (c) Debiganj Upazila",
     "thana": ["Boda", "Debiganj"],
     "thana_bn": ["বোদা", "দেবীগঞ্জ"],
-    "pauroshava": ["Boda"],
-    "pauroshava_bn": ["বোদা"],
+    "pauroshava": ["Boda", "Debiganj"],
+    "pauroshava_bn": ["বোদা", "দেবীগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Panchagarh-2", "পঞ্চগড়-২", "Boda", "Debiganj"]
+    "search_tags": ["Panchagarh-2", "পঞ্চগড়-২", "Boda", "Debiganj", "Boda Paurashava", "Debiganj Paurashava"]
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
     "pauroshava_bn": ["ঠাকুরগাঁও"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Thakurgaon-1", "ঠাকুরগাঁও-১", "Thakurgaon Sadar"]
+    "search_tags": ["Thakurgaon-1", "ঠাকুরগাঁও-১", "Thakurgaon Sadar", "Thakurgaon Paurashava"]
   },
   {
     "id": 4,
@@ -60,8 +60,8 @@
     "pauroshava": [],
     "pauroshava_bn": [],
     "unions": ["Dharmagarh", "Kashipur"],
-    "unions_bn": ["ধর্মগড়", "কাশিপুর"],
-    "search_tags": ["Thakurgaon-2", "ঠাকুরগাঁও-২", "Baliadangi", "Haripur", "Ranisankail"]
+    "unions_bn": ["ধর্মগড়", "কাশিপুর"],
+    "search_tags": ["Thakurgaon-2", "ঠাকুরগাঁও-২", "Baliadangi", "Haripur", "Ranisankail", "Dharmagarh", "Kashipur"]
   },
   {
     "id": 5,
@@ -73,11 +73,11 @@
     "composition_en": "(a) Pirganj Upazila and (b) Ranisankail Upazila excluding the following unions: (1) Dharmagarh and (2) Kashipur",
     "thana": ["Pirganj", "Ranisankail"],
     "thana_bn": ["পীরগঞ্জ", "রাণীশংকৈল"],
-    "pauroshava": [],
-    "pauroshava_bn": [],
+    "pauroshava": ["Pirganj", "Ranisankail"],
+    "pauroshava_bn": ["পীরগঞ্জ", "রাণীশংকৈল"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Thakurgaon-3", "ঠাকুরগাঁও-৩", "Pirganj", "Ranisankail"]
+    "search_tags": ["Thakurgaon-3", "ঠাকুরগাঁও-৩", "Pirganj", "Ranisankail", "Pirganj Paurashava", "Ranisankail Paurashava"]
   },
   {
     "id": 6,
@@ -89,11 +89,11 @@
     "composition_en": "(a) Birganj Upazila and (b) Kaharole Upazila",
     "thana": ["Birganj", "Kaharole"],
     "thana_bn": ["বীরগঞ্জ", "কাহারোল"],
-    "pauroshava": [],
-    "pauroshava_bn": [],
+    "pauroshava": ["Birganj"],
+    "pauroshava_bn": ["বীরগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Dinajpur-1", "দিনাজপুর-১", "Birganj", "Kaharole"]
+    "search_tags": ["Dinajpur-1", "দিনাজপুর-১", "Birganj", "Kaharole", "Birganj Paurashava"]
   },
   {
     "id": 7,
@@ -105,11 +105,11 @@
     "composition_en": "(a) Bochaganj Upazila and (b) Birol Upazila",
     "thana": ["Bochaganj", "Birol"],
     "thana_bn": ["বোচাগঞ্জ", "বিরল"],
-    "pauroshava": [],
-    "pauroshava_bn": [],
+    "pauroshava": ["Setabganj", "Birol"],
+    "pauroshava_bn": ["সেতাবগঞ্জ", "বিরল"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Dinajpur-2", "দিনাজপুর-২", "Bochaganj", "Birol"]
+    "search_tags": ["Dinajpur-2", "দিনাজপুর-২", "Bochaganj", "Birol", "Setabganj Paurashava", "Birol Paurashava"]
   },
   {
     "id": 8,
@@ -125,23 +125,7 @@
     "pauroshava_bn": ["দিনাজপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Dinajpur-3", "দিনাজপুর-৩", "Dinajpur Sadar"]
-  },
-  {
-    "id": 19,
-    "no_en": "Rangpur-1",
-    "no_bn": "রংপুর-১",
-    "district_en": "Rangpur",
-    "district_bn": "রংপুর",
-    "composition_bn": "(ক) গংগাচড়া উপজেলা এবং (খ) রংপুর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ১, ২, ৩, ৪, ৫, ৬, ৭, ৮ ও ৯",
-    "composition_en": "(a) Gangachara Upazila and (b) Ward numbers 1, 2, 3, 4, 5, 6, 7, 8 and 9 of Rangpur City Corporation",
-    "thana": ["Gangachara"],
-    "thana_bn": ["গংগাচড়া"],
-    "pauroshava": [],
-    "pauroshava_bn": [],
-    "unions": ["Ward 1", "Ward 2", "Ward 3", "Ward 4", "Ward 5", "Ward 6", "Ward 7", "Ward 8", "Ward 9"],
-    "unions_bn": ["ওয়ার্ড ১", "ওয়ার্ড ২", "ওয়ার্ড ৩", "ওয়ার্ড ৪", "ওয়ার্ড ৫", "ওয়ার্ড ৬", "ওয়ার্ড ৭", "ওয়ার্ড ৮", "ওয়ার্ড ৯"],
-    "search_tags": ["Rangpur-1", "রংপুর-১", "Gangachara", "Rangpur City Corporation"]
+    "search_tags": ["Dinajpur-3", "দিনাজপুর-৩", "Dinajpur Sadar", "Dinajpur Paurashava"]
   },
   {
     "id": 9,
@@ -149,7 +133,7 @@
     "no_bn": "দিনাজপুর-৪",
     "district_en": "Dinajpur",
     "district_bn": "দিনাজপুর",
-    "composition_bn": "(ক) খানসামা উপজেলা এবং (খ) চিরিরবন্দর উপজেলা",
+    "composition_bn": "(ক) খানসামা উপজেলা এবং (খ) চিরirবন্দর উপজেলা",
     "composition_en": "(a) Khansama Upazila and (b) Chirirbandar Upazila",
     "thana": ["Khansama", "Chirirbandar"],
     "thana_bn": ["খানসামা", "চিরিরবন্দর"],
@@ -169,11 +153,11 @@
     "composition_en": "(a) Parbatipur Upazila and (b) Phulbari Upazila",
     "thana": ["Parbatipur", "Phulbari"],
     "thana_bn": ["পার্বতীপুর", "ফুলবাড়ী"],
-    "pauroshava": ["Phulbari"],
-    "pauroshava_bn": ["ফুলবাড়ী"],
+    "pauroshava": ["Parbatipur", "Phulbari"],
+    "pauroshava_bn": ["পার্বতীপুর", "ফুলবাড়ী"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Dinajpur-5", "দিনাজপুর-৫", "Parbatipur", "Phulbari"]
+    "search_tags": ["Dinajpur-5", "দিনাজপুর-৫", "Parbatipur", "Phulbari", "Parbatipur Paurashava", "Phulbari Paurashava"]
   },
   {
     "id": 11,
@@ -185,11 +169,11 @@
     "composition_en": "(a) Nawabganj Upazila, (b) Birampur Upazila, (c) Hakimpur Upazila and (d) Ghoraghat Upazila",
     "thana": ["Nawabganj", "Birampur", "Hakimpur", "Ghoraghat"],
     "thana_bn": ["নবাবগঞ্জ", "বিরামপুর", "হাকিমপুর", "ঘোড়াঘাট"],
-    "pauroshava": ["Birampur"],
-    "pauroshava_bn": ["বিরামপুর"],
+    "pauroshava": ["Birampur", "Hakimpur"],
+    "pauroshava_bn": ["বিরামপুর", "হাকিমপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Dinajpur-6", "দিনাজপুর-৬", "Nawabganj", "Birampur", "Hakimpur", "Ghoraghat"]
+    "search_tags": ["Dinajpur-6", "দিনাজপুর-৬", "Nawabganj", "Birampur", "Hakimpur", "Ghoraghat", "Birampur Paurashava", "Hakimpur Paurashava"]
   },
   {
     "id": 12,
@@ -205,7 +189,7 @@
     "pauroshava_bn": ["ডোমার"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Nilphamari-1", "নীলফামারী-১", "Domar", "Dimla"]
+    "search_tags": ["Nilphamari-1", "নীলফামারী-১", "Domar", "Dimla", "Domar Paurashava"]
   },
   {
     "id": 13,
@@ -221,7 +205,7 @@
     "pauroshava_bn": ["নীলফামারী"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Nilphamari-2", "নীলফামারী-২", "Nilphamari Sadar"]
+    "search_tags": ["Nilphamari-2", "নীলফামারী-২", "Nilphamari Sadar", "Nilphamari Paurashava"]
   },
   {
     "id": 14,
@@ -237,7 +221,7 @@
     "pauroshava_bn": ["জলঢাকা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Nilphamari-3", "নীলফামারী-৩", "Jaldhaka"]
+    "search_tags": ["Nilphamari-3", "নীলফামারী-৩", "Jaldhaka", "Jaldhaka Paurashava"]
   },
   {
     "id": 15,
@@ -253,7 +237,7 @@
     "pauroshava_bn": ["সৈয়দপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Nilphamari-4", "নীলফামারী-৪", "Saidpur", "Kishoreganj"]
+    "search_tags": ["Nilphamari-4", "নীলফামারী-৪", "Saidpur", "Kishoreganj", "Saidpur Paurashava"]
   },
   {
     "id": 16,
@@ -269,7 +253,7 @@
     "pauroshava_bn": ["পাটগ্রাম"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Lalmonirhat-1", "লালমনিরহাট-১", "Patgram", "Hatibandha"]
+    "search_tags": ["Lalmonirhat-1", "লালমনিরহাট-১", "Patgram", "Hatibandha", "Patgram Paurashava"]
   },
   {
     "id": 17,
@@ -301,7 +285,23 @@
     "pauroshava_bn": ["লালমনিরহাট"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Lalmonirhat-3", "লালমনিরহাট-৩", "Lalmonirhat Sadar"]
+    "search_tags": ["Lalmonirhat-3", "লালমনিরহাট-৩", "Lalmonirhat Sadar", "Lalmonirhat Paurashava"]
+  },
+  {
+    "id": 19,
+    "no_en": "Rangpur-1",
+    "no_bn": "রংপুর-১",
+    "district_en": "Rangpur",
+    "district_bn": "রংপুর",
+    "composition_bn": "(ক) গংগাচড়া উপজেলা এবং (খ) রংপুর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ১, ২, ৩, ৪, ৫, ৬, ৭, ৮ ও ৯",
+    "composition_en": "(a) Gangachara Upazila and (b) Ward numbers 1, 2, 3, 4, 5, 6, 7, 8 and 9 of Rangpur City Corporation",
+    "thana": ["Gangachara", "Kotwali", "Parshuram"],
+    "thana_bn": ["গংগাচড়া", "কোতোয়ালী", "পরশুরাম"],
+    "pauroshava": [],
+    "pauroshava_bn": [],
+    "unions": ["Ward 1", "Ward 2", "Ward 3", "Ward 4", "Ward 5", "Ward 6", "Ward 7", "Ward 8", "Ward 9"],
+    "unions_bn": ["ওয়ার্ড ১", "ওয়ার্ড ২", "ওয়ার্ড ৩", "ওয়ার্ড ৪", "ওয়ার্ড ৫", "ওয়ার্ড ৬", "ওয়ার্ড ৭", "ওয়ার্ড ৮", "ওয়ার্ড ৯"],
+    "search_tags": ["Rangpur-1", "রংপুর-১", "Gangachara", "Rangpur City Corporation", "RCC"]
   },
   {
     "id": 20,
@@ -317,7 +317,7 @@
     "pauroshava_bn": ["বদরগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Rangpur-2", "রংপুর-২", "Taraganj", "Badarganj"]
+    "search_tags": ["Rangpur-2", "রংপুর-২", "Taraganj", "Badarganj", "Badarganj Paurashava", "তারাগঞ্জ", "বদরগঞ্জ"]
   },
   {
     "id": 21,
@@ -327,8 +327,8 @@
     "district_bn": "রংপুর",
     "composition_bn": "(ক) রংপুর সদর উপজেলা, (খ) রংপুর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ১, ২, ৩, ৪, ৫, ৬, ৭, ৮ ও ৯ ব্যতীত রংপুর সিটি কর্পোরেশন এবং (গ) রংপুর সেনানিবাস এলাকা",
     "composition_en": "(a) Rangpur Sadar Upazila, (b) Rangpur City Corporation excluding Ward numbers 1, 2, 3, 4, 5, 6, 7, 8 and 9, and (c) Rangpur Cantonment area",
-    "thana": ["Rangpur Sadar"],
-    "thana_bn": ["রংপুর সদর"],
+    "thana": ["Rangpur Sadar", "Kotwali", "Tajhat", "Mahiganj"],
+    "thana_bn": ["রংপুর সদর", "কোতোয়ালী", "তাজহাট", "মাহিগঞ্জ"],
     "pauroshava": [],
     "pauroshava_bn": [],
     "unions": [],
@@ -349,7 +349,7 @@
     "pauroshava_bn": [],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Rangpur-4", "রংপুর-৪", "Pirgacha", "Kaunia"]
+    "search_tags": ["Rangpur-4", "রংপুর-৪", "Pirgacha", "Kaunia", "পীরগাছা", "কাউনিয়া"]
   },
   {
     "id": 23,
@@ -365,7 +365,7 @@
     "pauroshava_bn": [],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Rangpur-5", "রংপুর-৫", "Mithapukur"]
+    "search_tags": ["Rangpur-5", "রংপুর-৫", "Mithapukur", "মিঠাপুকুর"]
   },
   {
     "id": 24,
@@ -377,11 +377,11 @@
     "composition_en": "Pirganj Upazila",
     "thana": ["Pirganj"],
     "thana_bn": ["পীরগঞ্জ"],
-    "pauroshava": [],
-    "pauroshava_bn": [],
+    "pauroshava": ["Pirganj"],
+    "pauroshava_bn": ["পীরগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Rangpur-6", "রংপুর-৬", "Pirganj"]
+    "search_tags": ["Rangpur-6", "রংপুর-৬", "Pirganj", "Pirganj Paurashava", "পীরগঞ্জ"]
   },
   {
     "id": 25,
@@ -397,7 +397,7 @@
     "pauroshava_bn": ["নাগেশ্বরী"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Kurigram-1", "কুড়িগ্রাম-১", "Bhurungamari", "Nageshwari"]
+    "search_tags": ["Kurigram-1", "কুড়িগ্রাম-১", "Bhurungamari", "Nageshwari", "Nageshwari Paurashava"]
   },
   {
     "id": 26,
@@ -413,7 +413,7 @@
     "pauroshava_bn": ["কুড়িগ্রাম"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Kurigram-2", "কুড়িগ্রাম-২", "Kurigram Sadar", "Rajarhat", "Phulbari"]
+    "search_tags": ["Kurigram-2", "কুড়িগ্রাম-২", "Kurigram Sadar", "Rajarhat", "Phulbari", "Kurigram Paurashava"]
   },
   {
     "id": 27,
@@ -429,7 +429,7 @@
     "pauroshava_bn": ["উলিপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Kurigram-3", "কুড়িগ্রাম-৩", "Ulipur"]
+    "search_tags": ["Kurigram-3", "কুড়িগ্রাম-৩", "Ulipur", "Ulipur Paurashava"]
   },
   {
     "id": 28,
@@ -461,7 +461,7 @@
     "pauroshava_bn": ["সুন্দরগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Gaibandha-1", "গাইবান্ধা-১", "Sundarganj"]
+    "search_tags": ["Gaibandha-1", "গাইবান্ধা-১", "Sundarganj", "Sundarganj Paurashava"]
   },
   {
     "id": 30,
@@ -477,7 +477,7 @@
     "pauroshava_bn": ["গাইবান্ধা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Gaibandha-2", "গাইবান্ধা-২", "Gaibandha Sadar"]
+    "search_tags": ["Gaibandha-2", "গাইবান্ধা-২", "Gaibandha Sadar", "Gaibandha Paurashava"]
   },
   {
     "id": 31,
@@ -493,7 +493,7 @@
     "pauroshava_bn": ["পলাশবাড়ী"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Gaibandha-3", "গাইবান্ধা-৩", "Sadullapur", "Palashbari"]
+    "search_tags": ["Gaibandha-3", "গাইবান্ধা-৩", "Sadullapur", "Palashbari", "Palashbari Paurashava"]
   },
   {
     "id": 32,
@@ -509,7 +509,7 @@
     "pauroshava_bn": ["গোবিন্দগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Gaibandha-4", "গাইবান্ধা-৪", "Gobindaganj"]
+    "search_tags": ["Gaibandha-4", "গাইবান্ধা-৪", "Gobindaganj", "Gobindaganj Paurashava"]
   },
   {
     "id": 33,
@@ -541,7 +541,7 @@
     "pauroshava_bn": ["জয়পুরহাট", "পাঁচবিবি"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Joypurhat-1", "জয়পুরহাট-১", "Joypurhat Sadar", "Panchbibi"]
+    "search_tags": ["Joypurhat-1", "জয়পুরহাট-১", "Joypurhat Sadar", "Panchbibi", "Joypurhat Paurashava", "Panchbibi Paurashava"]
   },
   {
     "id": 35,
@@ -553,11 +553,11 @@
     "composition_en": "(a) Akkelpur Upazila, (b) Khetlal Upazila and (c) Kalai Upazila",
     "thana": ["Akkelpur", "Khetlal", "Kalai"],
     "thana_bn": ["আক্কেলপুর", "ক্ষেতলাল", "কালাই"],
-    "pauroshava": ["Akkelpur", "Kalai"],
-    "pauroshava_bn": ["আক্কেলপুর", "কালাই"],
+    "pauroshava": ["Akkelpur", "Khetlal", "Kalai"],
+    "pauroshava_bn": ["আক্কেলপুর", "ক্ষেতলাল", "কালাই"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Joypurhat-2", "জয়পুরহাট-২", "Akkelpur", "Khetlal", "Kalai"]
+    "search_tags": ["Joypurhat-2", "জয়পুরহাট-২", "Akkelpur", "Khetlal", "Kalai", "Akkelpur Paurashava", "Khetlal Paurashava", "Kalai Paurashava"]
   },
   {
     "id": 36,
@@ -569,11 +569,11 @@
     "composition_en": "(a) Sariakandi Upazila and (b) Sonatala Upazila",
     "thana": ["Sariakandi", "Sonatala"],
     "thana_bn": ["সারিয়াকান্দি", "সোনাতলা"],
-    "pauroshava": ["Sariakandi"],
-    "pauroshava_bn": ["সারিয়াকান্দি"],
+    "pauroshava": ["Sariakandi", "Sonatala"],
+    "pauroshava_bn": ["সারিয়াকান্দি", "সোনাতলা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Bogura-1", "বগুড়া-১", "Sariakandi", "Sonatala"]
+    "search_tags": ["Bogura-1", "বগুড়া-১", "Sariakandi", "Sonatala", "Sariakandi Paurashava", "Sonatala Paurashava"]
   },
   {
     "id": 37,
@@ -589,7 +589,7 @@
     "pauroshava_bn": ["শিবগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Bogura-2", "বগুড়া-২", "Shibganj"]
+    "search_tags": ["Bogura-2", "বগুড়া-২", "Shibganj", "Shibganj Paurashava"]
   },
   {
     "id": 38,
@@ -605,7 +605,7 @@
     "pauroshava_bn": ["সান্তাহার", "দুপচাঁচিয়া"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Bogura-3", "বগুড়া-৩", "Adamdighi", "Dupchanchia"]
+    "search_tags": ["Bogura-3", "বগুড়া-৩", "Adamdighi", "Dupchanchia", "Santahar Paurashava", "Dupchanchia Paurashava"]
   },
   {
     "id": 39,
@@ -621,7 +621,7 @@
     "pauroshava_bn": ["কাহালু", "নন্দীগ্রাম"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Bogura-4", "বগুড়া-৪", "Kahaloo", "Nandigram"]
+    "search_tags": ["Bogura-4", "বগুড়া-৪", "Kahaloo", "Nandigram", "Kahaloo Paurashava", "Nandigram Paurashava"]
   },
   {
     "id": 40,
@@ -633,11 +633,11 @@
     "composition_en": "(a) Sherpur Upazila and (b) Dhunat Upazila",
     "thana": ["Sherpur", "Dhunat"],
     "thana_bn": ["শেরপুর", "ধুনট"],
-    "pauroshava": ["Sherpur"],
-    "pauroshava_bn": ["শেরপুর"],
+    "pauroshava": ["Sherpur", "Dhunat"],
+    "pauroshava_bn": ["শেরপুর", "ধুনট"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Bogura-5", "বগুড়া-৫", "Sherpur", "Dhunat"]
+    "search_tags": ["Bogura-5", "বগুড়া-৫", "Sherpur", "Dhunat", "Sherpur Paurashava", "Dhunat Paurashava"]
   },
   {
     "id": 41,
@@ -653,7 +653,7 @@
     "pauroshava_bn": ["বগুড়া"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Bogura-6", "বগুড়া-৬", "Bogura Sadar"]
+    "search_tags": ["Bogura-6", "বগুড়া-৬", "Bogura Sadar", "Bogura Paurashava"]
   },
   {
     "id": 42,
@@ -665,11 +665,11 @@
     "composition_en": "(a) Gabtoli Upazila and (b) Shajahanpur Upazila",
     "thana": ["Gabtoli", "Shajahanpur"],
     "thana_bn": ["গাবতলী", "শাজাহানপুর"],
-    "pauroshava": [],
-    "pauroshava_bn": [],
+    "pauroshava": ["Gabtoli"],
+    "pauroshava_bn": ["গাবতলী"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Bogura-7", "বগুড়া-৭", "Gabtoli", "Shajahanpur"]
+    "search_tags": ["Bogura-7", "বগুড়া-৭", "Gabtoli", "Shajahanpur", "Gabtoli Paurashava"]
   },
   {
     "id": 43,
@@ -685,7 +685,7 @@
     "pauroshava_bn": ["শিবগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Chapainawabganj-1", "চাঁপাইনবাবগঞ্জ-১", "Shibganj"]
+    "search_tags": ["Chapainawabganj-1", "চাঁপাইনবাবগঞ্জ-১", "Shibganj", "Shibganj Paurashava"]
   },
   {
     "id": 44,
@@ -701,7 +701,7 @@
     "pauroshava_bn": ["রহনপুর", "নাচোল"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Chapainawabganj-2", "চাঁপাইনবাবগঞ্জ-২", "Volahat", "Gomastapur", "Nachole"]
+    "search_tags": ["Chapainawabganj-2", "চাঁপাইনবাবগঞ্জ-২", "Volahat", "Gomastapur", "Nachole", "Rohanpur Paurashava", "Nachole Paurashava"]
   },
   {
     "id": 45,
@@ -717,7 +717,7 @@
     "pauroshava_bn": ["চাঁপাইনবাবগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Chapainawabganj-3", "চাঁপাইনবাবগঞ্জ-৩", "Chapainawabganj Sadar"]
+    "search_tags": ["Chapainawabganj-3", "চাঁপাইনবাবগঞ্জ-৩", "Chapainawabganj Sadar", "Chapainawabganj Paurashava"]
   },
   {
     "id": 46,
@@ -729,11 +729,11 @@
     "composition_en": "(a) Porsha Upazila, (b) Sapahar Upazila and (c) Niamatpur Upazila",
     "thana": ["Porsha", "Sapahar", "Niamatpur"],
     "thana_bn": ["পোরশা", "সাপাহার", "নিয়ামতপুর"],
-    "pauroshava": [],
-    "pauroshava_bn": [],
+    "pauroshava": ["Sapahar"],
+    "pauroshava_bn": ["সাপাহার"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Naogaon-1", "নওগাঁ-১", "Porsha", "Sapahar", "Niamatpur"]
+    "search_tags": ["Naogaon-1", "নওগাঁ-১", "Porsha", "Sapahar", "Niamatpur", "Sapahar Paurashava"]
   },
   {
     "id": 47,
@@ -749,7 +749,7 @@
     "pauroshava_bn": ["নজিপুর", "ধামইরহাট"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Naogaon-2", "নওগাঁ-২", "Patnitala", "Dhamoirhat"]
+    "search_tags": ["Naogaon-2", "নওগাঁ-২", "Patnitala", "Dhamoirhat", "Nazipur Paurashava", "Dhamoirhat Paurashava"]
   },
   {
     "id": 48,
@@ -781,7 +781,7 @@
     "pauroshava_bn": [],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Naogaon-4", "নওগাঁ-৪", "Manda"]
+    "search_tags": ["Naogaon-4", "নওগাঁ-৪", "Manda", "মান্দা"]
   },
   {
     "id": 50,
@@ -797,7 +797,7 @@
     "pauroshava_bn": ["নওগাঁ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Naogaon-5", "নওগাঁ-৫", "Naogaon Sadar"]
+    "search_tags": ["Naogaon-5", "নওগাঁ-৫", "Naogaon Sadar", "Naogaon Paurashava"]
   },
   {
     "id": 51,
@@ -825,11 +825,11 @@
     "composition_en": "(a) Godagari Upazila and (b) Tanore Upazila",
     "thana": ["Godagari", "Tanore"],
     "thana_bn": ["গোদাগাড়ী", "তানোর"],
-    "pauroshava": ["Godagari", "Tanore"],
-    "pauroshava_bn": ["গোদাগাড়ী", "তানোর"],
+    "pauroshava": ["Godagari", "Kakonhat", "Tanore", "Mundumala"],
+    "pauroshava_bn": ["গোদাগাড়ী", "কাঁকনহাট", "তানোর", "মুন্ডুমালা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Rajshahi-1", "রাজশাহী-১", "Godagari", "Tanore"]
+    "search_tags": ["Rajshahi-1", "রাজশাহী-১", "Godagari", "Tanore", "Godagari Paurashava", "Kakonhat Paurashava", "Tanore Paurashava", "Mundumala Paurashava"]
   },
   {
     "id": 53,
@@ -839,13 +839,13 @@
     "district_bn": "রাজশাহী",
     "composition_bn": "রাজশাহী সিটি কর্পোরেশনভুক্ত এলাকা",
     "composition_en": "Rajshahi City Corporation area",
-    "thana": [],
-    "thana_bn": [],
+    "thana": ["Boalia", "Matihar", "Rajpara", "Shah Makhdum"],
+    "thana_bn": ["বোয়ালিয়া", "মতিহার", "রাজপাড়া", "শাহ মখদুম"],
     "pauroshava": ["Rajshahi City Corporation"],
     "pauroshava_bn": ["রাজশাহী সিটি কর্পোরেশন"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Rajshahi-2", "রাজশাহী-২", "Rajshahi City Corporation"]
+    "search_tags": ["Rajshahi-2", "রাজশাহী-২", "Rajshahi City Corporation", "RCC"]
   },
   {
     "id": 54,
@@ -857,11 +857,11 @@
     "composition_en": "(a) Paba Upazila and (b) Mohanpur Upazila",
     "thana": ["Paba", "Mohanpur"],
     "thana_bn": ["পবা", "মোহনপুর"],
-    "pauroshava": ["Naohata", "Katakhali"],
-    "pauroshava_bn": ["নওহাটা", "কাটাখালী"],
+    "pauroshava": ["Naohata", "Katakhali", "Keshore"],
+    "pauroshava_bn": ["নওহাটা", "কাটাখালী", "কেশর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Rajshahi-3", "রাজশাহী-৩", "Paba", "Mohanpur"]
+    "search_tags": ["Rajshahi-3", "রাজশাহী-৩", "Paba", "Mohanpur", "Naohata Paurashava", "Katakhali Paurashava", "Keshore Paurashava"]
   },
   {
     "id": 55,
@@ -877,7 +877,7 @@
     "pauroshava_bn": ["ভবানীগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Rajshahi-4", "রাজশাহী-৪", "Bagmara"]
+    "search_tags": ["Rajshahi-4", "রাজশাহী-৪", "Bagmara", "Bhabaniganj Paurashava"]
   },
   {
     "id": 56,
@@ -893,7 +893,7 @@
     "pauroshava_bn": ["দুর্গাপুর", "পুঠিয়া"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Rajshahi-5", "রাজশাহী-৫", "Durgapur", "Puthia"]
+    "search_tags": ["Rajshahi-5", "রাজশাহী-৫", "Durgapur", "Puthia", "Durgapur Paurashava", "Puthia Paurashava"]
   },
   {
     "id": 57,
@@ -905,11 +905,11 @@
     "composition_en": "(a) Charghat Upazila and (b) Bagha Upazila",
     "thana": ["Charghat", "Bagha"],
     "thana_bn": ["চারঘাট", "বাঘা"],
-    "pauroshava": ["Charghat", "Bagha"],
-    "pauroshava_bn": ["চারঘাট", "বাঘা"],
+    "pauroshava": ["Charghat", "Bagha", "Arani"],
+    "pauroshava_bn": ["চারঘাট", "বাঘা", "আড়ানী"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Rajshahi-6", "রাজশাহী-৬", "Charghat", "Bagha"]
+    "search_tags": ["Rajshahi-6", "রাজশাহী-৬", "Charghat", "Bagha", "Charghat Paurashava", "Bagha Paurashava"]
   },
   {
     "id": 58,
@@ -925,7 +925,7 @@
     "pauroshava_bn": ["গোপালপুর", "বাগাতিপাড়া"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Natore-1", "নাটোর-১", "Lalpur", "Bagatipara"]
+    "search_tags": ["Natore-1", "নাটোর-১", "Lalpur", "Bagatipara", "Gopalpur Paurashava", "Bagatipara Paurashava"]
   },
   {
     "id": 59,
@@ -941,7 +941,7 @@
     "pauroshava_bn": ["নাটোর", "নলডাঙ্গা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Natore-2", "নাটোর-২", "Natore Sadar", "Naldanga"]
+    "search_tags": ["Natore-2", "নাটোর-২", "Natore Sadar", "Naldanga", "Natore Paurashava", "Naldanga Paurashava"]
   },
   {
     "id": 60,
@@ -957,7 +957,7 @@
     "pauroshava_bn": ["সিংড়া"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Natore-3", "নাটোর-৩", "Singra"]
+    "search_tags": ["Natore-3", "নাটোর-৩", "Singra", "Singra Paurashava"]
   },
   {
     "id": 61,
@@ -973,7 +973,7 @@
     "pauroshava_bn": ["গুরুদাসপুর", "বড়াইগ্রাম", "বনপাড়া"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Natore-4", "নাটোর-৪", "Gurudaspur", "Baraigram"]
+    "search_tags": ["Natore-4", "নাটোর-৪", "Gurudaspur", "Baraigram", "Bonpara Paurashava"]
   },
   {
     "id": 62,
@@ -989,7 +989,7 @@
     "pauroshava_bn": ["কাজিপুর"],
     "unions": ["Mechhra", "Ratankandi", "Bagbati", "Chhongachha"],
     "unions_bn": ["মেছড়া", "রতনকান্দি", "বাগবাটি", "ছোনগাছা"],
-    "search_tags": ["Sirajganj-1", "সিরাজগঞ্জ-১", "Kazipur", "Sirajganj Sadar"]
+    "search_tags": ["Sirajganj-1", "সিরাজগঞ্জ-১", "Kazipur", "Bagbati", "Mechhra", "Ratankandi", "Chhongachha"]
   },
   {
     "id": 63,
@@ -1005,7 +1005,7 @@
     "pauroshava_bn": ["সিরাজগঞ্জ"],
     "unions": ["Bohuli", "Shiyalkol", "Khokshabari", "Kawakola", "Kalia Haripur", "Soyabad"],
     "unions_bn": ["বহুলী", "শিয়ালকোল", "খোকশাবাড়ী", "কাওয়াকোলা", "কালিয়া হরিপুর", "সয়াবাদ"],
-    "search_tags": ["Sirajganj-2", "সিরাজগঞ্জ-২", "Sirajganj Sadar", "Sirajganj Paurashava", "Kamarkhanda"]
+    "search_tags": ["Sirajganj-2", "সিরাজগঞ্জ-২", "Sirajganj Sadar", "Kamarkhanda", "Sirajganj Paurashava"]
   },
   {
     "id": 64,
@@ -1016,9 +1016,9 @@
     "composition_bn": "(ক) রায়গঞ্জ উপজেলা এবং (খ) তাড়াশ উপজেলা",
     "composition_en": "(a) Raiganj Upazila and (b) Tarash Upazila",
     "thana": ["Raiganj", "Tarash"],
-    "thana_bn": ["রায়গঞ্জ", "তাড়াশ"],
-    "pauroshava": [],
-    "pauroshava_bn": [],
+    "thana_bn": ["রায়গঞ্জ", "তাড়াশ"],
+    "pauroshava": ["Raiganj"],
+    "pauroshava_bn": ["রায়গঞ্জ"],
     "unions": [],
     "unions_bn": [],
     "search_tags": ["Sirajganj-3", "সিরাজগঞ্জ-৩", "Raiganj", "Tarash"]
@@ -1037,7 +1037,7 @@
     "pauroshava_bn": ["উল্লাপাড়া"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Sirajganj-4", "সিরাজগঞ্জ-৪", "Ullapara"]
+    "search_tags": ["Sirajganj-4", "সিরাজগঞ্জ-৪", "Ullapara", "Ullapara Paurashava"]
   },
   {
     "id": 66,
@@ -1069,7 +1069,7 @@
     "pauroshava_bn": ["শাহজাদপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Sirajganj-6", "সিরাজগঞ্জ-৬", "Shahjadpur"]
+    "search_tags": ["Sirajganj-6", "সিরাজগঞ্জ-৬", "Shahjadpur", "Shahjadpur Paurashava"]
   },
   {
     "id": 68,
@@ -1085,7 +1085,7 @@
     "pauroshava_bn": ["সাঁথিয়া"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Pabna-1", "পাবনা-১", "Santhia"]
+    "search_tags": ["Pabna-1", "পাবনা-১", "Santhia", "Santhia Paurashava"]
   },
   {
     "id": 69,
@@ -1101,7 +1101,7 @@
     "pauroshava_bn": ["সুজানগর", "বেড়া"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Pabna-2", "পাবনা-২", "Sujanagar", "Bera"]
+    "search_tags": ["Pabna-2", "পাবনা-২", "Sujanagar", "Bera", "Sujanagar Paurashava", "Bera Paurashava"]
   },
   {
     "id": 70,
@@ -1117,7 +1117,7 @@
     "pauroshava_bn": ["চাটমোহর", "ভাঙ্গুড়া", "ফরিদপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Pabna-3", "পাবনা-৩", "Chatmohar", "Bhangura", "Faridpur"]
+    "search_tags": ["Pabna-3", "পাবনা-৩", "Chatmohar", "Bhangura", "Faridpur", "Chatmohar Paurashava", "Bhangura Paurashava", "Faridpur Paurashava"]
   },
   {
     "id": 71,
@@ -1133,7 +1133,7 @@
     "pauroshava_bn": ["ঈশ্বরদী"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Pabna-4", "পাবনা-৪", "Atgharia", "Ishwardi"]
+    "search_tags": ["Pabna-4", "পাবনা-৪", "Atgharia", "Ishwardi", "Ishwardi Paurashava"]
   },
   {
     "id": 72,
@@ -1149,7 +1149,7 @@
     "pauroshava_bn": ["পাবনা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Pabna-5", "পাবনা-৫", "Pabna Sadar"]
+    "search_tags": ["Pabna-5", "পাবনা-৫", "Pabna Sadar", "Pabna Paurashava"]
   },
   {
     "id": 73,
@@ -1165,7 +1165,7 @@
     "pauroshava_bn": ["মেহেরপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Meherpur-1", "মেহেরপুর-১", "Meherpur Sadar", "Mujibnagar"]
+    "search_tags": ["Meherpur-1", "মেহেরপুর-১", "Meherpur Sadar", "Mujibnagar", "Meherpur Paurashava"]
   },
   {
     "id": 74,
@@ -1181,7 +1181,7 @@
     "pauroshava_bn": ["গাংনী"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Meherpur-2", "মেহেরপুর-২", "Gangni"]
+    "search_tags": ["Meherpur-2", "মেহেরপুর-২", "Gangni", "Gangni Paurashava"]
   },
   {
     "id": 75,
@@ -1213,7 +1213,7 @@
     "pauroshava_bn": ["ভেড়ামারা", "মিরপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Kushtia-2", "কুষ্টিয়া-২", "Bheramara", "Mirpur"]
+    "search_tags": ["Kushtia-2", "কুষ্টিয়া-২", "Bheramara", "Mirpur", "Bheramara Paurashava", "Mirpur Paurashava"]
   },
   {
     "id": 77,
@@ -1229,7 +1229,7 @@
     "pauroshava_bn": ["কুষ্টিয়া"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Kushtia-3", "কুষ্টিয়া-৩", "Kushtia Sadar"]
+    "search_tags": ["Kushtia-3", "কুষ্টিয়া-৩", "Kushtia Sadar", "Kushtia Paurashava"]
   },
   {
     "id": 78,
@@ -1245,7 +1245,7 @@
     "pauroshava_bn": ["কুমারখালী", "খোকসা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Kushtia-4", "কুষ্টিয়া-৪", "Kumarkhali", "Khoksa"]
+    "search_tags": ["Kushtia-4", "কুষ্টিয়া-৪", "Kumarkhali", "Khoksa", "Kumarkhali Paurashava", "Khoksa Paurashava"]
   },
   {
     "id": 79,
@@ -1261,14 +1261,14 @@
     "pauroshava_bn": ["আলমডাঙ্গা", "চুয়াডাঙ্গা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Chuadanga-1", "চুয়াডাঙ্গা-১", "Alamdanga", "Chuadanga Sadar"]
+    "search_tags": ["Chuadanga-1", "চুয়াডাঙ্গা-১", "Alamdanga", "Chuadanga Sadar", "Alamdanga Paurashava", "Chuadanga Paurashava"]
   },
   {
     "id": 80,
     "no_en": "Chuadanga-2",
-    "no_bn": "চুয়াডাঙ্গা-২",
+    "no_bn": "চুয়াডাঙ্গা-২",
     "district_en": "Chuadanga",
-    "district_bn": "চুয়াডাঙ্গা",
+    "district_bn": "চুয়াডাঙ্গা",
     "composition_bn": "(ক) দামুড়হুদা উপজেলা (খ) জীবননগর উপজেলা এবং (গ) চুয়াডাঙ্গা সদর উপজেলার নিম্নলিখিত ইউনিয়নসমূহঃ (১) তিতুদহ (২) বেগমপুর (৩) নেহালপুর ও (৪) গড়াইটুপি ইউনিয়ন",
     "composition_en": "(a) Damurhuda Upazila, (b) Jibannagar Upazila and (c) the following Unions of Chuadanga Sadar Upazila: (1) Titudah, (2) Begumpur, (3) Nehalpur and (4) Garaitupi Union",
     "thana": ["Damurhuda", "Jibannagar", "Chuadanga Sadar"],
@@ -1277,7 +1277,7 @@
     "pauroshava_bn": ["দামুড়হুদা", "দর্শনা", "জীবননগর"],
     "unions": ["Titudah", "Begumpur", "Nehalpur", "Garaitupi"],
     "unions_bn": ["তিতুদহ", "বেগমপুর", "নেহালপুর", "গড়াইটুপি"],
-    "search_tags": ["Chuadanga-2", "চুয়াডাঙ্গা-২", "Damurhuda", "Jibannagar", "Chuadanga Sadar"]
+    "search_tags": ["Chuadanga-2", "চুয়াডাঙ্গা-২", "Damurhuda", "Jibannagar", "Chuadanga Sadar", "Titudah", "Begumpur", "Nehalpur", "Garaitupi"]
   },
   {
     "id": 81,
@@ -1293,7 +1293,7 @@
     "pauroshava_bn": ["শৈলকুপা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Jhenaidah-1", "ঝিনাইদহ-১", "Shailkupa"]
+    "search_tags": ["Jhenaidah-1", "ঝিনাইদহ-১", "Shailkupa", "Shailkupa Paurashava"]
   },
   {
     "id": 82,
@@ -1309,7 +1309,7 @@
     "pauroshava_bn": ["ঝিনাইদহ", "হরিণাকুণ্ডু"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Jhenaidah-2", "ঝিনাইদহ-২", "Jhenaidah Sadar", "Harinakundu"]
+    "search_tags": ["Jhenaidah-2", "ঝিনাইদহ-২", "Jhenaidah Sadar", "Harinakundu", "Jhenaidah Paurashava", "Harinakundu Paurashava"]
   },
   {
     "id": 83,
@@ -1325,7 +1325,7 @@
     "pauroshava_bn": ["কোটচাঁদপুর", "মহেশপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Jhenaidah-3", "ঝিনাইদহ-৩", "Kotchandpur", "Maheshpur"]
+    "search_tags": ["Jhenaidah-3", "ঝিনাইদহ-৩", "Kotchandpur", "Maheshpur", "Kotchandpur Paurashava", "Maheshpur Paurashava"]
   },
   {
     "id": 84,
@@ -1341,7 +1341,7 @@
     "pauroshava_bn": ["কালীগঞ্জ"],
     "unions": ["Naldanga", "Ghorashal", "Phursandi", "Maharajpur"],
     "unions_bn": ["নলডাঙ্গা", "ঘোড়াশাল", "ফুরসন্দি", "মহারাজপুর"],
-    "search_tags": ["Jhenaidah-4", "ঝিনাইদহ-৪", "Kaliganj", "Jhenaidah Sadar"]
+    "search_tags": ["Jhenaidah-4", "ঝিনাইদহ-৪", "Kaliganj", "Jhenaidah Sadar", "Naldanga", "Ghorashal", "Phursandi", "Maharajpur"]
   },
   {
     "id": 85,
@@ -1357,7 +1357,7 @@
     "pauroshava_bn": ["বেনাপোল"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Jashore-1", "যশোর-১", "Sharsha"]
+    "search_tags": ["Jashore-1", "যশোর-১", "Sharsha", "Benapole Paurashava"]
   },
   {
     "id": 86,
@@ -1373,7 +1373,7 @@
     "pauroshava_bn": ["ঝিকরগাছা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Jashore-2", "যশোর-২", "Chougachha", "Jhikargachha"]
+    "search_tags": ["Jashore-2", "যশোর-২", "Chougachha", "Jhikargachha", "Jhikargachha Paurashava"]
   },
   {
     "id": 87,
@@ -1389,7 +1389,7 @@
     "pauroshava_bn": ["যশোর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Jashore-3", "যশোর-৩", "Jashore Sadar"]
+    "search_tags": ["Jashore-3", "যশোর-৩", "Jashore Sadar", "Jashore Paurashava"]
   },
   {
     "id": 88,
@@ -1398,14 +1398,14 @@
     "district_en": "Jashore",
     "district_bn": "যশোর",
     "composition_bn": "(ক) বাঘারপাড়া উপজেলা (খ) অভয়নগর উপজেলা এবং (গ) যশোর সদর উপজেলার বসন্দিয়া ইউনিয়ন",
-    "composition_en": "(a) Bagherpara Upazila, (b) Abhaynagar Upazila and (c) Basundia Union of Jashore Sadar Upazila",
-    "thana": ["Bagherpara", "Abhaynagar", "Jashore Sadar"],
+    "composition_en": "(a) Bagharpara Upazila, (b) Abhaynagar Upazila and (c) Basundia Union of Jashore Sadar Upazila",
+    "thana": ["Bagharpara", "Abhaynagar", "Jashore Sadar"],
     "thana_bn": ["বাঘারপাড়া", "অভয়নগর", "যশোর সদর"],
     "pauroshava": ["Noapara"],
     "pauroshava_bn": ["নওয়াপাড়া"],
     "unions": ["Basundia"],
     "unions_bn": ["বসন্দিয়া"],
-    "search_tags": ["Jashore-4", "যশোর-৪", "Bagherpara", "Abhaynagar", "Jashore Sadar"]
+    "search_tags": ["Jashore-4", "যশোর-৪", "Bagharpara", "Abhaynagar", "Noapara Paurashava", "Basundia Union"]
   },
   {
     "id": 89,
@@ -1421,7 +1421,7 @@
     "pauroshava_bn": ["মণিরামপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Jashore-5", "যশোর-৫", "Manirampur"]
+    "search_tags": ["Jashore-5", "যশোর-৫", "Manirampur", "Manirampur Paurashava"]
   },
   {
     "id": 90,
@@ -1437,7 +1437,7 @@
     "pauroshava_bn": ["কেশবপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Jashore-6", "যশোর-৬", "Keshabpur"]
+    "search_tags": ["Jashore-6", "যশোর-৬", "Keshabpur", "Keshabpur Paurashava"]
   },
   {
     "id": 91,
@@ -1453,7 +1453,7 @@
     "pauroshava_bn": ["মাগুরা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Magura-1", "মাগুরা-১", "Sreepur", "Magura Sadar"]
+    "search_tags": ["Magura-1", "মাগুরা-১", "Sreepur", "Magura Sadar", "Magura Paurashava"]
   },
   {
     "id": 92,
@@ -1461,7 +1461,7 @@
     "no_bn": "মাগুরা-২",
     "district_en": "Magura",
     "district_bn": "মাগুরা",
-    "composition_bn": "(ক) মহম্মদপুর উপজেলা (খ) শালিখা উপজেলা এবং (গ) মাগুরা সদর উপজেলার নিম্নলিখিত ইউনিয়নসমূহ : (১) শত্রুজিৎপুর (২) গোপালগ্রাম (৩) কুচিয়ামোড়া ও (৪) বেরইল পলita ইউনিয়ন",
+    "composition_bn": "(ক) মহম্মদপুর উপজেলা (খ) শালিখা উপজেলা এবং (গ) মাগুরা সদর উপজেলার নিম্নলিখিত ইউনিয়নসমূহ : (১) শত্রুজিৎপুর (২) গোপালগ্রাম (৩) কুচিয়ামোড়া ও (৪) বেরইল পলিতা ইউনিয়ন",
     "composition_en": "(a) Mohammadpur Upazila, (b) Shalikha Upazila and (c) the following Unions of Magura Sadar Upazila: (1) Shatrujitpur, (2) Gopalgram, (3) Kuchiamora and (4) Berail Polita Union",
     "thana": ["Mohammadpur", "Shalikha", "Magura Sadar"],
     "thana_bn": ["মহম্মদপুর", "শালিখা", "মাগুরা সদর"],
@@ -1469,7 +1469,7 @@
     "pauroshava_bn": [],
     "unions": ["Shatrujitpur", "Gopalgram", "Kuchiamora", "Berail Polita"],
     "unions_bn": ["শত্রুজিৎপুর", "গোপালগ্রাম", "কুচিয়ামোড়া", "বেরইল পলিতা"],
-    "search_tags": ["Magura-2", "মাগুরা-২", "Mohammadpur", "Shalikha", "Magura Sadar"]
+    "search_tags": ["Magura-2", "মাগুরা-২", "Mohammadpur", "Shalikha", "Magura Sadar", "Shatrujitpur", "Gopalgram", "Kuchiamora", "Berail Polita"]
   },
   {
     "id": 93,
@@ -1485,7 +1485,7 @@
     "pauroshava_bn": ["কালিয়া"],
     "unions": ["Kalora", "Bichhali", "Bhadrabila", "Singasholpur", "Shekhati"],
     "unions_bn": ["কলোড়া", "বিছালী", "ভদ্রবিলা", "সিঙ্গাশোলপুর", "শেখহাটি"],
-    "search_tags": ["Narail-1", "নড়াইল-১", "Kalia", "Narail Sadar"]
+    "search_tags": ["Narail-1", "নড়াইল-১", "Kalia", "Narail Sadar", "Kalia Paurashava"]
   },
   {
     "id": 94,
@@ -1501,7 +1501,7 @@
     "pauroshava_bn": ["লোহাগড়া", "নড়াইল"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Narail-2", "নড়াইল-২", "Lohagara", "Narail Sadar"]
+    "search_tags": ["Narail-2", "নড়াইল-২", "Lohagara", "Narail Sadar", "Lohagara Paurashava", "Narail Paurashava"]
   },
   {
     "id": 95,
@@ -1533,7 +1533,7 @@
     "pauroshava_bn": ["বাগেরহাট"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Bagerhat-2", "বাগেরহাট-২", "Bagerhat Sadar", "Kachua"]
+    "search_tags": ["Bagerhat-2", "বাগেরহাট-২", "Bagerhat Sadar", "Kachua", "Bagerhat Paurashava"]
   },
   {
     "id": 97,
@@ -1549,7 +1549,7 @@
     "pauroshava_bn": ["মোংলা পোর্ট"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Bagerhat-3", "বাগেরহাট-৩", "Rampal", "Mongla"]
+    "search_tags": ["Bagerhat-3", "বাগেরহাট-৩", "Rampal", "Mongla", "Mongla Port Paurashava"]
   },
   {
     "id": 98,
@@ -1565,7 +1565,7 @@
     "pauroshava_bn": ["মোড়েলগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Bagerhat-4", "বাগেরহাট-৪", "Morrelganj", "Sarankhola"]
+    "search_tags": ["Bagerhat-4", "বাগেরহাট-৪", "Morrelganj", "Sarankhola", "Morrelganj Paurashava"]
   },
   {
     "id": 99,
@@ -1581,7 +1581,7 @@
     "pauroshava_bn": ["চালনা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Khulna-1", "খুলনা-১", "Batiaghata", "Dacope"]
+    "search_tags": ["Khulna-1", "খুলনা-১", "Batiaghata", "Dacope", "Chalna Paurashava"]
   },
   {
     "id": 100,
@@ -1591,13 +1591,13 @@
     "district_bn": "খুলনা",
     "composition_bn": "খুলনা সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ১৬, ১৭, ১৮, ১৯, ২০, ২১, ২২, ২৩, ২৪, ২৫, ২৬, ২৭, ২৮, ২৯, ৩০ এবং ৩১",
     "composition_en": "Ward numbers 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 and 31 of Khulna City Corporation",
-    "thana": ["Khulna City Corporation"],
-    "thana_bn": ["খুলনা সিটি কর্পোরেশন"],
+    "thana": ["Khulna Sadar", "Sonadanga"],
+    "thana_bn": ["খুলনা সদর", "সোনাডাঙ্গা"],
     "pauroshava": [],
     "pauroshava_bn": [],
     "unions": ["Ward 16", "Ward 17", "Ward 18", "Ward 19", "Ward 20", "Ward 21", "Ward 22", "Ward 23", "Ward 24", "Ward 25", "Ward 26", "Ward 27", "Ward 28", "Ward 29", "Ward 30", "Ward 31"],
     "unions_bn": ["ওয়ার্ড ১৬", "ওয়ার্ড ১৭", "ওয়ার্ড ১৮", "ওয়ার্ড ১৯", "ওয়ার্ড ২০", "ওয়ার্ড ২১", "ওয়ার্ড ২২", "ওয়ার্ড ২৩", "ওয়ার্ড ২৪", "ওয়ার্ড ২৫", "ওয়ার্ড ২৬", "ওয়ার্ড ২৭", "ওয়ার্ড ২৮", "ওয়ার্ড ২৯", "ওয়ার্ড ৩০", "ওয়ার্ড ৩১"],
-    "search_tags": ["Khulna-2", "খুলনা-২", "Khulna City Corporation"]
+    "search_tags": ["Khulna-2", "খুলনা-২", "Khulna Sadar", "Sonadanga", "KCC"]
   },
   {
     "id": 101,
@@ -1607,13 +1607,13 @@
     "district_bn": "খুলনা",
     "composition_bn": "(ক) খুলনা সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ১, ২, ৩, ৪, ৫, ৬, ৭, ৮, ৯, ১০, ১১, ১২, ১৩, ১৪ এবং ১৫ (খ) দিঘলিয়া উপজেলার আড়ংঘাটা ও যোগীপোল ইউনিয়ন",
     "composition_en": "(a) Ward numbers 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 and 15 of Khulna City Corporation and (b) Arongghata and Jogipol Unions of Dighalia Upazila",
-    "thana": ["Khulna City Corporation", "Dighalia"],
-    "thana_bn": ["খুলনা সিটি কর্পোরেশন", "দিঘলিয়া"],
+    "thana": ["Khalishpur", "Daulatpur", "Khan Jahan Ali", "Dighalia"],
+    "thana_bn": ["খালিশপুর", "দৌলতপুর", "খান জাহান আলী", "দিঘলিয়া"],
     "pauroshava": [],
     "pauroshava_bn": [],
-    "unions": ["Ward 1", "Ward 2", "Ward 3", "Ward 4", "Ward 5", "Ward 6", "Ward 7", "Ward 8", "Ward 9", "Ward 10", "Ward 11", "Ward 12", "Ward 13", "Ward 14", "Ward 15", "Arongghata", "Jogipol"],
-    "unions_bn": ["ওয়ার্ড ১", "ওয়ার্ড ২", "ওয়ার্ড ৩", "ওয়ার্ড ৪", "ওয়ার্ড ৫", "ওয়ার্ড ৬", "ওয়ার্ড ৭", "ওয়ার্ড ৮", "ওয়ার্ড ৯", "ওয়ার্ড ১০", "ওয়ার্ড ১১", "ওয়ার্ড ১২", "ওয়ার্ড ১৩", "ওয়ার্ড ১৪", "ওয়ার্ড ১৫", "আড়ংঘাটা", "যোগীপোল"],
-    "search_tags": ["Khulna-3", "খুলনা-৩", "Khulna City Corporation", "Dighalia"]
+    "unions": ["Arongghata", "Jogipol"],
+    "unions_bn": ["আড়ংঘাটা", "যোগীপোল"],
+    "search_tags": ["Khulna-3", "খুলনা-৩", "Khalishpur", "Daulatpur", "Khan Jahan Ali", "Dighalia", "Arongghata", "Jogipol"]
   },
   {
     "id": 102,
@@ -1661,7 +1661,7 @@
     "pauroshava_bn": ["পাইকগাছা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Khulna-6", "খুলনা-৬", "Koyra", "Paikgachha"]
+    "search_tags": ["Khulna-6", "খুলনা-৬", "Koyra", "Paikgachha", "Paikgachha Paurashava"]
   },
   {
     "id": 105,
@@ -1677,7 +1677,7 @@
     "pauroshava_bn": ["কলারোয়া"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Satkhira-1", "সাতক্ষীরা-১", "Kalaroa", "Tala"]
+    "search_tags": ["Satkhira-1", "সাতক্ষীরা-১", "Kalaroa", "Tala", "Kalaroa Paurashava"]
   },
   {
     "id": 106,
@@ -1693,7 +1693,7 @@
     "pauroshava_bn": ["সাতক্ষীরা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Satkhira-2", "সাতক্ষীরা-২", "Satkhira Sadar", "Debhata"]
+    "search_tags": ["Satkhira-2", "সাতক্ষীরা-২", "Satkhira Sadar", "Debhata", "Satkhira Paurashava"]
   },
   {
     "id": 107,
@@ -1704,7 +1704,7 @@
     "composition_bn": "(ক) কালিগঞ্জ উপজেলা এবং (খ) আশাশুনি উপজেলা",
     "composition_en": "(a) Kaliganj Upazila and (b) Ashasuni Upazila",
     "thana": ["Kaliganj", "Ashasuni"],
-    "thana_bn": ["কালিগঞ্জ", "আাশাশুনি"],
+    "thana_bn": ["কালিগঞ্জ", "আশাশুনি"],
     "pauroshava": [],
     "pauroshava_bn": [],
     "unions": [],
@@ -1741,7 +1741,7 @@
     "pauroshava_bn": ["বরগুনা", "আমতলী"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Barguna-1", "বরগুনা-১", "Barguna Sadar", "Amtali", "Taltali"]
+    "search_tags": ["Barguna-1", "বরগুনা-১", "Barguna Sadar", "Amtali", "Taltali", "Barguna Paurashava", "Amtali Paurashava"]
   },
   {
     "id": 110,
@@ -1757,30 +1757,30 @@
     "pauroshava_bn": ["পাথরঘাটা", "বেতাগী"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Barguna-2", "বরগুনা-২", "Bamna", "Patharghata", "Betagi"]
+    "search_tags": ["Barguna-2", "বরগুনা-২", "Bamna", "Patharghata", "Betagi", "Patharghata Paurashava", "Betagi Paurashava"]
   },
   {
     "id": 111,
     "no_en": "Patuakhali-1",
-    "no_bn": "পটুয়াখালী-১",
+    "no_bn": "পটুয়াখালী-১",
     "district_en": "Patuakhali",
-    "district_bn": "পটুয়াখালী",
-    "composition_bn": "(ক) পটুয়াখালী সদর উপজেলা (খ) মির্জাগঞ্জ উপজেলা এবং (গ) দুমকি উপজেলা",
+    "district_bn": "পটুয়াখালী",
+    "composition_bn": "(ক) পটুয়াখালী সদর উপজেলা (খ) মির্জাগঞ্জ উপজেলা এবং (গ) দুমকি উপজেলা",
     "composition_en": "(a) Patuakhali Sadar Upazila, (b) Mirzaganj Upazila and (c) Dumki Upazila",
     "thana": ["Patuakhali Sadar", "Mirzaganj", "Dumki"],
-    "thana_bn": ["পটুয়াখালী সদর", "মির্জাগঞ্জ", "দুমকি"],
+    "thana_bn": ["পটুয়াখালী সদর", "মির্জাগঞ্জ", "দুমকি"],
     "pauroshava": ["Patuakhali"],
-    "pauroshava_bn": ["পটুয়াখালী"],
+    "pauroshava_bn": ["পটুয়াখালী"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Patuakhali-1", "পটুয়াখালী-১", "Patuakhali Sadar", "Mirzaganj", "Dumki"]
+    "search_tags": ["Patuakhali-1", "পটুয়াখালী-১", "Patuakhali Sadar", "Mirzaganj", "Dumki", "Patuakhali Paurashava"]
   },
   {
     "id": 112,
     "no_en": "Patuakhali-2",
-    "no_bn": "পটুয়াখালী-২",
+    "no_bn": "পটুয়াখালী-২",
     "district_en": "Patuakhali",
-    "district_bn": "পটুয়াখালী",
+    "district_bn": "পটুয়াখালী",
     "composition_bn": "বাউফল উপজেলা",
     "composition_en": "Bauphal Upazila",
     "thana": ["Bauphal"],
@@ -1789,14 +1789,14 @@
     "pauroshava_bn": ["বাউফল"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Patuakhali-2", "পটুয়াখালী-২", "Bauphal"]
+    "search_tags": ["Patuakhali-2", "পটুয়াখালী-২", "Bauphal", "Bauphal Paurashava"]
   },
   {
     "id": 113,
     "no_en": "Patuakhali-3",
-    "no_bn": "পটুয়াখালী-৩",
+    "no_bn": "পটুয়াখালী-৩",
     "district_en": "Patuakhali",
-    "district_bn": "পটুয়াখালী",
+    "district_bn": "পটুয়াখালী",
     "composition_bn": "(ক) দশমিনা উপজেলা এবং (খ) গলাচিপা উপজেলা",
     "composition_en": "(a) Dashmina Upazila and (b) Galachipa Upazila",
     "thana": ["Dashmina", "Galachipa"],
@@ -1805,23 +1805,23 @@
     "pauroshava_bn": ["গলাচিপা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Patuakhali-3", "পটুয়াখালী-৩", "Dashmina", "Galachipa"]
+    "search_tags": ["Patuakhali-3", "পটুয়াখালী-৩", "Dashmina", "Galachipa", "Galachipa Paurashava"]
   },
   {
     "id": 114,
     "no_en": "Patuakhali-4",
-    "no_bn": "পটুয়াখালী-৪",
+    "no_bn": "পটুয়াখালী-৪",
     "district_en": "Patuakhali",
-    "district_bn": "পটুয়াখালী",
-    "composition_bn": "(ক) কলাপাড়া উপজেলা এবং (খ) রাঙ্গাবালী উপজেলা",
+    "district_bn": "পটুয়াখালী",
+    "composition_bn": "(ক) কলাপাড়া উপজেলা এবং (খ) রাঙ্গাবালী উপজেলা",
     "composition_en": "(a) Kalapara Upazila and (b) Rangabali Upazila",
     "thana": ["Kalapara", "Rangabali"],
-    "thana_bn": ["কলাপাড়া", "রাঙ্গাবালী"],
+    "thana_bn": ["কলাপাড়া", "রাঙ্গাবালী"],
     "pauroshava": ["Kalapara", "Kuakata"],
-    "pauroshava_bn": ["কলাপাড়া", "কুয়াকাটা"],
+    "pauroshava_bn": ["কলাপাড়া", "কুয়াকাটা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Patuakhali-4", "পটুয়াখালী-৪", "Kalapara", "Rangabali"]
+    "search_tags": ["Patuakhali-4", "পটুয়াখালী-৪", "Kalapara", "Rangabali", "Kalapara Paurashava", "Kuakata Paurashava"]
   },
   {
     "id": 115,
@@ -1837,7 +1837,7 @@
     "pauroshava_bn": ["ভোলা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Bhola-1", "ভোলা-১", "Bhola Sadar"]
+    "search_tags": ["Bhola-1", "ভোলা-১", "Bhola Sadar", "Bhola Paurashava"]
   },
   {
     "id": 116,
@@ -1853,7 +1853,7 @@
     "pauroshava_bn": ["দৌলতখান", "বোরহানউদ্দিন"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Bhola-2", "ভোলা-২", "Daulatkhan", "Borhanuddin"]
+    "search_tags": ["Bhola-2", "ভোলা-২", "Daulatkhan", "Borhanuddin", "Daulatkhan Paurashava", "Borhanuddin Paurashava"]
   },
   {
     "id": 117,
@@ -1869,7 +1869,7 @@
     "pauroshava_bn": ["লালমোহন"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Bhola-3", "ভোলা-৩", "Tazumuddin", "Lalmohan"]
+    "search_tags": ["Bhola-3", "ভোলা-৩", "Tazumuddin", "Lalmohan", "Lalmohan Paurashava"]
   },
   {
     "id": 118,
@@ -1885,7 +1885,7 @@
     "pauroshava_bn": ["চরফ্যাশন"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Bhola-4", "ভোলা-৪", "Monpura", "Char Fasson"]
+    "search_tags": ["Bhola-4", "ভোলা-৪", "Monpura", "Char Fasson", "Char Fasson Paurashava"]
   },
   {
     "id": 119,
@@ -1901,7 +1901,7 @@
     "pauroshava_bn": ["গৌরনদী"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Barishal-1", "বরিশাল-১", "Gournadi", "Agailjhara"]
+    "search_tags": ["Barishal-1", "বরিশাল-১", "Gournadi", "Agailjhara", "Gournadi Paurashava"]
   },
   {
     "id": 120,
@@ -1917,7 +1917,7 @@
     "pauroshava_bn": ["বানারীপাড়া"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Barishal-2", "বরিশাল-২", "Wazirpur", "Banaripara"]
+    "search_tags": ["Barishal-2", "বরিশাল-২", "Wazirpur", "Banaripara", "Banaripara Paurashava"]
   },
   {
     "id": 121,
@@ -1933,7 +1933,7 @@
     "pauroshava_bn": ["মুলাদী"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Barishal-3", "বরিশাল-৩", "Muladi", "Babuganj"]
+    "search_tags": ["Barishal-3", "বরিশাল-৩", "Muladi", "Babuganj", "Muladi Paurashava"]
   },
   {
     "id": 122,
@@ -1949,7 +1949,7 @@
     "pauroshava_bn": ["মেহেন্দিগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Barishal-4", "বরিশাল-৪", "Mehendiganj", "Hizla"]
+    "search_tags": ["Barishal-4", "বরিশাল-৪", "Mehendiganj", "Hizla", "Mehendiganj Paurashava"]
   },
   {
     "id": 123,
@@ -1959,13 +1959,13 @@
     "district_bn": "বরিশাল",
     "composition_bn": "(ক) বরিশাল সিটি কর্পোরেশনভুক্ত এলাকা এবং (খ) বরিশাল সদর উপজেলা",
     "composition_en": "(a) Area under Barishal City Corporation and (b) Barishal Sadar Upazila",
-    "thana": ["Barishal Sadar"],
-    "thana_bn": ["বরিশাল সদর"],
+    "thana": ["Barishal Sadar", "Kotwali", "Airport", "Bandar", "Kaunia"],
+    "thana_bn": ["বরিশাল সদর", "কোতোয়ালী", "এয়ারপোর্ট", "বন্দর", "কাউনিয়া"],
     "pauroshava": ["Barishal City Corporation"],
     "pauroshava_bn": ["বরিশাল সিটি কর্পোরেশন"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Barishal-5", "বরিশাল-৫", "Barishal City Corporation", "Barishal Sadar"]
+    "search_tags": ["Barishal-5", "বরিশাল-৫", "Barishal Sadar", "BCC"]
   },
   {
     "id": 124,
@@ -1981,7 +1981,7 @@
     "pauroshava_bn": ["বাকেরগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Barishal-6", "বরিশাল-৬", "Bakerganj"]
+    "search_tags": ["Barishal-6", "বরিশাল-৬", "Bakerganj", "Bakerganj Paurashava"]
   },
   {
     "id": 125,
@@ -2013,7 +2013,7 @@
     "pauroshava_bn": ["ঝালকাঠি", "নলছিটি"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Jhalokathi-2", "ঝালকাঠি-২", "Jhalokathi Sadar", "Nalchity"]
+    "search_tags": ["Jhalokathi-2", "ঝালকাঠি-২", "Jhalokathi Sadar", "Nalchity", "Jhalokathi Paurashava", "Nalchity Paurashava"]
   },
   {
     "id": 127,
@@ -2029,7 +2029,7 @@
     "pauroshava_bn": ["পিরোজপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Pirojpur-1", "পিরোজপুর-১", "Pirojpur Sadar", "Nazirpur", "Indurkani"]
+    "search_tags": ["Pirojpur-1", "পিরোজপুর-১", "Pirojpur Sadar", "Nazirpur", "Indurkani", "Pirojpur Paurashava"]
   },
   {
     "id": 128,
@@ -2041,11 +2041,11 @@
     "composition_en": "(a) Kawkhali Upazila, (b) Bhandaria Upazila and (c) Nesarabad Upazila",
     "thana": ["Kawkhali", "Bhandaria", "Nesarabad"],
     "thana_bn": ["কাউখালী", "ভাণ্ডারিয়া", "নেছারাবাদ"],
-    "pauroshava": ["Bhandaria", "Swarupkath"],
+    "pauroshava": ["Bhandaria", "Swarupkathi"],
     "pauroshava_bn": ["ভাণ্ডারিয়া", "স্বরূপকাঠি"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Pirojpur-2", "পিরোজপুর-২", "Kawkhali", "Bhandaria", "Nesarabad"]
+    "search_tags": ["Pirojpur-2", "পিরোজপুর-২", "Kawkhali", "Bhandaria", "Nesarabad", "Bhandaria Paurashava", "Swarupkathi Paurashava"]
   },
   {
     "id": 129,
@@ -2061,7 +2061,7 @@
     "pauroshava_bn": ["মঠবাড়ীয়া"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Pirojpur-3", "পিরোজপুর-৩", "Mathbaria"]
+    "search_tags": ["Pirojpur-3", "পিরোজপুর-৩", "Mathbaria", "Mathbaria Paurashava"]
   },
   {
     "id": 130,
@@ -2077,7 +2077,7 @@
     "pauroshava_bn": ["মধুপুর", "ধনবাড়ী"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Tangail-1", "টাঙ্গাইল-১", "Madhupur", "Dhanbari"]
+    "search_tags": ["Tangail-1", "টাঙ্গাইল-১", "Madhupur", "Dhanbari", "Madhupur Paurashava", "Dhanbari Paurashava"]
   },
   {
     "id": 131,
@@ -2093,7 +2093,7 @@
     "pauroshava_bn": ["গোপালপুর", "ভূঞাপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Tangail-2", "টাঙ্গাইল-২", "Gopalpur", "Bhuapur"]
+    "search_tags": ["Tangail-2", "টাঙ্গাইল-২", "Gopalpur", "Bhuapur", "Gopalpur Paurashava", "Bhuapur Paurashava"]
   },
   {
     "id": 132,
@@ -2109,7 +2109,7 @@
     "pauroshava_bn": ["ঘাটাইল"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Tangail-3", "টাঙ্গাইল-৩", "Ghatail"]
+    "search_tags": ["Tangail-3", "টাঙ্গাইল-৩", "Ghatail", "Ghatail Paurashava"]
   },
   {
     "id": 133,
@@ -2125,7 +2125,7 @@
     "pauroshava_bn": ["কালিহাতী", "এলেঙ্গা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Tangail-4", "টাঙ্গাইল-৪", "Kalihati"]
+    "search_tags": ["Tangail-4", "টাঙ্গাইল-৪", "Kalihati", "Kalihati Paurashava", "Elenga Paurashava"]
   },
   {
     "id": 134,
@@ -2141,7 +2141,7 @@
     "pauroshava_bn": ["টাঙ্গাইল"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Tangail-5", "টাঙ্গাইল-৫", "Tangail Sadar"]
+    "search_tags": ["Tangail-5", "টাঙ্গাইল-৫", "Tangail Sadar", "Tangail Paurashava"]
   },
   {
     "id": 135,
@@ -2173,7 +2173,7 @@
     "pauroshava_bn": ["মির্জাপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Tangail-7", "টাঙ্গাইল-৭", "Mirzapur"]
+    "search_tags": ["Tangail-7", "টাঙ্গাইল-৭", "Mirzapur", "Mirzapur Paurashava"]
   },
   {
     "id": 137,
@@ -2189,7 +2189,7 @@
     "pauroshava_bn": ["সখিপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Tangail-8", "টাঙ্গাইল-৮", "Basail", "Sakhipur"]
+    "search_tags": ["Tangail-8", "টাঙ্গাইল-৮", "Basail", "Sakhipur", "Sakhipur Paurashava"]
   },
   {
     "id": 138,
@@ -2197,15 +2197,15 @@
     "no_bn": "জামালপুর-১",
     "district_en": "Jamalpur",
     "district_bn": "জামালপুর",
-    "composition_bn": "(ক) বকশীগঞ্জ উপজেলা এবং (খ) দেওয়ানগঞ্জ উপজেলা",
+    "composition_bn": "(ক) বকশীগঞ্জ উপজেলা এবং (খ) দেওয়ানগঞ্জ উপজেলা",
     "composition_en": "(a) Bakshiganj Upazila and (b) Dewanganj Upazila",
     "thana": ["Bakshiganj", "Dewanganj"],
-    "thana_bn": ["বকশীগঞ্জ", "দেওয়ানগঞ্জ"],
+    "thana_bn": ["বকশীগঞ্জ", "দেওয়ানগঞ্জ"],
     "pauroshava": ["Bakshiganj", "Dewanganj"],
-    "pauroshava_bn": ["বকশীগঞ্জ", "দেওয়ানগঞ্জ"],
+    "pauroshava_bn": ["বকশীগঞ্জ", "দেওয়ানগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Jamalpur-1", "জামালপুর-১", "Bakshiganj", "Dewanganj"]
+    "search_tags": ["Jamalpur-1", "জামালপুর-১", "Bakshiganj", "Dewanganj", "Bakshiganj Paurashava", "Dewanganj Paurashava"]
   },
   {
     "id": 139,
@@ -2221,7 +2221,7 @@
     "pauroshava_bn": ["ইসলামপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Jamalpur-2", "জামালপুর-২", "Islampur"]
+    "search_tags": ["Jamalpur-2", "জামালপুর-২", "Islampur", "Islampur Paurashava"]
   },
   {
     "id": 140,
@@ -2237,7 +2237,7 @@
     "pauroshava_bn": ["মাদারগঞ্জ", "মেলান্দহ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Jamalpur-3", "জামালপুর-৩", "Madarganj", "Melandah"]
+    "search_tags": ["Jamalpur-3", "জামালপুর-৩", "Madarganj", "Melandah", "Madarganj Paurashava", "Melandah Paurashava"]
   },
   {
     "id": 141,
@@ -2248,12 +2248,12 @@
     "composition_bn": "সরিষাবাড়ী উপজেলা",
     "composition_en": "Sarishabari Upazila",
     "thana": ["Sarishabari"],
-    "thana_bn": ["সরষাবাড়ী"],
+    "thana_bn": ["সরিষাবাড়ী"],
     "pauroshava": ["Sarishabari"],
     "pauroshava_bn": ["সরিষাবাড়ী"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Jamalpur-4", "জামালপুর-৪", "Sarishabari"]
+    "search_tags": ["Jamalpur-4", "জামালপুর-৪", "Sarishabari", "Sarishabari Paurashava"]
   },
   {
     "id": 142,
@@ -2269,7 +2269,7 @@
     "pauroshava_bn": ["জামালপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Jamalpur-5", "জামালপুর-৫", "Jamalpur Sadar"]
+    "search_tags": ["Jamalpur-5", "জামালপুর-৫", "Jamalpur Sadar", "Jamalpur Paurashava"]
   },
   {
     "id": 143,
@@ -2285,7 +2285,7 @@
     "pauroshava_bn": ["শেরপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Sherpur-1", "শেরপুর-১", "Sherpur Sadar"]
+    "search_tags": ["Sherpur-1", "শেরপুর-১", "Sherpur Sadar", "Sherpur Paurashava"]
   },
   {
     "id": 144,
@@ -2301,7 +2301,7 @@
     "pauroshava_bn": ["নকলা", "নালিতাবাড়ী"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Sherpur-2", "শেরপুর-২", "Nakla", "Nalitabari"]
+    "search_tags": ["Sherpur-2", "শেরপুর-২", "Nakla", "Nalitabari", "Nakla Paurashava", "Nalitabari Paurashava"]
   },
   {
     "id": 145,
@@ -2317,30 +2317,30 @@
     "pauroshava_bn": ["শ্রীবরদী"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Sherpur-3", "শেরপুর-৩", "Sreebardi", "Jhenaigati"]
+    "search_tags": ["Sherpur-3", "শেরপুর-৩", "Sreebardi", "Jhenaigati", "Sreebardi Paurashava"]
   },
   {
     "id": 146,
     "no_en": "Mymensingh-1",
-    "no_bn": "ময়মনসিংহ-১",
+    "no_bn": "ময়মনসিংহ-১",
     "district_en": "Mymensingh",
-    "district_bn": "ময়মনসিংহ",
-    "composition_bn": "(ক) হালুয়াঘাট উপজেলা এবং (খ) ধোবাউড়া উপজেলা",
+    "district_bn": "ময়মনসিংহ",
+    "composition_bn": "(ক) হালুয়াঘাট উপজেলা এবং (খ) ধোবাউড়া উপজেলা",
     "composition_en": "(a) Haluaghat Upazila and (b) Dhobaura Upazila",
     "thana": ["Haluaghat", "Dhobaura"],
-    "thana_bn": ["হালুয়াঘাট", "ধোবাউড়া"],
+    "thana_bn": ["হালুয়াঘাট", "ধোবাউড়া"],
     "pauroshava": ["Haluaghat"],
-    "pauroshava_bn": ["হালুয়াঘাট"],
+    "pauroshava_bn": ["হালুয়াঘাট"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Mymensingh-1", "ময়মনসিংহ-১", "Haluaghat", "Dhobaura"]
+    "search_tags": ["Mymensingh-1", "ময়মনসিংহ-১", "Haluaghat", "Dhobaura", "Haluaghat Paurashava"]
   },
   {
     "id": 147,
     "no_en": "Mymensingh-2",
-    "no_bn": "ময়মনসিংহ-২",
+    "no_bn": "ময়মনসিংহ-২",
     "district_en": "Mymensingh",
-    "district_bn": "ময়মনসিংহ",
+    "district_bn": "ময়মনসিংহ",
     "composition_bn": "(ক) ফুলপুর উপজেলা এবং (খ) তারাকান্দা উপজেলা",
     "composition_en": "(a) Phulpur Upazila and (b) Tarakanda Upazila",
     "thana": ["Phulpur", "Tarakanda"],
@@ -2349,14 +2349,14 @@
     "pauroshava_bn": ["ফুলপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Mymensingh-2", "ময়মনসিংহ-২", "Phulpur", "Tarakanda"]
+    "search_tags": ["Mymensingh-2", "ময়মনসিংহ-২", "Phulpur", "Tarakanda", "Phulpur Paurashava"]
   },
   {
     "id": 148,
     "no_en": "Mymensingh-3",
-    "no_bn": "ময়মনসিংহ-৩",
+    "no_bn": "ময়মনসিংহ-৩",
     "district_en": "Mymensingh",
-    "district_bn": "ময়মনসিংহ",
+    "district_bn": "ময়মনসিংহ",
     "composition_bn": "গৌরীপুর উপজেলা",
     "composition_en": "Gouripur Upazila",
     "thana": ["Gouripur"],
@@ -2365,7 +2365,7 @@
     "pauroshava_bn": ["গৌরীপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Mymensingh-3", "ময়মনসিংহ-৩", "Gouripur"]
+    "search_tags": ["Mymensingh-3", "ময়মনসিংহ-৩", "Gouripur", "Gouripur Paurashava"]
   },
   {
     "id": 149,
@@ -2375,20 +2375,20 @@
     "district_bn": "ময়মনসিংহ",
     "composition_bn": "(ক) ময়মনসিংহ সিটি কর্পোরেশনভুক্ত এলাকা এবং (খ) ময়মনসিংহ সদর উপজেলা",
     "composition_en": "(a) Area under Mymensingh City Corporation and (b) Mymensingh Sadar Upazila",
-    "thana": ["Mymensingh Sadar"],
-    "thana_bn": ["ময়মনসিংহ সদর"],
+    "thana": ["Mymensingh Sadar", "Kotwali"],
+    "thana_bn": ["ময়মনসিংহ সদর", "কোতোয়ালী"],
     "pauroshava": ["Mymensingh City Corporation"],
     "pauroshava_bn": ["ময়মনসিংহ সিটি কর্পোরেশন"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Mymensingh-4", "ময়মনসিংহ-৪", "Mymensingh City Corporation", "Mymensingh Sadar"]
+    "search_tags": ["Mymensingh-4", "ময়মনসিংহ-৪", "Mymensingh Sadar", "MCC"]
   },
   {
     "id": 150,
     "no_en": "Mymensingh-5",
-    "no_bn": "ময়মনসিংহ-৫",
+    "no_bn": "ময়মনসিংহ-৫",
     "district_en": "Mymensingh",
-    "district_bn": "ময়মনসিংহ",
+    "district_bn": "ময়মনসিংহ",
     "composition_bn": "মুক্তাগাছা উপজেলা",
     "composition_en": "Muktagachha Upazila",
     "thana": ["Muktagachha"],
@@ -2397,7 +2397,7 @@
     "pauroshava_bn": ["মুক্তাগাছা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Mymensingh-5", "ময়মনসিংহ-৫", "Muktagachha"]
+    "search_tags": ["Mymensingh-5", "ময়মনসিংহ-৫", "Muktagachha", "Muktagachha Paurashava"]
   },
   {
     "id": 151,
@@ -2413,7 +2413,7 @@
     "pauroshava_bn": ["ফুলবাড়ীয়া"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Mymensingh-6", "ময়মনসিংহ-৬", "Phulbaria"]
+    "search_tags": ["Mymensingh-6", "ময়মনসিংহ-৬", "Phulbaria", "Phulbaria Paurashava"]
   },
   {
     "id": 152,
@@ -2429,7 +2429,7 @@
     "pauroshava_bn": ["ত্রিশাল"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Mymensingh-7", "ময়মনসিংহ-৭", "Trishal"]
+    "search_tags": ["Mymensingh-7", "ময়মনসিংহ-৭", "Trishal", "Trishal Paurashava"]
   },
   {
     "id": 153,
@@ -2445,7 +2445,7 @@
     "pauroshava_bn": ["ঈশ্বরগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Mymensingh-8", "ময়মনসিংহ-৮", "Ishwarganj"]
+    "search_tags": ["Mymensingh-8", "ময়মনসিংহ-৮", "Ishwarganj", "Ishwarganj Paurashava"]
   },
   {
     "id": 154,
@@ -2461,7 +2461,7 @@
     "pauroshava_bn": ["নান্দাইল"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Mymensingh-9", "ময়মনসিংহ-৯", "Nandail"]
+    "search_tags": ["Mymensingh-9", "ময়মনসিংহ-৯", "Nandail", "Nandail Paurashava"]
   },
   {
     "id": 155,
@@ -2477,7 +2477,7 @@
     "pauroshava_bn": ["গফরগাঁও"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Mymensingh-10", "ময়মনসিংহ-১০", "Gaffargaon"]
+    "search_tags": ["Mymensingh-10", "ময়মনসিংহ-১০", "Gaffargaon", "Gaffargaon Paurashava"]
   },
   {
     "id": 156,
@@ -2493,7 +2493,7 @@
     "pauroshava_bn": ["ভালুকা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Mymensingh-11", "ময়মনসিংহ-১১", "Bhaluka"]
+    "search_tags": ["Mymensingh-11", "ময়মনসিংহ-১১", "Bhaluka", "Bhaluka Paurashava"]
   },
   {
     "id": 157,
@@ -2509,7 +2509,7 @@
     "pauroshava_bn": ["দুর্গাপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Netrokona-1", "নেত্রকোণা-১", "Kalmakanda", "Durgapur"]
+    "search_tags": ["Netrokona-1", "নেত্রকোণা-১", "Kalmakanda", "Durgapur", "Durgapur Paurashava"]
   },
   {
     "id": 158,
@@ -2525,7 +2525,7 @@
     "pauroshava_bn": ["নেত্রকোণা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Netrokona-2", "নেত্রকোণা-২", "Netrokona Sadar", "Barhatta"]
+    "search_tags": ["Netrokona-2", "নেত্রকোণা-২", "Netrokona Sadar", "Barhatta", "Netrokona Paurashava"]
   },
   {
     "id": 159,
@@ -2541,7 +2541,7 @@
     "pauroshava_bn": ["কেন্দুয়া"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Netrokona-3", "নেত্রকোণা-৩", "Atpara", "Kendua"]
+    "search_tags": ["Netrokona-3", "নেত্রকোণা-৩", "Atpara", "Kendua", "Kendua Paurashava"]
   },
   {
     "id": 160,
@@ -2557,7 +2557,7 @@
     "pauroshava_bn": ["মোহনগঞ্জ", "মদন"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Netrokona-4", "নেত্রকোণা-৪", "Mohanganj", "Madan", "Khaliajuri"]
+    "search_tags": ["Netrokona-4", "নেত্রকোণা-৪", "Mohanganj", "Madan", "Khaliajuri", "Mohanganj Paurashava", "Madan Paurashava"]
   },
   {
     "id": 161,
@@ -2589,7 +2589,7 @@
     "pauroshava_bn": ["কিশোরগঞ্জ", "হোসেনপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Kishoreganj-1", "কিশোরগঞ্জ-১", "Kishoreganj Sadar", "Hossainpur"]
+    "search_tags": ["Kishoreganj-1", "কিশোরগঞ্জ-১", "Kishoreganj Sadar", "Hossainpur", "Kishoreganj Paurashava", "Hossainpur Paurashava"]
   },
   {
     "id": 163,
@@ -2605,7 +2605,7 @@
     "pauroshava_bn": ["কটিয়াদী", "পাকুন্দিয়া"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Kishoreganj-2", "কিশোরগঞ্জ-২", "Katiadi", "Pakundia"]
+    "search_tags": ["Kishoreganj-2", "কিশোরগঞ্জ-২", "Katiadi", "Pakundia", "Katiadi Paurashava", "Pakundia Paurashava"]
   },
   {
     "id": 164,
@@ -2621,7 +2621,7 @@
     "pauroshava_bn": ["করিমগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Kishoreganj-3", "কিশোরগঞ্জ-৩", "Tarail", "Karimganj"]
+    "search_tags": ["Kishoreganj-3", "কিশোরগঞ্জ-৩", "Tarail", "Karimganj", "Karimganj Paurashava"]
   },
   {
     "id": 165,
@@ -2653,7 +2653,7 @@
     "pauroshava_bn": ["বাজিতপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Kishoreganj-5", "কিশোরগঞ্জ-৫", "Nikli", "Bajitpur"]
+    "search_tags": ["Kishoreganj-5", "কিশোরগঞ্জ-৫", "Nikli", "Bajitpur", "Bajitpur Paurashava"]
   },
   {
     "id": 167,
@@ -2669,7 +2669,7 @@
     "pauroshava_bn": ["কুলিয়ারচর", "ভৈরব"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Kishoreganj-6", "কিশোরগঞ্জ-৬", "Kuliarchar", "Bhairab"]
+    "search_tags": ["Kishoreganj-6", "কিশোরগঞ্জ-৬", "Kuliarchar", "Bhairab", "Kuliarchar Paurashava", "Bhairab Paurashava"]
   },
   {
     "id": 168,
@@ -2701,7 +2701,7 @@
     "pauroshava_bn": ["সিংগাইর"],
     "unions": ["Hatipara", "Bhararia"],
     "unions_bn": ["হাটিপাড়া", "ভাড়ারিয়া"],
-    "search_tags": ["Manikganj-2", "মানিকগঞ্জ-২", "Singair", "Harirampur", "Manikganj Sadar"]
+    "search_tags": ["Manikganj-2", "মানিকগঞ্জ-২", "Singair", "Harirampur", "Hatipara", "Bhararia"]
   },
   {
     "id": 170,
@@ -2717,7 +2717,7 @@
     "pauroshava_bn": ["মানিকগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Manikganj-3", "মানিকগঞ্জ-৩", "Manikganj Sadar", "Saturia"]
+    "search_tags": ["Manikganj-3", "মানিকগঞ্জ-৩", "Manikganj Sadar", "Saturia", "Manikganj Paurashava"]
   },
   {
     "id": 171,
@@ -2765,7 +2765,7 @@
     "pauroshava_bn": ["মুন্সীগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Munshiganj-3", "মুন্সীগঞ্জ-৩", "Munshiganj Sadar", "Gazaria"]
+    "search_tags": ["Munshiganj-3", "মুন্সীগঞ্জ-৩", "Munshiganj Sadar", "Gazaria", "Munshiganj Paurashava"]
   },
   {
     "id": 174,
@@ -2781,7 +2781,7 @@
     "pauroshava_bn": ["দোহার"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Dhaka-1", "ঢাকা-১", "Dohar", "Nabaganj"]
+    "search_tags": ["Dhaka-1", "ঢাকা-১", "Dohar", "Nabaganj", "Dohar Paurashava"]
   },
   {
     "id": 175,
@@ -2791,13 +2791,13 @@
     "district_bn": "ঢাকা",
     "composition_bn": "(ক) কেরানীগঞ্জ উপজেলার নিম্নলিখিত ইউনিয়নসমূহ:- (১) তারানগর (২) কলাতিয়া (৩) হযরতপুর (৪) রোহিতপুর (৫) শাক্তা (৬) কালিন্দী ও (৭) বাস্তা ইউনিয়ন এবং (খ) সাভার উপজেলার নিম্নলিখিত ইউনিয়নসমূহ:- (১) আমিনবাজার (২) তেঁতুলঝোড়া ও (৩) ভাকুর্তা ইউনিয়ন",
     "composition_en": "(a) the following Unions of Keraniganj Upazila:- (1) Taranagar (2) Kalatia (3) Hazratpur (4) Rohitpur (5) Shakta (6) Kalindi and (7) Basta Union and (b) the following Unions of Savar Upazila:- (1) Aminbazar (2) Tetuljhora and (3) Bhakurta Union",
-    "thana": ["Keraniganj", "Savar"],
-    "thana_bn": ["কেরানীগঞ্জ", "সাভার"],
+    "thana": ["Keraniganj Model", "Savar"],
+    "thana_bn": ["কেরানীগঞ্জ মডেল", "সাভার"],
     "pauroshava": [],
     "pauroshava_bn": [],
     "unions": ["Taranagar", "Kalatia", "Hazratpur", "Rohitpur", "Shakta", "Kalindi", "Basta", "Aminbazar", "Tetuljhora", "Bhakurta"],
     "unions_bn": ["তারানগর", "কলাতিয়া", "হযরতপুর", "রোহিতপুর", "শাক্তা", "কালিন্দী", "বাস্তা", "আমিনবাজার", "তেঁতুলঝোড়া", "ভাকুর্তা"],
-    "search_tags": ["Dhaka-2", "ঢাকা-২", "Keraniganj", "Savar"]
+    "search_tags": ["Dhaka-2", "ঢাকা-২", "Keraniganj", "Savar", "Aminbazar", "Rohitpur", "Kalatia"]
   },
   {
     "id": 176,
@@ -2807,13 +2807,13 @@
     "district_bn": "ঢাকা",
     "composition_bn": "কেরানীগঞ্জ উপজেলার নিম্নলিখিত ইউনিয়নসমূহ: (১) জিনজিরা (২) আগানগর (৩) তেঘরিয়া (৪) কোন্ডা ও (৫) শুভাঢ্যা ইউনিয়ন",
     "composition_en": "the following Unions of Keraniganj Upazila: (1) Jinjira (2) Aganagar (3) Tegharia (4) Konda and (5) Subhadda Union",
-    "thana": ["Keraniganj"],
-    "thana_bn": ["কেরানীগঞ্জ"],
+    "thana": ["South Keraniganj"],
+    "thana_bn": ["দক্ষিণ কেরানীগঞ্জ"],
     "pauroshava": [],
     "pauroshava_bn": [],
     "unions": ["Jinjira", "Aganagar", "Tegharia", "Konda", "Subhadda"],
     "unions_bn": ["জিনজিরা", "আগানগর", "তেঘরিয়া", "কোন্ডা", "শুভাঢ্যা"],
-    "search_tags": ["Dhaka-3", "ঢাকা-৩", "Keraniganj"]
+    "search_tags": ["Dhaka-3", "ঢাকা-৩", "South Keraniganj", "Jinjira", "Aganagar", "Subhadda"]
   },
   {
     "id": 177,
@@ -2823,13 +2823,13 @@
     "district_bn": "ঢাকা",
     "composition_bn": "ঢাকা দক্ষিণ সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ৪৭, ৫১, ৫২, ৫৩, ৫৪, ৫৫, ৫৬, ৫৮, ৫৯, ৬০ এবং ৬১",
     "composition_en": "Ward numbers 47, 51, 52, 53, 54, 55, 56, 58, 59, 60 and 61 of Dhaka South City Corporation",
-    "thana": ["Dhaka South City Corporation"],
-    "thana_bn": ["ঢাকা দক্ষিণ সিটি কর্পোরেশন"],
-    "pauroshava": ["Dhaka South City Corporation"],
-    "pauroshava_bn": ["ঢাকা দক্ষিণ সিটি কর্পোরেশন"],
+    "thana": ["Shyampur", "Kadamtali"],
+    "thana_bn": ["শ্যামপুর", "কদমতলী"],
+    "pauroshava": [],
+    "pauroshava_bn": [],
     "unions": ["Ward 47", "Ward 51", "Ward 52", "Ward 53", "Ward 54", "Ward 55", "Ward 56", "Ward 58", "Ward 59", "Ward 60", "Ward 61"],
     "unions_bn": ["ওয়ার্ড ৪৭", "ওয়ার্ড ৫১", "ওয়ার্ড ৫২", "ওয়ার্ড ৫৩", "ওয়ার্ড ৫৪", "ওয়ার্ড ৫৫", "ওয়ার্ড ৫৬", "ওয়ার্ড ৫৮", "ওয়ার্ড ৫৯", "ওয়ার্ড ৬০", "ওয়ার্ড ৬১"],
-    "search_tags": ["Dhaka-4", "ঢাকা-৪", "Dhaka South City Corporation"]
+    "search_tags": ["Dhaka-4", "ঢাকা-৪", "Shyampur", "Kadamtali", "DSCC"]
   },
   {
     "id": 178,
@@ -2839,13 +2839,13 @@
     "district_bn": "ঢাকা",
     "composition_bn": "ঢাকা দক্ষিণ সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ৪৮, ৪৯, ৫০, ৬২, ৬৩, ৬৪, ৬৫, ৬৬, ৬৭, ৬৮, ৬৯ এবং ৭০",
     "composition_en": "Ward numbers 48, 49, 50, 62, 63, 64, 65, 66, 67, 68, 69 and 70 of Dhaka South City Corporation",
-    "thana": ["Dhaka South City Corporation"],
-    "thana_bn": ["ঢাকা দক্ষিণ সিটি কর্পোরেশন"],
-    "pauroshava": ["Dhaka South City Corporation"],
-    "pauroshava_bn": ["ঢাকা দক্ষিণ সিটি কর্পোরেশন"],
+    "thana": ["Jatrabari", "Demra"],
+    "thana_bn": ["যাত্রাবাড়ী", "ডেমরা"],
+    "pauroshava": [],
+    "pauroshava_bn": [],
     "unions": ["Ward 48", "Ward 49", "Ward 50", "Ward 62", "Ward 63", "Ward 64", "Ward 65", "Ward 66", "Ward 67", "Ward 68", "Ward 69", "Ward 70"],
     "unions_bn": ["ওয়ার্ড ৪৮", "ওয়ার্ড ৪৯", "ওয়ার্ড ৫০", "ওয়ার্ড ৬২", "ওয়ার্ড ৬৩", "ওয়ার্ড ৬৪", "ওয়ার্ড ৬৫", "ওয়ার্ড ৬৬", "ওয়ার্ড ৬৭", "ওয়ার্ড ৬৮", "ওয়ার্ড ৬৯", "ওয়ার্ড ৭০"],
-    "search_tags": ["Dhaka-5", "ঢাকা-৫", "Dhaka South City Corporation"]
+    "search_tags": ["Dhaka-5", "ঢাকা-৫", "Jatrabari", "Demra", "DSCC"]
   },
   {
     "id": 179,
@@ -2855,13 +2855,13 @@
     "district_bn": "ঢাকা",
     "composition_bn": "ঢাকা দক্ষিণ সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ৩৪, ৩৭, ৩৮, ৩৯, ৪০, ৪১, ৪২, ৪৩, ৪৪, ৪৫ ও ৪৬",
     "composition_en": "Ward numbers 34, 37, 38, 39, 40, 41, 42, 43, 44, 45 and 46 of Dhaka South City Corporation",
-    "thana": ["Dhaka South City Corporation"],
-    "thana_bn": ["ঢাকা দক্ষিণ সিটি কর্পোরেশন"],
-    "pauroshava": ["Dhaka South City Corporation"],
-    "pauroshava_bn": ["ঢাকা দক্ষিণ সিটি কর্পোরেশন"],
+    "thana": ["Sutrapur", "Gendaria", "Wari", "Bangshal", "Kotwali"],
+    "thana_bn": ["সূত্রাপুর", "গেন্ডারিয়া", "ওয়ারী", "বংশাল", "কোতোয়ালী"],
+    "pauroshava": [],
+    "pauroshava_bn": [],
     "unions": ["Ward 34", "Ward 37", "Ward 38", "Ward 39", "Ward 40", "Ward 41", "Ward 42", "Ward 43", "Ward 44", "Ward 45", "Ward 46"],
     "unions_bn": ["ওয়ার্ড ৩৪", "ওয়ার্ড ৩৭", "ওয়ার্ড ৩৮", "ওয়ার্ড ৩৯", "ওয়ার্ড ৪০", "ওয়ার্ড ৪১", "ওয়ার্ড ৪২", "ওয়ার্ড ৪৩", "ওয়ার্ড ৪৪", "ওয়ার্ড ৪৫", "ওয়ার্ড ৪৬"],
-    "search_tags": ["Dhaka-6", "ঢাকা-৬", "Dhaka South City Corporation"]
+    "search_tags": ["Dhaka-6", "ঢাকা-৬", "Sutrapur", "Gendaria", "Wari", "Bangshal", "Kotwali", "DSCC"]
   },
   {
     "id": 180,
@@ -2869,15 +2869,15 @@
     "no_bn": "ঢাকা-৭",
     "district_en": "Dhaka",
     "district_bn": "ঢাকা",
-    "composition_bn": "ঢাকা দক্ষিণ সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ২৩, ২৪, ২৫, ২৬, ২৭, ২৮, ২৯, ৩০, ৩১, ৩২, ৩৩, ৩৫, ৩৬ ও ৩৭",
+    "composition_bn": "ঢাকা দক্ষিণ সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ২৩, ২৪, ২৫, ২৬, ২৭, ২৮, ২৯, ৩০, ৩১, ৩২, ৩৩, ৩৫, ৩৬ ও ৩৭",
     "composition_en": "Ward numbers 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 35, 36 and 37 of Dhaka South City Corporation",
-    "thana": ["Dhaka South City Corporation"],
-    "thana_bn": ["ঢাকা দক্ষিণ সিটি কর্পোরেশন"],
-    "pauroshava": ["Dhaka South City Corporation"],
-    "pauroshava_bn": ["ঢাকা দক্ষিণ সিটি কর্পোরেশন"],
+    "thana": ["Lalbagh", "Chawkbazar", "Bangshal", "Kotwali"],
+    "thana_bn": ["লালবাগ", "চকবাজার", "বংশাল", "কোতোয়ালী"],
+    "pauroshava": [],
+    "pauroshava_bn": [],
     "unions": ["Ward 23", "Ward 24", "Ward 25", "Ward 26", "Ward 27", "Ward 28", "Ward 29", "Ward 30", "Ward 31", "Ward 32", "Ward 33", "Ward 35", "Ward 36", "Ward 37"],
     "unions_bn": ["ওয়ার্ড ২৩", "ওয়ার্ড ২৪", "ওয়ার্ড ২৫", "ওয়ার্ড ২৬", "ওয়ার্ড ২৭", "ওয়ার্ড ২৮", "ওয়ার্ড ২৯", "ওয়ার্ড ৩০", "ওয়ার্ড ৩১", "ওয়ার্ড ৩২", "ওয়ার্ড ৩৩", "ওয়ার্ড ৩৫", "ওয়ার্ড ৩৬", "ওয়ার্ড ৩৭"],
-    "search_tags": ["Dhaka-7", "ঢাকা-৭", "Dhaka South City Corporation"]
+    "search_tags": ["Dhaka-7", "ঢাকা-৭", "Lalbagh", "Chawkbazar", "Bangshal", "Kotwali", "DSCC"]
   },
   {
     "id": 181,
@@ -2885,15 +2885,15 @@
     "no_bn": "ঢাকা-৮",
     "district_en": "Dhaka",
     "district_bn": "ঢাকা",
-    "composition_bn": "ঢাকা দক্ষিণ সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ০৮, ০৯, ১০, ১১, ১২, ১৩, ১৯, ২০ ও ২১",
+    "composition_bn": "ঢাকা দক্ষিণ সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ০৮, ০৯, ১০, ১১, ১২, ১৩, ১৯, ২০ ও ২১",
     "composition_en": "Ward numbers 08, 09, 10, 11, 12, 13, 19, 20 and 21 of Dhaka South City Corporation",
-    "thana": ["Dhaka South City Corporation"],
-    "thana_bn": ["ঢাকা দক্ষিণ সিটি কর্পোরেশন"],
-    "pauroshava": ["Dhaka South City Corporation"],
-    "pauroshava_bn": ["ঢাকা দক্ষিণ সিটি কর্পোরেশন"],
+    "thana": ["Motijheel", "Shahjahanpur", "Paltan", "Ramna", "Shahbagh"],
+    "thana_bn": ["মতিঝিল", "শাহজাহানপুর", "পল্টন", "রমনা", "শাহবাগ"],
+    "pauroshava": [],
+    "pauroshava_bn": [],
     "unions": ["Ward 08", "Ward 09", "Ward 10", "Ward 11", "Ward 12", "Ward 13", "Ward 19", "Ward 20", "Ward 21"],
     "unions_bn": ["ওয়ার্ড ০৮", "ওয়ার্ড ০৯", "ওয়ার্ড ১০", "ওয়ার্ড ১১", "ওয়ার্ড ১২", "ওয়ার্ড ১৩", "ওয়ার্ড ১৯", "ওয়ার্ড ২০", "ওয়ার্ড ২১"],
-    "search_tags": ["Dhaka-8", "ঢাকা-৮", "Dhaka South City Corporation"]
+    "search_tags": ["Dhaka-8", "ঢাকা-৮", "Motijheel", "Shahjahanpur", "Paltan", "Ramna", "Shahbagh", "DSCC"]
   },
   {
     "id": 182,
@@ -2901,15 +2901,15 @@
     "no_bn": "ঢাকা-৯",
     "district_en": "Dhaka",
     "district_bn": "ঢাকা",
-    "composition_bn": "ঢাকা দক্ষিণ সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ০১, ০২, ০৩, ০৪, ০৫, ০৬, ০৭, ৭১, ৭২, ৭৩, ৭৪ ও ৭৫",
+    "composition_bn": "ঢাকা দক্ষিণ সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ০১, ০২, ০৩, ০৪, ০৫, ০৬, ০৭, ৭১, ৭২, ৭৩, ৭৪ ও ৭৫",
     "composition_en": "Ward numbers 01, 02, 03, 04, 05, 06, 07, 71, 72, 73, 74 and 75 of Dhaka South City Corporation",
-    "thana": ["Dhaka South City Corporation"],
-    "thana_bn": ["ঢাকা দক্ষিণ সিটি কর্পোরেশন"],
-    "pauroshava": ["Dhaka South City Corporation"],
-    "pauroshava_bn": ["ঢাকা দক্ষিণ সিটি কর্পোরেশন"],
+    "thana": ["Khilgaon", "Sabujbagh", "Mugda"],
+    "thana_bn": ["খিলগাঁও", "সবুজবাগ", "মুগদা"],
+    "pauroshava": [],
+    "pauroshava_bn": [],
     "unions": ["Ward 01", "Ward 02", "Ward 03", "Ward 04", "Ward 05", "Ward 06", "Ward 07", "Ward 71", "Ward 72", "Ward 73", "Ward 74", "Ward 75"],
     "unions_bn": ["ওয়ার্ড ০১", "ওয়ার্ড ০২", "ওয়ার্ড ০৩", "ওয়ার্ড ০৪", "ওয়ার্ড ০৫", "ওয়ার্ড ০৬", "ওয়ার্ড ০৭", "ওয়ার্ড ৭১", "ওয়ার্ড ৭২", "ওয়ার্ড ৭৩", "ওয়ার্ড ৭৪", "ওয়ার্ড ৭৫"],
-    "search_tags": ["Dhaka-9", "ঢাকা-৯", "Dhaka South City Corporation"]
+    "search_tags": ["Dhaka-9", "ঢাকা-৯", "Khilgaon", "Sabujbagh", "Mugda", "DSCC"]
   },
   {
     "id": 183,
@@ -2917,15 +2917,15 @@
     "no_bn": "ঢাকা-১০",
     "district_en": "Dhaka",
     "district_bn": "ঢাকা",
-    "composition_bn": "ঢাকা দক্ষিণ সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ১৪, ১৫, ১৬, ১৭, ১৮, ২২ ও ৫৫",
+    "composition_bn": "ঢাকা দক্ষিণ সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ১৪, ১৫, ১৬, ১৭, ১৮, ২২ ও ৫৫",
     "composition_en": "Ward numbers 14, 15, 16, 17, 18, 22 and 55 of Dhaka South City Corporation",
-    "thana": ["Dhaka South City Corporation"],
-    "thana_bn": ["ঢাকা দক্ষিণ সিটি কর্পোরেশন"],
-    "pauroshava": ["Dhaka South City Corporation"],
-    "pauroshava_bn": ["ঢাকা দক্ষিণ সিটি কর্পোরেশন"],
+    "thana": ["Kalabagan", "Dhanmondi", "New Market", "Hazaribagh"],
+    "thana_bn": ["কলাবাগান", "ধানমণ্ডি", "নিউ মার্কেট", "হাজারীবাগ"],
+    "pauroshava": [],
+    "pauroshava_bn": [],
     "unions": ["Ward 14", "Ward 15", "Ward 16", "Ward 17", "Ward 18", "Ward 22", "Ward 55"],
     "unions_bn": ["ওয়ার্ড ১৪", "ওয়ার্ড ১৫", "ওয়ার্ড ১৬", "ওয়ার্ড ১৭", "ওয়ার্ড ১৮", "ওয়ার্ড ২২", "ওয়ার্ড ৫৫"],
-    "search_tags": ["Dhaka-10", "ঢাকা-১০", "Dhaka South City Corporation"]
+    "search_tags": ["Dhaka-10", "ঢাকা-১০", "Kalabagan", "Dhanmondi", "New Market", "Hazaribagh", "DSCC"]
   },
   {
     "id": 184,
@@ -2933,15 +2933,15 @@
     "no_bn": "ঢাকা-১১",
     "district_en": "Dhaka",
     "district_bn": "ঢাকা",
-    "composition_bn": "ঢাকা উত্তর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ২১, ২২, ২৩, ৩৭, ৩৮, ৩৯, ৪০, ৪১ ও ৪২",
+    "composition_bn": "ঢাকা উত্তর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ২১, ২২, ২৩, ৩৭, ৩৮, ৩৯, ৪০, ৪১ ও ৪২",
     "composition_en": "Ward numbers 21, 22, 23, 37, 38, 39, 40, 41 and 42 of Dhaka North City Corporation",
-    "thana": ["Dhaka North City Corporation"],
-    "thana_bn": ["ঢাকা উত্তর সিটি কর্পোরেশন"],
-    "pauroshava": ["Dhaka North City Corporation"],
-    "pauroshava_bn": ["ঢাকা উত্তর সিটি কর্পোরেশন"],
+    "thana": ["Badda", "Bhatara", "Rampura"],
+    "thana_bn": ["বাড্ডা", "ভাটারা", "রামপুরা"],
+    "pauroshava": [],
+    "pauroshava_bn": [],
     "unions": ["Ward 21", "Ward 22", "Ward 23", "Ward 37", "Ward 38", "Ward 39", "Ward 40", "Ward 41", "Ward 42"],
     "unions_bn": ["ওয়ার্ড ২১", "ওয়ার্ড ২২", "ওয়ার্ড ২৩", "ওয়ার্ড ৩৭", "ওয়ার্ড ৩৮", "ওয়ার্ড ৩৯", "ওয়ার্ড ৪০", "ওয়ার্ড ৪১", "ওয়ার্ড ৪২"],
-    "search_tags": ["Dhaka-11", "ঢাকা-১১", "Dhaka North City Corporation"]
+    "search_tags": ["Dhaka-11", "ঢাকা-১১", "Badda", "Bhatara", "Rampura", "DNCC"]
   },
   {
     "id": 185,
@@ -2949,15 +2949,15 @@
     "no_bn": "ঢাকা-১২",
     "district_en": "Dhaka",
     "district_bn": "ঢাকা",
-    "composition_bn": "ঢাকা উত্তর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ২৪, ২৫, ২৬, ২৭, ৩৫ ও ৩৬",
+    "composition_bn": "ঢাকা উত্তর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ২৪, ২৫, ২৬, ২৭, ৩৫ ও ৩৬",
     "composition_en": "Ward numbers 24, 25, 26, 27, 35 and 36 of Dhaka North City Corporation",
-    "thana": ["Dhaka North City Corporation"],
-    "thana_bn": ["ঢাকা উত্তর সিটি কর্পোরেশন"],
-    "pauroshava": ["Dhaka North City Corporation"],
-    "pauroshava_bn": ["ঢাকা উত্তর সিটি কর্পোরেশন"],
+    "thana": ["Tejgaon", "Tejgaon Industrial Area", "Hatirjheel"],
+    "thana_bn": ["তেজগাঁও", "তেজগাঁও শিল্পাঞ্চল", "হাতিরঝিল"],
+    "pauroshava": [],
+    "pauroshava_bn": [],
     "unions": ["Ward 24", "Ward 25", "Ward 26", "Ward 27", "Ward 35", "Ward 36"],
     "unions_bn": ["ওয়ার্ড ২৪", "ওয়ার্ড ২৫", "ওয়ার্ড ২৬", "ওয়ার্ড ২৭", "ওয়ার্ড ৩৫", "ওয়ার্ড ৩৬"],
-    "search_tags": ["Dhaka-12", "ঢাকা-১২", "Dhaka North City Corporation"]
+    "search_tags": ["Dhaka-12", "ঢাকা-১২", "Tejgaon", "Tejgaon Industrial Area", "Hatirjheel", "DNCC"]
   },
   {
     "id": 186,
@@ -2965,15 +2965,15 @@
     "no_bn": "ঢাকা-১৩",
     "district_en": "Dhaka",
     "district_bn": "ঢাকা",
-    "composition_bn": "ঢাকা উত্তর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ২৮, ২৯, ৩০, ৩১, ৩২, ৩৩ ও ৩৪",
+    "composition_bn": "ঢাকা উত্তর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ২৮, ২৯, ৩০, ৩১, ৩২, ৩৩ ও ৩৪",
     "composition_en": "Ward numbers 28, 29, 30, 31, 32, 33 and 34 of Dhaka North City Corporation",
-    "thana": ["Dhaka North City Corporation"],
-    "thana_bn": ["ঢাকা উত্তর সিটি কর্পোরেশন"],
-    "pauroshava": ["Dhaka North City Corporation"],
-    "pauroshava_bn": ["ঢাকা উত্তর সিটি কর্পোরেশন"],
+    "thana": ["Mohammadpur", "Adabor", "Sher-e-Bangla Nagar"],
+    "thana_bn": ["মোহাম্মদপুর", "আদাবর", "শেরে বাংলা নগর"],
+    "pauroshava": [],
+    "pauroshava_bn": [],
     "unions": ["Ward 28", "Ward 29", "Ward 30", "Ward 31", "Ward 32", "Ward 33", "Ward 34"],
     "unions_bn": ["ওয়ার্ড ২৮", "ওয়ার্ড ২৯", "ওয়ার্ড ৩০", "ওয়ার্ড ৩১", "ওয়ার্ড ৩২", "ওয়ার্ড ৩৩", "ওয়ার্ড ৩৪"],
-    "search_tags": ["Dhaka-13", "ঢাকা-১৩", "Dhaka North City Corporation"]
+    "search_tags": ["Dhaka-13", "ঢাকা-১৩", "Mohammadpur", "Adabor", "Sher-e-Bangla Nagar", "DNCC"]
   },
   {
     "id": 187,
@@ -2981,15 +2981,15 @@
     "no_bn": "ঢাকা-১৪",
     "district_en": "Dhaka",
     "district_bn": "ঢাকা",
-    "composition_bn": "ঢাকা উত্তর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ০৭, ০৮, ০৯, ১০, ১১ ও ১২ এবং সাভার উপজেলার কাউন্দিয়া ও বনগাঁও ইউনিয়ন",
+    "composition_bn": "ঢাকা উত্তর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ০৭, ০৮, ০৯, ১০, ১১ ও ১২ এবং সাভার উপজেলার কাউন্দিয়া ও বনগাঁও ইউনিয়ন",
     "composition_en": "Ward numbers 07, 08, 09, 10, 11 and 12 of Dhaka North City Corporation and Kaundia and Bhangaon Unions of Savar Upazila",
-    "thana": ["Dhaka North City Corporation", "Savar"],
-    "thana_bn": ["ঢাকা উত্তর সিটি কর্পোরেশন", "সাভার"],
-    "pauroshava": ["Dhaka North City Corporation"],
-    "pauroshava_bn": ["ঢাকা উত্তর সিটি কর্পোরেশন"],
+    "thana": ["Mirpur", "Darus Salam", "Shah Ali", "Savar"],
+    "thana_bn": ["মিরপুর", "দারুস সালাম", "শাহ আলী", "সাভার"],
+    "pauroshava": [],
+    "pauroshava_bn": [],
     "unions": ["Ward 07", "Ward 08", "Ward 09", "Ward 10", "Ward 11", "Ward 12", "Kaundia", "Bhangaon"],
     "unions_bn": ["ওয়ার্ড ০৭", "ওয়ার্ড ০৮", "ওয়ার্ড ০৯", "ওয়ার্ড ১০", "ওয়ার্ড ১১", "ওয়ার্ড ১২", "কাউন্দিয়া", "বনগাঁও"],
-    "search_tags": ["Dhaka-14", "ঢাকা-১৪", "Dhaka North City Corporation", "Savar"]
+    "search_tags": ["Dhaka-14", "ঢাকা-১৪", "Mirpur", "Darus Salam", "Shah Ali", "Savar", "DNCC"]
   },
   {
     "id": 188,
@@ -2997,15 +2997,15 @@
     "no_bn": "ঢাকা-১৫",
     "district_en": "Dhaka",
     "district_bn": "ঢাকা",
-    "composition_bn": "ঢাকা উত্তর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ০৪, ১৩, ১৪ ও ১৬",
+    "composition_bn": "ঢাকা উত্তর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ০৪, ১৩, ১৪ ও ১৬",
     "composition_en": "Ward numbers 04, 13, 14 and 16 of Dhaka North City Corporation",
-    "thana": ["Dhaka North City Corporation"],
-    "thana_bn": ["ঢাকা উত্তর সিটি কর্পোরেশন"],
-    "pauroshava": ["Dhaka North City Corporation"],
-    "pauroshava_bn": ["ঢাকা উত্তর সিটি কর্পোরেশন"],
+    "thana": ["Kafrul", "Mirpur"],
+    "thana_bn": ["কাফরুল", "মিরপুর"],
+    "pauroshava": [],
+    "pauroshava_bn": [],
     "unions": ["Ward 04", "Ward 13", "Ward 14", "Ward 16"],
     "unions_bn": ["ওয়ার্ড ০৪", "ওয়ার্ড ১৩", "ওয়ার্ড ১৪", "ওয়ার্ড ১৬"],
-    "search_tags": ["Dhaka-15", "ঢাকা-১৫", "Dhaka North City Corporation"]
+    "search_tags": ["Dhaka-15", "ঢাকা-১৫", "Kafrul", "Mirpur", "DNCC"]
   },
   {
     "id": 189,
@@ -3013,15 +3013,15 @@
     "no_bn": "ঢাকা-১৬",
     "district_en": "Dhaka",
     "district_bn": "ঢাকা",
-    "composition_bn": "ঢাকা উত্তর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ০২, ০৩, ০৫ ও ০৬",
+    "composition_bn": "ঢাকা উত্তর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ০২, ০৩, ০৫ ও ০৬",
     "composition_en": "Ward numbers 02, 03, 05 and 06 of Dhaka North City Corporation",
-    "thana": ["Dhaka North City Corporation"],
-    "thana_bn": ["ঢাকা উত্তর সিটি কর্পোরেশন"],
-    "pauroshava": ["Dhaka North City Corporation"],
-    "pauroshava_bn": ["ঢাকা উত্তর সিটি কর্পোরেশন"],
+    "thana": ["Pallabi", "Rupnagar"],
+    "thana_bn": ["পল্লবী", "রূপনগর"],
+    "pauroshava": [],
+    "pauroshava_bn": [],
     "unions": ["Ward 02", "Ward 03", "Ward 05", "Ward 06"],
     "unions_bn": ["ওয়ার্ড ০২", "ওয়ার্ড ০৩", "ওয়ার্ড ০৫", "ওয়ার্ড ০৬"],
-    "search_tags": ["Dhaka-16", "ঢাকা-১৬", "Dhaka North City Corporation"]
+    "search_tags": ["Dhaka-16", "ঢাকা-১৬", "Pallabi", "Rupnagar", "DNCC"]
   },
   {
     "id": 190,
@@ -3029,15 +3029,15 @@
     "no_bn": "ঢাকা-১৭",
     "district_en": "Dhaka",
     "district_bn": "ঢাকা",
-    "composition_bn": "(ক) ঢাকা উত্তর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ১৫, ১৮, ১৯ ও ২০ এবং (খ) ঢাকা ক্যান্টনমেন্ট এলাকা",
+    "composition_bn": "(ক) ঢাকা উত্তর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ১৫, ১৮, ১৯ ও ২০ এবং (খ) ঢাকা ক্যান্টনমেন্ট এলাকা",
     "composition_en": "(a) Ward numbers 15, 18, 19 and 20 of Dhaka North City Corporation and (b) Dhaka Cantonment area",
-    "thana": ["Dhaka North City Corporation"],
-    "thana_bn": ["ঢাকা উত্তর সিটি কর্পোরেশন"],
-    "pauroshava": ["Dhaka North City Corporation"],
-    "pauroshava_bn": ["ঢাকা উত্তর সিটি কর্পোরেশন"],
+    "thana": ["Gulshan", "Banani", "Cantonment", "Bhashantek"],
+    "thana_bn": ["গুলশান", "বনানী", "ক্যান্টনমেন্ট", "ভাষানটেক"],
+    "pauroshava": [],
+    "pauroshava_bn": [],
     "unions": ["Ward 15", "Ward 18", "Ward 19", "Ward 20"],
     "unions_bn": ["ওয়ার্ড ১৫", "ওয়ার্ড ১৮", "ওয়ার্ড ১৯", "ওয়ার্ড ২০"],
-    "search_tags": ["Dhaka-17", "ঢাকা-১৭", "Dhaka North City Corporation", "Dhaka Cantonment"]
+    "search_tags": ["Dhaka-17", "ঢাকা-১৭", "Gulshan", "Banani", "Cantonment", "Bhashantek", "DNCC"]
   },
   {
     "id": 191,
@@ -3045,15 +3045,15 @@
     "no_bn": "ঢাকা-১৮",
     "district_en": "Dhaka",
     "district_bn": "ঢাকা",
-    "composition_bn": "ঢাকা উত্তর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ০১, ১৭, ৪৩, ৪৪, ৪৫, ৪৬, ৪৭, ৪৮, ৪৯, ৫০, ৫১, ৫২, ৫৩, ৫৪ ও বিমানবন্দর এলাকা",
+    "composition_bn": "ঢাকা উত্তর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ০১, ১৭, ৪৩, ৪৪, ৪৫, ৪৬, ৪৭, ৪৮, ৪৯, ৫০, ৫১, ৫২, ৫৩, ৫৪ ও বিমানবন্দর এলাকা",
     "composition_en": "Ward numbers 01, 17, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54 and Airport area of Dhaka North City Corporation",
-    "thana": ["Dhaka North City Corporation"],
-    "thana_bn": ["ঢাকা উত্তর সিটি কর্পোরেশন"],
-    "pauroshava": ["Dhaka North City Corporation"],
-    "pauroshava_bn": ["ঢাকা উত্তর সিটি কর্পোরেশন"],
+    "thana": ["Uttara West", "Uttara East", "Turag", "Airport", "Uttarkhan", "Dakshinkhan", "Khilkhet"],
+    "thana_bn": ["উত্তরা পশ্চিম", "উত্তরা পূর্ব", "তুরাগ", "বিমানবন্দর", "উত্তরখান", "দক্ষিণখান", "খিলক্ষেত"],
+    "pauroshava": [],
+    "pauroshava_bn": [],
     "unions": ["Ward 01", "Ward 17", "Ward 43", "Ward 44", "Ward 45", "Ward 46", "Ward 47", "Ward 48", "Ward 49", "Ward 50", "Ward 51", "Ward 52", "Ward 53", "Ward 54"],
     "unions_bn": ["ওয়ার্ড ০১", "ওয়ার্ড ১৭", "ওয়ার্ড ৪৩", "ওয়ার্ড ৪৪", "ওয়ার্ড ৪৫", "ওয়ার্ড ৪৬", "ওয়ার্ড ৪৭", "ওয়ার্ড ৪৮", "ওয়ার্ড ৪৯", "ওয়ার্ড ৫০", "ওয়ার্ড ৫১", "ওয়ার্ড ৫২", "ওয়ার্ড ৫৩", "ওয়ার্ড ৫৪"],
-    "search_tags": ["Dhaka-18", "ঢাকা-১৮", "Dhaka North City Corporation", "Airport area"]
+    "search_tags": ["Dhaka-18", "ঢাকা-১৮", "Uttara", "Turag", "Khilkhet", "Airport", "DNCC"]
   },
   {
     "id": 192,
@@ -3063,13 +3063,13 @@
     "district_bn": "ঢাকা",
     "composition_bn": "(ক) সাভার উপজেলার নিম্নলিখিত ইউনিয়নসমূহ: (১) শিমুলিয়া (২) ধামসোনা (৩) ইয়ারপুর (৪) আশুলিয়া (৫) বিরুলিয়া (৬) পাথালিয়া ইউনিয়ন ও (৭) সাভার ইউনিয়ন, (খ) সাভার পৌরসভা এবং (গ) সাভার সেনানিবাস এলাকা",
     "composition_en": "(a) the following Unions of Savar Upazila: (1) Shimulia (2) Dhamsona (3) Yearpur (4) Ashulia (5) Birulia (6) Pathalia Union and (7) Savar Union, (b) Savar Paurashava and (c) Savar Cantonment area",
-    "thana": ["Savar"],
-    "thana_bn": ["সাভার"],
+    "thana": ["Savar", "Ashulia"],
+    "thana_bn": ["সাভার", "আশুলিয়া"],
     "pauroshava": ["Savar"],
     "pauroshava_bn": ["সাভার"],
     "unions": ["Shimulia", "Dhamsona", "Yearpur", "Ashulia", "Birulia", "Pathalia", "Savar"],
     "unions_bn": ["শিমুলিয়া", "ধামসোনা", "ইয়ারপুর", "আশুলিয়া", "বিরুলিয়া", "পাথালিয়া", "সাভার"],
-    "search_tags": ["Dhaka-19", "ঢাকা-১৯", "Savar", "Savar Cantonment"]
+    "search_tags": ["Dhaka-19", "ঢাকা-১৯", "Savar", "Ashulia", "Savar Cantonment"]
   },
   {
     "id": 193,
@@ -3095,13 +3095,13 @@
     "district_bn": "গাজীপুর",
     "composition_bn": "(ক) কালিয়াকৈর উপজেলা এবং (খ) গাজীপুর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ১, ২, ৩, ৪, ৫, ৬, ৭, ৮, ৯, ১০, ১১, ১২, ১৩, ১৪, ১৫, ১৬, ১৭ এবং ১৮",
     "composition_en": "(a) Kaliakair Upazila and (b) Ward numbers 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17 and 18 of Gazipur City Corporation",
-    "thana": ["Kaliakair", "Gazipur City Corporation"],
-    "thana_bn": ["কালিয়াকৈর", "গাজীপুর সিটি কর্পোরেশন"],
+    "thana": ["Kaliakair", "Kashimpur", "Konabari"],
+    "thana_bn": ["কালিয়াকৈর", "কাশিমপুর", "কোনাবাড়ী"],
     "pauroshava": ["Kaliakair"],
     "pauroshava_bn": ["কালিয়াকৈর"],
     "unions": ["Ward 1", "Ward 2", "Ward 3", "Ward 4", "Ward 5", "Ward 6", "Ward 7", "Ward 8", "Ward 9", "Ward 10", "Ward 11", "Ward 12", "Ward 13", "Ward 14", "Ward 15", "Ward 16", "Ward 17", "Ward 18"],
     "unions_bn": ["ওয়ার্ড ১", "ওয়ার্ড ২", "ওয়ার্ড ৩", "ওয়ার্ড ৪", "ওয়ার্ড ৫", "ওয়ার্ড ৬", "ওয়ার্ড ৭", "ওয়ার্ড ৮", "ওয়ার্ড ৯", "ওয়ার্ড ১০", "ওয়ার্ড ১১", "ওয়ার্ড ১২", "ওয়ার্ড ১৩", "ওয়ার্ড ১৪", "ওয়ার্ড ১৫", "ওয়ার্ড ১৬", "ওয়ার্ড ১৭", "ওয়ার্ড ১৮"],
-    "search_tags": ["Gazipur-1", "গাজীপুর-১", "Kaliakair", "Gazipur City Corporation"]
+    "search_tags": ["Gazipur-1", "গাজীপুর-১", "Kaliakair", "Kashimpur", "Konabari", "GCC"]
   },
   {
     "id": 195,
@@ -3110,14 +3110,14 @@
     "district_en": "Gazipur",
     "district_bn": "গাজীপুর",
     "composition_bn": "(ক) গাজীপুর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ১৯, ২০, ২১, ২২, ২৩, ২৪, ২৫, ২৬, ২৭, ২৮, ২৯, ৩০, ৩১, ৩২, ৩৩, ৩৪, ৩৫, ৩৬, ৩৭, ৩৮ এবং ৩৯ (খ) গাজীপুর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ৪৩, ৪৪, ৪৫, ৪৬, ৪৭, ৪৮, ৪৯, ৫০, ৫১, ৫২, ৫৩, ৫৪, ৫৫, ৫৬ ও ৫৭ এবং (গ) গাজীপুর সেনানিবাস এলাকা",
-    "composition_en": "(a) Ward numbers 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38 and 39 of Gazipur City Corporation, (b) Ward numbers 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56 and 57 of Gazipur City Corporation and (c) Gazipur Cantonment area",
-    "thana": ["Gazipur City Corporation"],
-    "thana_bn": ["গাজীপুর সিটি কর্পোরেশন"],
-    "pauroshava": ["Gazipur City Corporation"],
-    "pauroshava_bn": ["গাজীপুর সিটি কর্পোরেশন"],
-    "unions": [],
-    "unions_bn": [],
-    "search_tags": ["Gazipur-2", "গাজীপুর-২", "Gazipur City Corporation", "Gazipur Cantonment"]
+    "composition_en": "(a) Ward numbers 19-39 of Gazipur City Corporation, (b) Ward numbers 43-57 of Gazipur City Corporation and (c) Gazipur Cantonment area",
+    "thana": ["Basan", "Gachha", "Tongi West", "Tongi East"],
+    "thana_bn": ["বাসন", "গাছা", "টঙ্গী পশ্চিম", "টঙ্গী পূর্ব"],
+    "pauroshava": [],
+    "pauroshava_bn": [],
+    "unions": ["Ward 19", "Ward 20", "Ward 21", "Ward 22", "Ward 23", "Ward 24", "Ward 25", "Ward 26", "Ward 27", "Ward 28", "Ward 29", "Ward 30", "Ward 31", "Ward 32", "Ward 33", "Ward 34", "Ward 35", "Ward 36", "Ward 37", "Ward 38", "Ward 39", "Ward 43", "Ward 44", "Ward 45", "Ward 46", "Ward 47", "Ward 48", "Ward 49", "Ward 50", "Ward 51", "Ward 52", "Ward 53", "Ward 54", "Ward 55", "Ward 56", "Ward 57"],
+    "unions_bn": ["ওয়ার্ড ১৯", "ওয়ার্ড ২০", "ওয়ার্ড ২১", "ওয়ার্ড ২২", "ওয়ার্ড ২৩", "ওয়ার্ড ২৪", "ওয়ার্ড ২৫", "ওয়ার্ড ২৬", "ওয়ার্ড ২৭", "ওয়ার্ড ২৮", "ওয়ার্ড ২৯", "ওয়ার্ড ৩০", "ওয়ার্ড ৩১", "ওয়ার্ড ৩২", "ওয়ার্ড ৩৩", "ওয়ার্ড ৩৪", "ওয়ার্ড ৩৫", "ওয়ার্ড ৩৬", "ওয়ার্ড ৩৭", "ওয়ার্ড ৩৮", "ওয়ার্ড ৩৯", "ওয়ার্ড ৪৩", "ওয়ার্ড ৪৪", "ওয়ার্ড ৪৫", "ওয়ার্ড ৪৬", "ওয়ার্ড ৪৭", "ওয়ার্ড ৪৮", "ওয়ার্ড ৪৯", "ওয়ার্ড ৫০", "ওয়ার্ড ৫১", "ওয়ার্ড ৫২", "ওয়ার্ড ৫৩", "ওয়ার্ড ৫৪", "ওয়ার্ড ৫৫", "ওয়ার্ড ৫৬", "ওয়ার্ড ৫৭"],
+    "search_tags": ["Gazipur-2", "গাজীপুর-২", "Basan", "Gachha", "Tongi", "GCC", "Gazipur Cantonment"]
   },
   {
     "id": 196,
@@ -3127,13 +3127,13 @@
     "district_bn": "গাজীপুর",
     "composition_bn": "(ক) শ্রীপুর উপজেলা এবং (খ) গাজীপুর সদর উপজেলার মির্জাপুর, ভাওয়ালগড় ও পিরুজালী ইউনিয়ন",
     "composition_en": "(a) Sreepur Upazila and (b) Mirzapur, Bhawalgarh and Pirujali Unions of Gazipur Sadar Upazila",
-    "thana": ["Sreepur", "Gazipur Sadar"],
-    "thana_bn": ["শ্রীপুর", "গাজীপুর সদর"],
+    "thana": ["Sreepur", "Joydebpur"],
+    "thana_bn": ["শ্রীপুর", "জয়দেবপুর"],
     "pauroshava": ["Sreepur"],
     "pauroshava_bn": ["শ্রীপুর"],
     "unions": ["Mirzapur", "Bhawalgarh", "Pirujali"],
     "unions_bn": ["মির্জাপুর", "ভাওয়ালগড়", "পিরুজালী"],
-    "search_tags": ["Gazipur-3", "গাজীপুর-৩", "Sreepur", "Gazipur Sadar"]
+    "search_tags": ["Gazipur-3", "গাজীপুর-৩", "Sreepur", "Joydebpur", "Mirzapur", "Bhawalgarh", "Pirujali"]
   },
   {
     "id": 197,
@@ -3157,15 +3157,15 @@
     "no_bn": "গাজীপুর-৫",
     "district_en": "Gazipur",
     "district_bn": "গাজীপুর",
-    "composition_bn": "(ক) কালিগঞ্জ উপজেলা (খ) গাজীপুর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ৪০, ৪১ ও ৪২ এবং (গ) গাজীপুর সদর উপজেলার বাড়িয়া ইউনিয়ন",
+    "composition_bn": "(ক) কালীগঞ্জ উপজেলা (খ) গাজীপুর সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ৪০, ৪১ ও ৪২ এবং (গ) গাজীপুর সদর উপজেলার বাড়িয়া ইউনিয়ন",
     "composition_en": "(a) Kaliganj Upazila, (b) Ward numbers 40, 41 and 42 of Gazipur City Corporation and (c) Baria Union of Gazipur Sadar Upazila",
-    "thana": ["Kaliganj", "Gazipur City Corporation", "Gazipur Sadar"],
-    "thana_bn": ["কালিগঞ্জ", "গাজীপুর সিটি কর্পোরেশন", "গাজীপুর সদর"],
+    "thana": ["Kaliganj", "Pubail", "Joydebpur"],
+    "thana_bn": ["কালীগঞ্জ", "পূবাইল", "জয়দেবপুর"],
     "pauroshava": ["Kaliganj"],
-    "pauroshava_bn": ["কালিগঞ্জ"],
-    "unions": ["Ward 40", "Ward 41", "Ward 42", "Baria"],
-    "unions_bn": ["ওয়ার্ড ৪০", "ওয়ার্ড ৪১", "ওয়ার্ড ৪২", "বাড়িয়া"],
-    "search_tags": ["Gazipur-5", "গাজীপুর-৫", "Kaliganj", "Gazipur City Corporation"]
+    "pauroshava_bn": ["কালীগঞ্জ"],
+    "unions": ["Baria", "Ward 40", "Ward 41", "Ward 42"],
+    "unions_bn": ["বাড়িয়া", "ওয়ার্ড ৪০", "ওয়ার্ড ৪১", "ওয়ার্ড ৪২"],
+    "search_tags": ["Gazipur-5", "গাজীপুর-৫", "Kaliganj", "Pubail", "Joydebpur", "Baria"]
   },
   {
     "id": 199,
@@ -3191,13 +3191,13 @@
     "district_bn": "নরসিংদী",
     "composition_bn": "(ক) পলাশ উপজেলা এবং (খ) নরসিংদী সদর উপজেলার নিম্নলিখিত ইউনিয়নসমূহ: (১) আমদিয়া (২) পাঁচদোনা ও (৩) মেহের পাড়া ইউনিয়ন",
     "composition_en": "(a) Palash Upazila and (b) the following Unions of Narsingdi Sadar Upazila: (1) Amdia, (2) Panchdona and (3) Meherpara Union",
-    "thana": ["Palash", "Narsingdi Sadar"],
-    "thana_bn": ["পলাশ", "নরসিংদী সদর"],
-    "pauroshava": ["Palash"],
-    "pauroshava_bn": ["পলাশ"],
+    "thana": ["Palash", "Madhabdi"],
+    "thana_bn": ["পলাশ", "মাধবদী"],
+    "pauroshava": ["Palash", "Madhabdi"],
+    "pauroshava_bn": ["পলাশ", "মাধবদী"],
     "unions": ["Amdia", "Panchdona", "Meherpara"],
     "unions_bn": ["আমদিয়া", "পাঁচদোনা", "মেহের পাড়া"],
-    "search_tags": ["Narsingdi-2", "নরসিংদী-২", "Palash", "Narsingdi Sadar"]
+    "search_tags": ["Narsingdi-2", "নরসিংদী-২", "Palash", "Madhabdi", "Amdia", "Panchdona", "Meherpara"]
   },
   {
     "id": 201,
@@ -3250,9 +3250,9 @@
   {
     "id": 204,
     "no_en": "Narayanganj-1",
-    "no_bn": "নারায়ণগঞ্জ-১",
+    "no_bn": "নারায়ণগঞ্জ-১",
     "district_en": "Narayanganj",
-    "district_bn": "নারায়ণগঞ্জ",
+    "district_bn": "নারায়ণগঞ্জ",
     "composition_bn": "রূপগঞ্জ উপজেলা",
     "composition_en": "Rupganj Upazila",
     "thana": ["Rupganj"],
@@ -3261,31 +3261,31 @@
     "pauroshava_bn": ["কাঞ্চন", "তারাবো"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Narayanganj-1", "নারায়ণগঞ্জ-১", "Rupganj"]
+    "search_tags": ["Narayanganj-1", "নারায়ণগঞ্জ-১", "Rupganj", "Kanchan", "Tarabo"]
   },
   {
     "id": 205,
     "no_en": "Narayanganj-2",
-    "no_bn": "নারায়ণগঞ্জ-২",
+    "no_bn": "নারায়ণগঞ্জ-২",
     "district_en": "Narayanganj",
-    "district_bn": "নারায়ণগঞ্জ",
-    "composition_bn": "আড়াইহাজার উপজেলা",
+    "district_bn": "নারায়ণগঞ্জ",
+    "composition_bn": "আড়াইহাজার উপজেলা",
     "composition_en": "Araihazar Upazila",
     "thana": ["Araihazar"],
-    "thana_bn": ["আড়াইহাজার"],
+    "thana_bn": ["আড়াইহাজার"],
     "pauroshava": ["Araihazar", "Gopaldi"],
-    "pauroshava_bn": ["আড়াইহাজার", "গোপালদী"],
+    "pauroshava_bn": ["আড়াইহাজার", "গোপালদী"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Narayanganj-2", "নারায়ণগঞ্জ-২", "Araihazar"]
+    "search_tags": ["Narayanganj-2", "নারায়ণগঞ্জ-২", "Araihazar", "Gopaldi"]
   },
   {
     "id": 206,
     "no_en": "Narayanganj-3",
-    "no_bn": "নারায়ণগঞ্জ-৩",
+    "no_bn": "নারায়ণগঞ্জ-৩",
     "district_en": "Narayanganj",
-    "district_bn": "নারায়ণগঞ্জ",
-    "composition_bn": "(ক) সোনারগাঁও উপজেলা এবং (খ) সিদ্ধিরগঞ্জ থানা [নারায়ণগঞ্জ সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ১ - ১০]",
+    "district_bn": "নারায়ণগঞ্জ",
+    "composition_bn": "(ক) সোনারগাঁও উপজেলা এবং (খ) সিদ্ধিরগঞ্জ থানা [নারায়ণগঞ্জ সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ১ - ১০]",
     "composition_en": "(a) Sonargaon Upazila and (b) Siddhirganj Thana [Ward numbers 1 - 10 of Narayanganj City Corporation]",
     "thana": ["Sonargaon", "Siddhirganj"],
     "thana_bn": ["সোনারগাঁও", "সিদ্ধিরগঞ্জ"],
@@ -3293,55 +3293,55 @@
     "pauroshava_bn": ["সোনারগাঁও"],
     "unions": ["Ward 1", "Ward 2", "Ward 3", "Ward 4", "Ward 5", "Ward 6", "Ward 7", "Ward 8", "Ward 9", "Ward 10"],
     "unions_bn": ["ওয়ার্ড ১", "ওয়ার্ড ২", "ওয়ার্ড ৩", "ওয়ার্ড ৪", "ওয়ার্ড ৫", "ওয়ার্ড ৬", "ওয়ার্ড ৭", "ওয়ার্ড ৮", "ওয়ার্ড ৯", "ওয়ার্ড ১০"],
-    "search_tags": ["Narayanganj-3", "নারায়ণগঞ্জ-৩", "Sonargaon", "Siddhirganj"]
+    "search_tags": ["Narayanganj-3", "নারায়ণগঞ্জ-৩", "Sonargaon", "Siddhirganj", "NCC"]
   },
   {
     "id": 207,
     "no_en": "Narayanganj-4",
-    "no_bn": "নারায়ণগঞ্জ-৪",
+    "no_bn": "নারায়ণগঞ্জ-৪",
     "district_en": "Narayanganj",
-    "district_bn": "নারায়ণগঞ্জ",
-    "composition_bn": "নারায়ণগঞ্জ সদর উপজেলার নিম্নলিখিত ইউনিয়নসমূহঃ (১) ফতুল্লা (২) এনায়েতনগর (৩) বক্তাবলী (৪) কাশিপুর (৫) কুতুবপুর (৬) গোগনগর ও (৭) আলীরটেক",
+    "district_bn": "নারায়ণগঞ্জ",
+    "composition_bn": "নারায়ণগঞ্জ সদর উপজেলার নিম্নলিখিত ইউনিয়নসমূহঃ (১) ফতুল্লা (২) এনায়েতনগর (৩) বক্তাবলী (৪) কাশিপুর (৫) কুতুবপুর (৬) গোগনগর ও (৭) আলীরটেক",
     "composition_en": "the following Unions of Narayanganj Sadar Upazila: (1) Fatulla, (2) Enayetnagar, (3) Baktabali, (4) Kashipur, (5) Kutubpur, (6) Gognagar and (7) Alirtek",
-    "thana": ["Narayanganj Sadar"],
-    "thana_bn": ["নারায়ণগঞ্জ সদর"],
+    "thana": ["Fatullah", "Narayanganj Sadar"],
+    "thana_bn": ["ফতুল্লা", "নারায়ণগঞ্জ সদর"],
     "pauroshava": [],
     "pauroshava_bn": [],
     "unions": ["Fatulla", "Enayetnagar", "Baktabali", "Kashipur", "Kutubpur", "Gognagar", "Alirtek"],
-    "unions_bn": ["ফতুল্লা", "এনায়েতনগর", "বক্তাবলী", "কাশিপুর", "কুতুবপুর", "গোগনগর", "আলীরটেক"],
-    "search_tags": ["Narayanganj-4", "নারায়ণগঞ্জ-৪", "Narayanganj Sadar", "Fatulla"]
+    "unions_bn": ["ফতুল্লা", "এনায়েতনগর", "বক্তাবলী", "কাশিপুর", "কুতুবপুর", "গোগনগর", "আলীরটেক"],
+    "search_tags": ["Narayanganj-4", "নারায়ণগঞ্জ-৪", "Fatulla", "Enayetnagar", "Baktabali", "Kashipur", "Kutubpur", "Gognagar", "Alirtek"]
   },
   {
     "id": 208,
     "no_en": "Narayanganj-5",
-    "no_bn": "নারায়ণগঞ্জ-৫",
+    "no_bn": "নারায়ণগঞ্জ-৫",
     "district_en": "Narayanganj",
-    "district_bn": "নারায়ণগঞ্জ",
-    "composition_bn": "(ক) নারায়ণগঞ্জ সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ১১ - ২৭ এবং (খ) বন্দর উপজেলা",
+    "district_bn": "নারায়ণগঞ্জ",
+    "composition_bn": "(ক) নারায়ণগঞ্জ সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ১১ - ২৭ এবং (খ) বন্দর উপজেলা",
     "composition_en": "(a) Ward numbers 11 - 27 of Narayanganj City Corporation and (b) Bandar Upazila",
-    "thana": ["Narayanganj City Corporation", "Bandar"],
-    "thana_bn": ["নারায়ণগঞ্জ সিটি কর্পোরেশন", "বন্দর"],
+    "thana": ["Narayanganj Sadar", "Bandar"],
+    "thana_bn": ["নারায়ণগঞ্জ সদর", "বন্দর"],
     "pauroshava": ["Narayanganj City Corporation"],
-    "pauroshava_bn": ["নারায়ণগঞ্জ সিটি কর্পোরেশন"],
+    "pauroshava_bn": ["নারায়ণগঞ্জ সিটি কর্পোরেশন"],
     "unions": ["Ward 11", "Ward 12", "Ward 13", "Ward 14", "Ward 15", "Ward 16", "Ward 17", "Ward 18", "Ward 19", "Ward 20", "Ward 21", "Ward 22", "Ward 23", "Ward 24", "Ward 25", "Ward 26", "Ward 27"],
     "unions_bn": ["ওয়ার্ড ১১", "ওয়ার্ড ১২", "ওয়ার্ড ১৩", "ওয়ার্ড ১৪", "ওয়ার্ড ১৫", "ওয়ার্ড ১৬", "ওয়ার্ড ১৭", "ওয়ার্ড ১৮", "ওয়ার্ড ১৯", "ওয়ার্ড ২০", "ওয়ার্ড ২১", "ওয়ার্ড ২২", "ওয়ার্ড ২৩", "ওয়ার্ড ২৪", "ওয়ার্ড ২৫", "ওয়ার্ড ২৬", "ওয়ার্ড ২৭"],
-    "search_tags": ["Narayanganj-5", "নারায়ণগঞ্জ-৫", "Narayanganj City Corporation", "Bandar"]
+    "search_tags": ["Narayanganj-5", "নারায়ণগঞ্জ-৫", "Narayanganj Sadar", "Bandar", "NCC"]
   },
   {
     "id": 209,
     "no_en": "Rajbari-1",
-    "no_bn": "রাজবাড়ী-১",
+    "no_bn": "রাজবাড়ী-১",
     "district_en": "Rajbari",
-    "district_bn": "রাজবাড়ী",
-    "composition_bn": "(ক) রাজবাড়ী সদর উপজেলা এবং (খ) গোয়ালন্দ উপজেলা",
+    "district_bn": "রাজবাড়ী",
+    "composition_bn": "(ক) রাজবাড়ী সদর উপজেলা এবং (খ) গোয়ালন্দ উপজেলা",
     "composition_en": "(a) Rajbari Sadar Upazila and (b) Goalanda Upazila",
     "thana": ["Rajbari Sadar", "Goalanda"],
-    "thana_bn": ["রাজবাড়ী সদর", "গোয়ালন্দ"],
+    "thana_bn": ["রাজবাড়ী সদর", "গোয়ালন্দ"],
     "pauroshava": ["Rajbari", "Goalanda"],
-    "pauroshava_bn": ["রাজবাড়ী", "গোয়ালন্দ"],
+    "pauroshava_bn": ["রাজবাড়ী", "গোয়ালন্দ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Rajbari-1", "রাজবাড়ী-১", "Rajbari Sadar", "Goalanda"]
+    "search_tags": ["Rajbari-1", "রাজবাড়ী-১", "Rajbari Sadar", "Goalanda"]
   },
   {
     "id": 210,
@@ -3389,7 +3389,7 @@
     "pauroshava_bn": ["নগরকান্দা"],
     "unions": ["Algi", "Hamirdi"],
     "unions_bn": ["আলগী", "হামিরদী"],
-    "search_tags": ["Faridpur-2", "ফরিদপুর-২", "Nagarkanda", "Saltha", "Bhanga"]
+    "search_tags": ["Faridpur-2", "ফরিদপুর-২", "Nagarkanda", "Saltha", "Bhanga", "Algi", "Hamirdi"]
   },
   {
     "id": 213,
@@ -3399,13 +3399,13 @@
     "district_bn": "ফরিদপুর",
     "composition_bn": "ফরিদপুর সদর উপজেলা",
     "composition_en": "Faridpur Sadar Upazila",
-    "thana": ["Faridpur Sadar"],
-    "thana_bn": ["ফরিদপুর সদর"],
+    "thana": ["Kotwali"],
+    "thana_bn": ["কোতোয়ালী"],
     "pauroshava": ["Faridpur"],
     "pauroshava_bn": ["ফরিদপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Faridpur-3", "ফরিদপুর-৩", "Faridpur Sadar"]
+    "search_tags": ["Faridpur-3", "ফরিদপুর-৩", "Faridpur Sadar", "Kotwali"]
   },
   {
     "id": 214,
@@ -3453,7 +3453,7 @@
     "pauroshava_bn": ["গোপালগঞ্জ"],
     "unions": ["Singa", "Hataira", "Puishur", "Bethuri", "Nizamkandi", "Orakandi", "Fukra"],
     "unions_bn": ["সিংগা", "হাতাইরা", "পুইশুর", "বেথুড়ী", "নিজামকান্দি", "ওড়াকান্দি", "ফুকরা"],
-    "search_tags": ["Gopalganj-2", "গোপালগঞ্জ-২", "Gopalganj Sadar", "Kashiani"]
+    "search_tags": ["Gopalganj-2", "গোপালগঞ্জ-২", "Gopalganj Sadar", "Kashiani", "Singa", "Orakandi"]
   },
   {
     "id": 217,
@@ -3465,8 +3465,8 @@
     "composition_en": "(a) Tungipara Upazila and (b) Kotalipara Upazila",
     "thana": ["Tungipara", "Kotalipara"],
     "thana_bn": ["টুঙ্গিপাড়া", "কোটালীপাড়া"],
-    "pauroshava": ["Tungipara"],
-    "pauroshava_bn": ["টুঙ্গিপাড়া"],
+    "pauroshava": ["Tungipara", "Kotalipara"],
+    "pauroshava_bn": ["টুঙ্গিপাড়া", "কোটালীপাড়া"],
     "unions": [],
     "unions_bn": [],
     "search_tags": ["Gopalganj-3", "গোপালগঞ্জ-৩", "Tungipara", "Kotalipara"]
@@ -3497,8 +3497,8 @@
     "composition_en": "(a) Rajoir Upazila and (b) Madaripur Sadar Upazila excluding the following unions:- (1) Khoajpur, (2) Jhaudi, (3) Ghatmazi, (4) Mostafapur and (5) Kendua Union",
     "thana": ["Rajoir", "Madaripur Sadar"],
     "thana_bn": ["রাজৈর", "মাদারীপুর সদর"],
-    "pauroshava": ["Madaripur"],
-    "pauroshava_bn": ["মাদারীপুর"],
+    "pauroshava": ["Rajoir", "Madaripur"],
+    "pauroshava_bn": ["রাজৈর", "মাদারীপুর"],
     "unions": [],
     "unions_bn": [],
     "search_tags": ["Madaripur-2", "মাদারীপুর-২", "Rajoir", "Madaripur Sadar"]
@@ -3517,23 +3517,23 @@
     "pauroshava_bn": ["কালকিনি"],
     "unions": ["Khoajpur", "Jhaudi", "Ghatmazi", "Mostafapur", "Kendua"],
     "unions_bn": ["খোয়াজপুর", "ঝাউদি", "ঘটমাঝি", "মোস্তফাপুর", "কেন্দুয়া"],
-    "search_tags": ["Madaripur-3", "মাদারীপুর-৩", "Kalkini", "Dasar", "Madaripur Sadar"]
+    "search_tags": ["Madaripur-3", "মাদারীপুর-৩", "Kalkini", "Dasar", "Khoajpur", "Kendua"]
   },
   {
     "id": 221,
     "no_en": "Shariatpur-1",
-    "no_bn": "শরীয়তপুর-১",
+    "no_bn": "শরীয়তপুর-১",
     "district_en": "Shariatpur",
-    "district_bn": "শরীয়তপুর",
-    "composition_bn": "(ক) শরীয়তপুর সদর উপজেলা এবং (খ) জাজিরা উপজেলা",
+    "district_bn": "শরীয়তপুর",
+    "composition_bn": "(ক) শরীয়তপুর সদর উপজেলা এবং (খ) জাজিরা উপজেলা",
     "composition_en": "(a) Shariatpur Sadar Upazila and (b) Jajira Upazila",
-    "thana": ["Shariatpur Sadar", "Jajira"],
-    "thana_bn": ["শরীয়তপুর সদর", "জাজিরা"],
+    "thana": ["Palong", "Jajira"],
+    "thana_bn": ["পালং", "জাজিরা"],
     "pauroshava": ["Shariatpur", "Jajira"],
-    "pauroshava_bn": ["শরীয়তপুর", "জাজিরা"],
+    "pauroshava_bn": ["শরীয়তপুর", "জাজিরা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Shariatpur-1", "শরীয়তপুর-১", "Shariatpur Sadar", "Jajira"]
+    "search_tags": ["Shariatpur-1", "শরীয়তপুর-১", "Shariatpur Sadar", "Palong", "Jajira"]
   },
   {
     "id": 222,
@@ -3541,15 +3541,15 @@
     "no_bn": "শরীয়তপুর-২",
     "district_en": "Shariatpur",
     "district_bn": "শরীয়তপুর",
-    "composition_bn": "(ক) নড়িয়া উপজেলা এবং (খ) ভেদরগঞ্জ উপজেলার ইউনিয়নসমূহ [সখিপুর থানা: (১) আরশিনগর, (২) কাচিকঁাটা, (৩) চরকুমারিয়া, (৪) চরভাগা, (৫) চরসেনসাস, (৬) উত্তর তারাবুনিয়া, (৭) দক্ষিণ তারাবুনিয়া, (৮) ডি এম খালি ও (৯) সখিপুর ইউনিয়ন।]",
-    "composition_en": "(a) Naria Upazila and (b) the Unions of Bhedarganj Upazila [Sakhipur Thana: (1) Arshinagar, (2) Kachikata, (3) Char Kumaria, (4) Char Bhaga, (5) Char Sensus, (6) Uttar Tarabunia, (7) Dakshin Tarabunia, (8) D M Khali and (9) Sakhipur Union.]",
-    "thana": ["Naria", "Bhedarganj"],
-    "thana_bn": ["নড়িয়া", "ভেদরগঞ্জ"],
+    "composition_bn": "(ক) নড়িয়া উপজেলা এবং (খ) ভেদরগঞ্জ উপজেলার সখিপুর থানার ইউনিয়নসমূহ: (১) আরশিনগর, (২) কাচিকঁাটা, (৩) চরকুমারিয়া, (৪) চরভাগা, (৫) চরসেনসাস, (৬) উত্তর তারাবুনিয়া, (৭) দক্ষিণ তারাবুনিয়া, (৮) ডি এম খালি ও (৯) সখিপুর ইউনিয়ন",
+    "composition_en": "(a) Naria Upazila and (b) the Unions under Sakhipur Thana of Bhedarganj Upazila: (1) Arshinagar, (2) Kachikata, (3) Char Kumaria, (4) Char Bhaga, (5) Char Sensus, (6) Uttar Tarabunia, (7) Dakshin Tarabunia, (8) D M Khali and (9) Sakhipur Union",
+    "thana": ["Naria", "Sakhipur"],
+    "thana_bn": ["নড়িয়া", "সখিপুর"],
     "pauroshava": ["Naria"],
     "pauroshava_bn": ["নড়িয়া"],
     "unions": ["Arshinagar", "Kachikata", "Char Kumaria", "Char Bhaga", "Char Sensus", "Uttar Tarabunia", "Dakshin Tarabunia", "D M Khali", "Sakhipur"],
     "unions_bn": ["আরশিনগর", "কাচিকঁাটা", "চরকুমারিয়া", "চরভাগা", "চরসেনসাস", "উত্তর তারাবুনিয়া", "দক্ষিণ তারাবুনিয়া", "ডি এম খালি", "সখিপুর"],
-    "search_tags": ["Shariatpur-2", "শরীয়তপুর-২", "Naria", "Bhedarganj", "Sakhipur"]
+    "search_tags": ["Shariatpur-2", "শরীয়তপুর-২", "Naria", "Sakhipur", "Bhedarganj"]
   },
   {
     "id": 223,
@@ -3557,8 +3557,8 @@
     "no_bn": "শরীয়তপুর-৩",
     "district_en": "Shariatpur",
     "district_bn": "শরীয়তপুর",
-    "composition_bn": "(ক) ডামুড্যা উপজেলা (খ) গোসাইরহাট উপজেলা (গ) ভেদরগঞ্জ উপজেলার নিম্নলিখিত ইউনিয়নসমূহ :- (১) ছয়গাঁও, (২) নারায়ণপুর, (৩) মহিষার ও (৪) রামভদ্রপুর ইউনিয়ন এবং (ঘ) ভেদরগঞ্জ পৌরসভা।",
-    "composition_en": "(a) Damudya Upazila, (b) Gosairhat Upazila, (c) the following Unions of Bhedarganj Upazila :- (1) Chhaygaon, (2) Narayanpur, (3) Mahishar and (4) Rambhadrapur Union and (d) Bhedarganj Paurashava.",
+    "composition_bn": "(ক) ডামুড্যা উপজেলা (খ) গোসাইরহাট উপজেলা (গ) ভেদরগঞ্জ উপজেলার ভেদরগঞ্জ থানার নিম্নলিখিত ইউনিয়নসমূহ: (১) ছয়গাঁও, (২) নারায়ণপুর, (৩) মহিষার ও (৪) রামভদ্রপুর এবং (ঘ) ভেদরগঞ্জ পৌরসভা",
+    "composition_en": "(a) Damudya Upazila, (b) Gosairhat Upazila, (c) the following Unions under Bhedarganj Thana of Bhedarganj Upazila: (1) Chhaygaon, (2) Narayanpur, (3) Mahishar and (4) Rambhadrapur and (d) Bhedarganj Paurashava",
     "thana": ["Damudya", "Gosairhat", "Bhedarganj"],
     "thana_bn": ["ডামুড্যা", "গোসাইরহাট", "ভেদরগঞ্জ"],
     "pauroshava": ["Damudya", "Bhedarganj"],
@@ -3597,7 +3597,7 @@
     "pauroshava_bn": ["দিরাই"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Sunamganj-2", "সুনামগঞ্জ-২", "Derai", "Sullah"]
+    "search_tags": ["Sunamganj-2", "সুনামগঞ্জ-২", "Derai", "Sullah", "Derai Paurashava"]
   },
   {
     "id": 226,
@@ -3613,7 +3613,7 @@
     "pauroshava_bn": ["জগন্নাথপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Sunamganj-3", "সুনামগঞ্জ-৩", "Jagannathpur", "Shantiganj"]
+    "search_tags": ["Sunamganj-3", "সুনামগঞ্জ-৩", "Jagannathpur", "Shantiganj", "Jagannathpur Paurashava"]
   },
   {
     "id": 227,
@@ -3629,7 +3629,7 @@
     "pauroshava_bn": ["সুনামগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Sunamganj-4", "সুনামগঞ্জ-৪", "Sunamganj Sadar", "Bishwamvarpur"]
+    "search_tags": ["Sunamganj-4", "সুনামগঞ্জ-৪", "Sunamganj Sadar", "Bishwamvarpur", "Sunamganj Paurashava"]
   },
   {
     "id": 228,
@@ -3655,13 +3655,13 @@
     "district_bn": "সিলেট",
     "composition_bn": "(ক) সিলেট সিটি কর্পোরেশনের ওয়ার্ড নম্বর-১, ২, ৩, ৪, ৫, ৬, ৭, ৮, ৯, ১০, ১১, ১২, ১৩, ১৪, ১৫, ১৬, ১৭, ১৮, ১৯, ২০, ২১, ২২, ২৩, ২৪, ২৫, ২৬, ২৭, ৩১, ৩২, ৩৩, ৩৪, ৩৫, ৩৬, ৩৭, ৩৮ ও ৩৯ এবং (খ) সিলেট সদর উপজেলা",
     "composition_en": "(a) Ward numbers 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 31, 32, 33, 34, 35, 36, 37, 38 and 39 of Sylhet City Corporation and (b) Sylhet Sadar Upazila",
-    "thana": ["Sylhet Sadar"],
-    "thana_bn": ["সিলেট সদর"],
+    "thana": ["Kotwali", "Shahporan", "Airport", "Jalalabad", "Sylhet Sadar"],
+    "thana_bn": ["কোতোয়ালী", "শাহপরাণ", "এয়ারপোর্ট", "জালালাবাদ", "সিলেট সদর"],
     "pauroshava": ["Sylhet City Corporation"],
     "pauroshava_bn": ["সিলেট সিটি কর্পোরেশন"],
     "unions": ["Ward 1", "Ward 2", "Ward 3", "Ward 4", "Ward 5", "Ward 6", "Ward 7", "Ward 8", "Ward 9", "Ward 10", "Ward 11", "Ward 12", "Ward 13", "Ward 14", "Ward 15", "Ward 16", "Ward 17", "Ward 18", "Ward 19", "Ward 20", "Ward 21", "Ward 22", "Ward 23", "Ward 24", "Ward 25", "Ward 26", "Ward 27", "Ward 31", "Ward 32", "Ward 33", "Ward 34", "Ward 35", "Ward 36", "Ward 37", "Ward 38", "Ward 39"],
     "unions_bn": ["ওয়ার্ড ১", "ওয়ার্ড ২", "ওয়ার্ড ৩", "ওয়ার্ড ৪", "ওয়ার্ড ৫", "ওয়ার্ড ৬", "ওয়ার্ড ৭", "ওয়ার্ড ৮", "ওয়ার্ড ৯", "ওয়ার্ড ১০", "ওয়ার্ড ১১", "ওয়ার্ড ১২", "ওয়ার্ড ১৩", "ওয়ার্ড ১৪", "ওয়ার্ড ১৫", "ওয়ার্ড ১৬", "ওয়ার্ড ১৭", "ওয়ার্ড ১৮", "ওয়ার্ড ১৯", "ওয়ার্ড ২০", "ওয়ার্ড ২১", "ওয়ার্ড ২২", "ওয়ার্ড ২৩", "ওয়ার্ড ২৪", "ওয়ার্ড ২৫", "ওয়ার্ড ২৬", "ওয়ার্ড ২৭", "ওয়ার্ড ৩১", "ওয়ার্ড ৩২", "ওয়ার্ড ৩৩", "ওয়ার্ড ৩৪", "ওয়ার্ড ৩৫", "ওয়ার্ড ৩৬", "ওয়ার্ড ৩৭", "ওয়ার্ড ৩৮", "ওয়ার্ড ৩৯"],
-    "search_tags": ["Sylhet-1", "সিলেট-১", "Sylhet City Corporation", "Sylhet Sadar"]
+    "search_tags": ["Sylhet-1", "সিলেট-১", "Sylhet City Corporation", "SCC", "Kotwali", "Shahporan", "Airport"]
   },
   {
     "id": 230,
@@ -3687,13 +3687,13 @@
     "district_bn": "সিলেট",
     "composition_bn": "(ক) সিলেট সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ২৮, ২৯, ৩০, ৪০, ৪১ ও ৪২ (খ) দক্ষিণ সুরমা উপজেলা (গ) ফেঞ্চুগঞ্জ উপজেলা এবং (ঘ) বালাগঞ্জ উপজেলা",
     "composition_en": "(a) Ward numbers 28, 29, 30, 40, 41 and 42 of Sylhet City Corporation, (b) Dakshin Surma Upazila, (c) Fenchuganj Upazila and (d) Balaganj Upazila",
-    "thana": ["Dakshin Surma", "Fenchuganj", "Balaganj"],
-    "thana_bn": ["দক্ষিণ সুরমা", "ফেঞ্চুগঞ্জ", "বালাগঞ্জ"],
-    "pauroshava": [],
-    "pauroshava_bn": [],
+    "thana": ["Dakshin Surma", "Moglabazar", "Fenchuganj", "Balaganj"],
+    "thana_bn": ["দক্ষিণ সুরমা", "মগলাবাজার", "ফেঞ্চুগঞ্জ", "বালাগঞ্জ"],
+    "pauroshava": ["Sylhet City Corporation"],
+    "pauroshava_bn": ["সিলেট সিটি কর্পোরেশন"],
     "unions": ["Ward 28", "Ward 29", "Ward 30", "Ward 40", "Ward 41", "Ward 42"],
     "unions_bn": ["ওয়ার্ড ২৮", "ওয়ার্ড ২৯", "ওয়ার্ড ৩০", "ওয়ার্ড ৪০", "ওয়ার্ড ৪১", "ওয়ার্ড ৪২"],
-    "search_tags": ["Sylhet-3", "সিলেট-৩", "Dakshin Surma", "Fenchuganj", "Balaganj"]
+    "search_tags": ["Sylhet-3", "সিলেট-৩", "Dakshin Surma", "Moglabazar", "Fenchuganj", "Balaganj", "SCC"]
   },
   {
     "id": 232,
@@ -3741,7 +3741,7 @@
     "pauroshava_bn": ["বিয়ানীবাজার", "গোলাপগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Sylhet-6", "সিলেট-৬", "Beani Bazar", "Golapganj"]
+    "search_tags": ["Sylhet-6", "সিলেট-৬", "Beani Bazar", "Golapganj", "Beani Bazar Paurashava", "Golapganj Paurashava"]
   },
   {
     "id": 235,
@@ -3757,7 +3757,7 @@
     "pauroshava_bn": ["বড়লেখা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Moulvibazar-1", "মৌলভীবাজার-১", "Barlekha", "Juri"]
+    "search_tags": ["Moulvibazar-1", "মৌলভীবাজার-১", "Barlekha", "Juri", "Barlekha Paurashava"]
   },
   {
     "id": 236,
@@ -3773,7 +3773,7 @@
     "pauroshava_bn": ["কুলাউড়া"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Moulvibazar-2", "মৌলভীবাজার-২", "Kulaura"]
+    "search_tags": ["Moulvibazar-2", "মৌলভীবাজার-২", "Kulaura", "Kulaura Paurashava"]
   },
   {
     "id": 237,
@@ -3789,7 +3789,7 @@
     "pauroshava_bn": ["মৌলভীবাজার"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Moulvibazar-3", "মৌলভীবাজার-৩", "Moulvibazar Sadar", "Rajnagar"]
+    "search_tags": ["Moulvibazar-3", "মৌলভীবাজার-৩", "Moulvibazar Sadar", "Rajnagar", "Moulvibazar Paurashava"]
   },
   {
     "id": 238,
@@ -3805,7 +3805,7 @@
     "pauroshava_bn": ["শ্রীমঙ্গল", "কমলগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Moulvibazar-4", "মৌলভীবাজার-৪", "Sreemangal", "Kamalganj"]
+    "search_tags": ["Moulvibazar-4", "মৌলভীবাজার-৪", "Sreemangal", "Kamalganj", "Sreemangal Paurashava", "Kamalganj Paurashava"]
   },
   {
     "id": 239,
@@ -3821,7 +3821,7 @@
     "pauroshava_bn": ["নবীগঞ্জ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Habiganj-1", "হবিগঞ্জ-১", "Nabiganj", "Bahubal"]
+    "search_tags": ["Habiganj-1", "হবিগঞ্জ-১", "Nabiganj", "Bahubal", "Nabiganj Paurashava"]
   },
   {
     "id": 240,
@@ -3893,15 +3893,15 @@
     "no_bn": "ব্রাহ্মণবাড়িয়া-২",
     "district_en": "Brahmanbaria",
     "district_bn": "ব্রাহ্মণবাড়িয়া",
-    "composition_bn": "(ক) সরাইল উপজেলা এবং (খ) আশুগঞ্জ উপজেলা এবং (গ) বিজয়নগর উপজেলার নিম্নলিখিত ইউনিয়নসমূহ : (১) বুধন্তি ইউনিয়ন ও (২) চান্দুরা ইউনিয়ন।",
-    "composition_en": "(a) Sarail Upazila and (b) Ashuganj Upazila and (c) the following Unions of Bijoynagar Upazila: (1) Budhanti Union and (2) Chandura Union",
+    "composition_bn": "(ক) সরাইল উপজেলা (খ) আশুগঞ্জ উপজেলা এবং (গ) বিজয়নগর উপজেলার নিম্নলিখিত ইউনিয়নসমূহ :- (১) বুধন্তি ও (২) চান্দুরা ইউনিয়ন",
+    "composition_en": "(a) Sarail Upazila, (b) Ashuganj Upazila and (c) the following Unions of Bijoynagar Upazila :- (1) Budhanti and (2) Chandura Union",
     "thana": ["Sarail", "Ashuganj", "Bijoynagar"],
     "thana_bn": ["সরাইল", "আশুগঞ্জ", "বিজয়নগর"],
     "pauroshava": [],
     "pauroshava_bn": [],
     "unions": ["Budhanti", "Chandura"],
     "unions_bn": ["বুধন্তি", "চান্দুরা"],
-    "search_tags": ["Brahmanbaria-2", "ব্রাহ্মণবাড়িয়া-২", "Sarail", "Ashuganj", "Bijoynagar"]
+    "search_tags": ["Brahmanbaria-2", "ব্রাহ্মণবাড়িয়া-২", "Sarail", "Ashuganj", "Bijoynagar", "Budhanti", "Chandura"]
   },
   {
     "id": 245,
@@ -3909,15 +3909,15 @@
     "no_bn": "ব্রাহ্মণবাড়িয়া-৩",
     "district_en": "Brahmanbaria",
     "district_bn": "ব্রাহ্মণবাড়িয়া",
-    "composition_bn": "(ক) ব্রাহ্মণবাড়িয়া সদর উপজেলা এবং (খ) বিজয়নগর উপজেলার নিম্নলিখিত ইউনিয়নসমূহ : (১) ইছাপুরা (২) চম্পকনগর (৩) পত্তন (৪) দক্ষিণ সিংগারবিল (৫) বিষ্ণুপুর (৬) চর ইসলামপুর (৭) পাহাড়পুর ইউনিয়ন ও (৮) হরষপুর ইউনিয়ন।",
-    "composition_en": "(a) Brahmanbaria Sadar Upazila and (b) the following Unions of Bijoynagar Upazila: (1) Ichhapura (2) Champaknagar (3) Pattan (4) Dakshin Singarbil (5) Bishnupur (6) Char Islampur (7) Paharpur Union and (8) Horashpur Union",
+    "composition_bn": "(ক) ব্রাহ্মণবাড়িয়া সদর উপজেলা এবং (খ) বিজয়নগর উপজেলার নিম্নলিখিত ইউনিয়নসমূহ :- (১) ইছাপুরা (২) চম্পকনগর (৩) পত্তন (৪) দক্ষিণ সিংগারবিল (৫) বিষ্ণুপুর (৬) চর ইসলামপুর (৭) পাহাড়পুর ও (৮) হরষপুর ইউনিয়ন",
+    "composition_en": "(a) Brahmanbaria Sadar Upazila and (b) the following Unions of Bijoynagar Upazila :- (1) Ichhapura, (2) Champaknagar, (3) Pattan, (4) Dakshin Singarbil, (5) Bishnupur, (6) Char Islampur, (7) Paharpur and (8) Horashpur Union",
     "thana": ["Brahmanbaria Sadar", "Bijoynagar"],
     "thana_bn": ["ব্রাহ্মণবাড়িয়া সদর", "বিজয়নগর"],
     "pauroshava": ["Brahmanbaria"],
     "pauroshava_bn": ["ব্রাহ্মণবাড়িয়া"],
     "unions": ["Ichhapura", "Champaknagar", "Pattan", "Dakshin Singarbil", "Bishnupur", "Char Islampur", "Paharpur", "Horashpur"],
     "unions_bn": ["ইছাপুরা", "চম্পকনগর", "পত্তন", "দক্ষিণ সিংগারবিল", "বিষ্ণুপুর", "চর ইসলামপুর", "পাহাড়পুর", "হরষপুর"],
-    "search_tags": ["Brahmanbaria-3", "ব্রাহ্মণবাড়িয়া-৩", "Brahmanbaria Sadar", "Bijoynagar"]
+    "search_tags": ["Brahmanbaria-3", "ব্রাহ্মণবাড়িয়া-৩", "Brahmanbaria Sadar", "Bijoynagar", "Ichhapura", "Paharpur"]
   },
   {
     "id": 246,
@@ -3933,7 +3933,7 @@
     "pauroshava_bn": ["আখাউড়া", "কসবা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Brahmanbaria-4", "ব্রাহ্মণবাড়িয়া-৪", "Akhaura", "Kasba"]
+    "search_tags": ["Brahmanbaria-4", "ব্রাহ্মণবাড়িয়া-৪", "Akhaura", "Kasba", "Akhaura Paurashava", "Kasba Paurashava"]
   },
   {
     "id": 247,
@@ -3949,7 +3949,7 @@
     "pauroshava_bn": ["নবীনগর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Brahmanbaria-5", "ব্রাহ্মণবাড়িয়া-৫", "Nabinagar"]
+    "search_tags": ["Brahmanbaria-5", "ব্রাহ্মণবাড়িয়া-৫", "Nabinagar", "Nabinagar Paurashava"]
   },
   {
     "id": 248,
@@ -3965,7 +3965,7 @@
     "pauroshava_bn": ["বাঞ্ছারামপুর"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Brahmanbaria-6", "ব্রাহ্মণবাড়িয়া-৬", "Bancharampur"]
+    "search_tags": ["Brahmanbaria-6", "ব্রাহ্মণবাড়িয়া-৬", "Bancharampur", "Bancharampur Paurashava"]
   },
   {
     "id": 249,
@@ -3981,7 +3981,7 @@
     "pauroshava_bn": ["দাউদকান্দি"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Cumilla-1", "কুমিল্লা-১", "Daudkandi", "Meghna"]
+    "search_tags": ["Cumilla-1", "কুমিল্লা-১", "Daudkandi", "Meghna", "Daudkandi Paurashava"]
   },
   {
     "id": 250,
@@ -3997,7 +3997,7 @@
     "pauroshava_bn": ["হোমনা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Cumilla-2", "কুমিল্লা-২", "Homna", "Titas"]
+    "search_tags": ["Cumilla-2", "কুমিল্লা-২", "Homna", "Titas", "Homna Paurashava"]
   },
   {
     "id": 251,
@@ -4007,13 +4007,13 @@
     "district_bn": "কুমিল্লা",
     "composition_bn": "মুরাদনগর উপজেলা",
     "composition_en": "Muradnagar Upazila",
-    "thana": ["Muradnagar"],
-    "thana_bn": ["মুরাদনগর"],
+    "thana": ["Muradnagar", "Bangra Bazar"],
+    "thana_bn": ["মুরাদনগর", "বাঙ্গরা বাজার"],
     "pauroshava": [],
     "pauroshava_bn": [],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Cumilla-3", "কুমিল্লা-৩", "Muradnagar"]
+    "search_tags": ["Cumilla-3", "কুমিল্লা-৩", "Muradnagar", "Bangra Bazar"]
   },
   {
     "id": 252,
@@ -4029,7 +4029,7 @@
     "pauroshava_bn": ["দেবিদ্বার"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Cumilla-4", "কুমিল্লা-৪", "Debidwar"]
+    "search_tags": ["Cumilla-4", "কুমিল্লা-৪", "Debidwar", "দেবিদ্বার"]
   },
   {
     "id": 253,
@@ -4045,7 +4045,7 @@
     "pauroshava_bn": [],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Cumilla-5", "কুমিল্লা-৫", "Brahmanpara", "Burichang"]
+    "search_tags": ["Cumilla-5", "কুমিল্লা-৫", "Brahmanpara", "Burichang", "ব্রাহ্মণপাড়া", "বুড়িচং"]
   },
   {
     "id": 254,
@@ -4055,13 +4055,13 @@
     "district_bn": "কুমিল্লা",
     "composition_bn": "(ক) কুমিল্লা আদর্শ সদর উপজেলা (খ) কুমিল্লা সিটি কর্পোরেশন (গ) কুমিল্লা সেনানিবাস এলাকা এবং (ঘ) কুমিল্লা সদর দক্ষিণ উপজেলা",
     "composition_en": "(a) Cumilla Adarsha Sadar Upazila, (b) Cumilla City Corporation, (c) Cumilla Cantonment Area and (d) Cumilla Sadar Dakshin Upazila",
-    "thana": ["Cumilla Adarsha Sadar", "Cumilla Sadar Dakshin"],
-    "thana_bn": ["কুমিল্লা আদর্শ সদর", "কুমিল্লা সদর দক্ষিণ"],
+    "thana": ["Kotwali", "Cumilla Sadar Dakshin", "Mainamati"],
+    "thana_bn": ["কোতোয়ালী", "কুমিল্লা সদর দক্ষিণ", "ময়নামতি"],
     "pauroshava": ["Cumilla City Corporation"],
     "pauroshava_bn": ["কুমিল্লা সিটি কর্পোরেশন"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Cumilla-6", "কুমিল্লা-৬", "Cumilla Adarsha Sadar", "Cumilla City Corporation", "Cumilla Cantonment", "Cumilla Sadar Dakshin"]
+    "search_tags": ["Cumilla-6", "কুমিল্লা-৬", "Adarsha Sadar", "City Corporation", "Sadar Dakshin", "Cantonment", "COCC"]
   },
   {
     "id": 255,
@@ -4077,7 +4077,7 @@
     "pauroshava_bn": ["চান্দিনা"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Cumilla-7", "কুমিল্লা-৭", "Chandina"]
+    "search_tags": ["Cumilla-7", "কুমিল্লা-৭", "Chandina", "চান্দিনা"]
   },
   {
     "id": 256,
@@ -4093,7 +4093,7 @@
     "pauroshava_bn": ["বরুড়া"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Cumilla-8", "কুমিল্লা-৮", "Barura"]
+    "search_tags": ["Cumilla-8", "কুমিল্লা-৮", "Barura", "বরুড়া"]
   },
   {
     "id": 257,
@@ -4109,7 +4109,7 @@
     "pauroshava_bn": ["লাকসাম"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Cumilla-9", "কুমিল্লা-৯", "Monohargonj", "Laksam"]
+    "search_tags": ["Cumilla-9", "কুমিল্লা-৯", "Monohargonj", "Laksam", "মনোহরগঞ্জ", "লাকসাম"]
   },
   {
     "id": 258,
@@ -4274,9 +4274,9 @@
   {
     "id": 268,
     "no_en": "Noakhali-1",
-    "no_bn": "নোয়াখালী-১",
+    "no_bn": "নোয়াখালী-১",
     "district_en": "Noakhali",
-    "district_bn": "নোয়াখালী",
+    "district_bn": "নোয়াখালী",
     "composition_bn": "(ক) চাটখিল উপজেলা এবং (খ) সোনাইমুড়ী উপজেলার নিম্নলিখিত ইউনিয়নসমূহ: (১) জয়াগ (২) নদনা (৩) চাষীরহাট (৪) বজরা (৫) সোনাপুর (৬) দেওটি ও (৭) আমিশাপাড়া ইউনিয়ন এবং (গ) সোনাইমুড়ী পৌরসভা",
     "composition_en": "(a) Chatkhil Upazila, (b) the following Unions of Sonaimuri Upazila: (1) Joyag, (2) Nadona, (3) Chashirhat, (4) Bazra, (5) Sonapur, (6) Deoti and (7) Amishapara Union, and (c) Sonaimuri Paurashava",
     "thana": ["Chatkhil", "Sonaimuri"],
@@ -4285,14 +4285,14 @@
     "pauroshava_bn": ["চাটখিল", "সোনাইমুড়ী"],
     "unions": ["Joyag", "Nadona", "Chashirhat", "Bazra", "Sonapur", "Deoti", "Amishapara"],
     "unions_bn": ["জয়াগ", "নদনা", "চাশীরহাট", "বজরা", "সোনাপুর", "দেওটি", "আমিশাপাড়া"],
-    "search_tags": ["Noakhali-1", "নোয়াখালী-১", "Chatkhil", "Sonaimuri"]
+    "search_tags": ["Noakhali-1", "নোয়াখালী-১", "Chatkhil", "Sonaimuri", "Joyag", "Bazra"]
   },
   {
     "id": 269,
     "no_en": "Noakhali-2",
-    "no_bn": "নোয়াখালী-২",
+    "no_bn": "নোয়াখালী-২",
     "district_en": "Noakhali",
-    "district_bn": "নোয়াখালী",
+    "district_bn": "নোয়াখালী",
     "composition_bn": "(ক) সেনবাগ উপজেলা এবং (খ) সোনাইমুড়ী উপজেলার নিম্নলিখিত ইউনিয়নসমূহ : (১) বারগাঁও (২) নাটেশ্বর ও (৩) আম্বর নগর ইউনিয়ন",
     "composition_en": "(a) Senbagh Upazila and (b) the following Unions of Sonaimuri Upazila: (1) Bargaon, (2) Nateshwar and (3) Ambar Nagar Union",
     "thana": ["Senbagh", "Sonaimuri"],
@@ -4301,62 +4301,62 @@
     "pauroshava_bn": ["সেনবাগ"],
     "unions": ["Bargaon", "Nateshwar", "Ambar Nagar"],
     "unions_bn": ["বারগাঁও", "নাটেশ্বর", "আম্বর নগর"],
-    "search_tags": ["Noakhali-2", "নোয়াখালী-২", "Senbagh", "Sonaimuri"]
+    "search_tags": ["Noakhali-2", "নোয়াখালী-২", "Senbagh", "Sonaimuri", "Bargaon", "Nateshwar"]
   },
   {
     "id": 270,
     "no_en": "Noakhali-3",
-    "no_bn": "নোয়াখালী-৩",
+    "no_bn": "নোয়াখালী-৩",
     "district_en": "Noakhali",
-    "district_bn": "নোয়াখালী",
+    "district_bn": "নোয়াখালী",
     "composition_bn": "বেগমগঞ্জ উপজেলা",
     "composition_en": "Begumganj Upazila",
     "thana": ["Begumganj"],
     "thana_bn": ["বেগমগঞ্জ"],
-    "pauroshava": ["Choumnhani"],
+    "pauroshava": ["Choumuhani"],
     "pauroshava_bn": ["চৌমুহনী"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Noakhali-3", "নোয়াখালী-৩", "Begumganj"]
+    "search_tags": ["Noakhali-3", "নোয়াখালী-৩", "Begumganj", "Choumuhani"]
   },
   {
     "id": 271,
     "no_en": "Noakhali-4",
-    "no_bn": "নোয়াখালী-৪",
+    "no_bn": "নোয়াখালী-৪",
     "district_en": "Noakhali",
-    "district_bn": "নোয়াখালী",
+    "district_bn": "নোয়াখালী",
     "composition_bn": "(ক) সুবর্ণচর উপজেলা এবং (খ) নোয়াখালী সদর উপজেলার নিম্নলিখিত ইউনিয়নসমূহ:- (১) চরমটুয়া (২) দাদপুর (৩) নোয়ান্নই (৪) কাদিরহানিফ (৫) বিনোদপুর (৬) নোয়াখালী (৭) ধর্মপুর (৮) এওজবালিয়া (৯) কালদরাপ (১০) পূর্ব চরমটুয়া ও (১১) আন্ডারচর ইউনিয়ন (গ) নোয়াখালী পৌরসভা",
     "composition_en": "(a) Subarnachar Upazila, (b) the following Unions of Noakhali Sadar Upazila: (1) Charmatua, (2) Dadpur, (3) Noannai, (4) Kadirhanif, (5) Binodpur, (6) Noakhali, (7) Dharmapur, (8) Eojbalia, (9) Kaldarap, (10) Purba Charmatua and (11) Undarchar Union, and (c) Noakhali Paurashava",
-    "thana": ["Subarnachar", "Noakhali Sadar"],
-    "thana_bn": ["সুবর্ণচর", "নোয়াখালী সদর"],
+    "thana": ["Subarnachar", "Sudharam"],
+    "thana_bn": ["সুবর্ণচর", "সুধারাম"],
     "pauroshava": ["Noakhali"],
     "pauroshava_bn": ["নোয়াখালী"],
     "unions": ["Charmatua", "Dadpur", "Noannai", "Kadirhanif", "Binodpur", "Noakhali", "Dharmapur", "Eojbalia", "Kaldarap", "Purba Charmatua", "Undarchar"],
     "unions_bn": ["চরমটুয়া", "দাদপুর", "নোয়ান্নই", "কাদিরহানিফ", "বিনোদপুর", "নোয়াখালী", "ধর্মপুর", "এওজবালিয়া", "কালদরাপ", "পূর্ব চরমটুয়া", "আন্ডারচর"],
-    "search_tags": ["Noakhali-4", "নোয়াখালী-৪", "Subarnachar", "Noakhali Sadar"]
+    "search_tags": ["Noakhali-4", "নোয়াখালী-৪", "Subarnachar", "Sudharam", "Noakhali Sadar"]
   },
   {
     "id": 272,
     "no_en": "Noakhali-5",
-    "no_bn": "নোয়াখালী-৫",
+    "no_bn": "নোয়াখালী-৫",
     "district_en": "Noakhali",
-    "district_bn": "নোয়াখালী",
+    "district_bn": "নোয়াখালী",
     "composition_bn": "(ক) কবিরহাট উপজেলা (খ) কোম্পানীগঞ্জ উপজেলা এবং (গ) নোয়াখালী সদর উপজেলার নিম্নলিখিত ইউনিয়নসমূহ: (১) অশ্বদিয়া ও (২) নেওয়াজপুর ইউনিয়ন",
     "composition_en": "(a) Kabirhat Upazila, (b) Companiganj Upazila and (c) the following Unions of Noakhali Sadar Upazila: (1) Aswadia and (2) Newazpur Union",
-    "thana": ["Kabirhat", "Companiganj", "Noakhali Sadar"],
-    "thana_bn": ["কবিরহাট", "কোম্পানীগঞ্জ", "নোয়াখালী সদর"],
+    "thana": ["Kabirhat", "Companiganj", "Sudharam"],
+    "thana_bn": ["কবিরহাট", "কোম্পানীগঞ্জ", "সুধারাম"],
     "pauroshava": ["Kabirhat", "Basurhat"],
     "pauroshava_bn": ["কবিরহাট", "বসুরহাট"],
     "unions": ["Aswadia", "Newazpur"],
     "unions_bn": ["অশ্বদিয়া", "নেওয়াজপুর"],
-    "search_tags": ["Noakhali-5", "নোয়াখালী-৫", "Kabirhat", "Companiganj", "Noakhali Sadar"]
+    "search_tags": ["Noakhali-5", "নোয়াখালী-৫", "Kabirhat", "Companiganj", "Noakhali Sadar"]
   },
   {
     "id": 273,
     "no_en": "Noakhali-6",
-    "no_bn": "নোয়াখালী-৬",
+    "no_bn": "নোয়াখালী-৬",
     "district_en": "Noakhali",
-    "district_bn": "নোয়াখালী",
+    "district_bn": "নোয়াখালী",
     "composition_bn": "হাতিয়া উপজেলা",
     "composition_en": "Hatiya Upazila",
     "thana": ["Hatiya"],
@@ -4365,7 +4365,7 @@
     "pauroshava_bn": ["হাতিয়া"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Noakhali-6", "নোয়াখালী-৬", "Hatiya"]
+    "search_tags": ["Noakhali-6", "নোয়াখালী-৬", "Hatiya"]
   },
   {
     "id": 274,
@@ -4405,15 +4405,15 @@
     "no_bn": "লক্ষ্মীপুর-৩",
     "district_en": "Lakshmipur",
     "district_bn": "লক্ষ্মীপুর",
-    "composition_bn": "(ক) লক্ষ্মীপুর সদর উপজেলার নিম্নলিখিত ইউনিয়নসমূহ : (১) দালাল খাঁ (২) দত্তপাড়া (৩) উত্তর জয়পুর (৪) চন্দ্রগঞ্জ (৫) হাজির পাড়া (৬) চর শাহী (৭) দিঘলী (৮) মান্দারী (৯) লাহারকান্দি (১০) ভবানীগঞ্জ (১১) কুশাখালী ও (১২) তেওয়ারীগঞ্জ এবং (খ) লক্ষ্মীপুর সদর পৌরসভা",
+    "composition_bn": "(ক) লক্ষ্মীপুর সদর উপজেলার নিম্নলিখিত ইউনিয়নসমূহ: (১) দালাল খাঁ (২) দত্তপাড়া (৩) উত্তর জয়পুর (৪) চন্দ্রগঞ্জ (৫) হাজির পাড়া (৬) চর শাহী (৭) দিঘলী (৮) মান্দারী (৯) লাহারকান্দি (১০) ভবানীগঞ্জ (১১) কুশাখালী ও (১২) তেওয়ারীগঞ্জ এবং (খ) লক্ষ্মীপুর সদর পৌরসভা",
     "composition_en": "(a) the following Unions of Lakshmipur Sadar Upazila: (1) Dalal Kha, (2) Dattapara, (3) Uttar Joypur, (4) Chandraganj, (5) Hajirpara, (6) Char Shahi, (7) Dighali, (8) Mandari, (9) Laharkandi, (10) Bhabaniganj, (11) Kushakhali and (12) Tewariganj, and (b) Lakshmipur Sadar Paurashava",
-    "thana": ["Lakshmipur Sadar"],
-    "thana_bn": ["লক্ষ্মীপুর সদর"],
+    "thana": ["Lakshmipur Sadar", "Chandraganj"],
+    "thana_bn": ["লক্ষ্মীপুর সদর", "চন্দ্রগঞ্জ"],
     "pauroshava": ["Lakshmipur"],
     "pauroshava_bn": ["লক্ষ্মীপুর"],
     "unions": ["Dalal Kha", "Dattapara", "Uttar Joypur", "Chandraganj", "Hajirpara", "Char Shahi", "Dighali", "Mandari", "Laharkandi", "Bhabaniganj", "Kushakhali", "Tewariganj"],
     "unions_bn": ["দালাল খাঁ", "দত্তপাড়া", "উত্তর জয়পুর", "চন্দ্রগঞ্জ", "হাজির পাড়া", "চর শাহী", "দিঘলী", "মান্দারী", "লাহারকান্দি", "ভবানীগঞ্জ", "কুশাখালী", "তেওয়ারীগঞ্জ"],
-    "search_tags": ["Lakshmipur-3", "লক্ষ্মীপুর-৩", "Lakshmipur Sadar"]
+    "search_tags": ["Lakshmipur-3", "লক্ষ্মীপুর-৩", "Lakshmipur Sadar", "Chandraganj", "Lakshmipur Paurashava"]
   },
   {
     "id": 277,
@@ -4429,7 +4429,7 @@
     "pauroshava_bn": ["রামগতি"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Lakshmipur-4", "লক্ষ্মীপুর-৪", "Ramgati", "Kamalnagar"]
+    "search_tags": ["Lakshmipur-4", "লক্ষ্মীপুর-৪", "Ramgati", "Kamalnagar", "Ramgati Paurashava"]
   },
   {
     "id": 278,
@@ -4439,13 +4439,13 @@
     "district_bn": "চট্টগ্রাম",
     "composition_bn": "মীরসরাই উপজেলা",
     "composition_en": "Mirsharai Upazila",
-    "thana": ["Mirsharai"],
-    "thana_bn": ["মীরসরাই"],
+    "thana": ["Mirsharai", "Zorarganj"],
+    "thana_bn": ["মীরসরাই", "জোরারগঞ্জ"],
     "pauroshava": ["Mirsharai", "Baraiyarhat"],
     "pauroshava_bn": ["মীরসরাই", "বারৈয়ারহাট"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Chattogram-1", "চট্টগ্রাম-১", "Mirsharai"]
+    "search_tags": ["Chattogram-1", "চট্টগ্রাম-১", "Mirsharai", "Zorarganj", "Mirsarai"]
   },
   {
     "id": 279,
@@ -4455,13 +4455,13 @@
     "district_bn": "চট্টগ্রাম",
     "composition_bn": "ফটিকছড়ি উপজেলা",
     "composition_en": "Fatikchhari Upazila",
-    "thana": ["Fatikchhari"],
-    "thana_bn": ["ফটিকছড়ি"],
+    "thana": ["Fatikchhari", "Bhujpur"],
+    "thana_bn": ["ফটিকছড়ি", "ভুজপুর"],
     "pauroshava": ["Fatikchhari", "Nazirhat"],
     "pauroshava_bn": ["ফটিকছড়ি", "নাজিরহাট"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Chattogram-2", "চট্টগ্রাম-২", "Fatikchhari"]
+    "search_tags": ["Chattogram-2", "চট্টগ্রাম-২", "Fatikchhari", "Bhujpur", "Nazirhat"]
   },
   {
     "id": 280,
@@ -4472,12 +4472,12 @@
     "composition_bn": "সন্দীপ উপজেলা",
     "composition_en": "Sandwip Upazila",
     "thana": ["Sandwip"],
-    "thana_bn": ["সন্দীপ"],
+    "thana_bn": ["সন্দ্বীপ"],
     "pauroshava": ["Sandwip"],
-    "pauroshava_bn": ["সন্দীপ"],
+    "pauroshava_bn": ["সন্দ্বীপ"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Chattogram-3", "চট্টগ্রাম-৩", "Sandwip"]
+    "search_tags": ["Chattogram-3", "চট্টগ্রাম-৩", "Sandwip", "Sandwip Paurashava"]
   },
   {
     "id": 281,
@@ -4487,13 +4487,13 @@
     "district_bn": "চট্টগ্রাম",
     "composition_bn": "(ক) সীতাকুণ্ড উপজেলা এবং (খ) চট্টগ্রাম সিটি কর্পোরেশনের ওয়ার্ড নম্বর-৯ ও ১০",
     "composition_en": "(a) Sitakunda Upazila and (b) Ward numbers 9 and 10 of Chattogram City Corporation",
-    "thana": ["Sitakunda"],
-    "thana_bn": ["সীতাকুণ্ড"],
+    "thana": ["Sitakunda", "Akbarshah", "Pahartali"],
+    "thana_bn": ["সীতাকুণ্ড", "আকবরশাহ", "পাহাড়তলী"],
     "pauroshava": ["Sitakunda"],
     "pauroshava_bn": ["সীতাকুণ্ড"],
-    "unions": ["Ward 9", "Ward 10"],
-    "unions_bn": ["ওয়ার্ড ৯", "ওয়ার্ড ১০"],
-    "search_tags": ["Chattogram-4", "চট্টগ্রাম-৪", "Sitakunda", "Chattogram City Corporation"]
+    "unions": ["Ward 09", "Ward 10"],
+    "unions_bn": ["ওয়ার্ড ০৯", "ওয়ার্ড ১০"],
+    "search_tags": ["Chattogram-4", "চট্টগ্রাম-৪", "Sitakunda", "Akbarshah", "Pahartali", "CCC"]
   },
   {
     "id": 282,
@@ -4503,13 +4503,13 @@
     "district_bn": "চট্টগ্রাম",
     "composition_bn": "(ক) হাটহাজারী উপজেলা এবং (খ) চট্টগ্রাম সিটি কর্পোরেশনের ওয়ার্ড নম্বর-০১ ও ০২",
     "composition_en": "(a) Hathazari Upazila and (b) Ward numbers 01 and 02 of Chattogram City Corporation",
-    "thana": ["Hathazari"],
-    "thana_bn": ["হাটহাজারী"],
+    "thana": ["Hathazari", "Bayezid Bostami"],
+    "thana_bn": ["হাটহাজারী", "বায়েজিদ বোস্তামী"],
     "pauroshava": [],
     "pauroshava_bn": [],
-    "unions": ["Ward 1", "Ward 2"],
-    "unions_bn": ["ওয়ার্ড ১", "ওয়ার্ড ২"],
-    "search_tags": ["Chattogram-5", "চট্টগ্রাম-৫", "Hathazari", "Chattogram City Corporation"]
+    "unions": ["Ward 01", "Ward 02"],
+    "unions_bn": ["ওয়ার্ড ০১", "ওয়ার্ড ০২"],
+    "search_tags": ["Chattogram-5", "চট্টগ্রাম-৫", "Hathazari", "Bayezid Bostami", "CCC"]
   },
   {
     "id": 283,
@@ -4525,7 +4525,7 @@
     "pauroshava_bn": ["রাউজান"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Chattogram-6", "চট্টগ্রাম-৬", "Raozan"]
+    "search_tags": ["Chattogram-6", "চট্টগ্রাম-৬", "Raozan", "রাউজান"]
   },
   {
     "id": 284,
@@ -4541,7 +4541,7 @@
     "pauroshava_bn": ["রাঙ্গুনিয়া"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Chattogram-7", "চট্টগ্রাম-৭", "Rangunia"]
+    "search_tags": ["Chattogram-7", "চট্টগ্রাম-৭", "Rangunia", "রাঙ্গুনিয়া"]
   },
   {
     "id": 285,
@@ -4551,13 +4551,13 @@
     "district_bn": "চট্টগ্রাম",
     "composition_bn": "(ক) বোয়ালখালী উপজেলা এবং (খ) চট্টগ্রাম সিটি কর্পোরেশনের ওয়ার্ড নম্বর- ০৩, ০৪, ০৫, ০৬ ও ০৭",
     "composition_en": "(a) Boalkhali Upazila and (b) Ward numbers 03, 04, 05, 06 and 07 of Chattogram City Corporation",
-    "thana": ["Boalkhali"],
-    "thana_bn": ["বোয়ালখালী"],
+    "thana": ["Boalkhali", "Chandgaon", "Panchlaish", "Bayezid Bostami"],
+    "thana_bn": ["বোয়ালখালী", "চাঁদগাঁও", "পাঁচলাইশ", "বায়েজিদ বোস্তামী"],
     "pauroshava": ["Boalkhali"],
     "pauroshava_bn": ["বোয়ালখালী"],
     "unions": ["Ward 03", "Ward 04", "Ward 05", "Ward 06", "Ward 07"],
     "unions_bn": ["ওয়ার্ড ০৩", "ওয়ার্ড ০৪", "ওয়ার্ড ০৫", "ওয়ার্ড ০৬", "ওয়ার্ড ০৭"],
-    "search_tags": ["Chattogram-8", "চট্টগ্রাম-৮", "Boalkhali", "Chattogram City Corporation"]
+    "search_tags": ["Chattogram-8", "চট্টগ্রাম-৮", "Boalkhali", "Chandgaon", "Panchlaish", "CCC"]
   },
   {
     "id": 286,
@@ -4567,13 +4567,13 @@
     "district_bn": "চট্টগ্রাম",
     "composition_bn": "চট্টগ্রাম সিটি কর্পোরেশনের ওয়ার্ড নম্বর-১৫, ১৬, ১৭, ১৮, ১৯, ২০, ২১, ২২, ২৩, ৩১, ৩২, ৩৩, ৩৪ ও ৩৫",
     "composition_en": "Ward numbers 15, 16, 17, 18, 19, 20, 21, 22, 23, 31, 32, 33, 34 and 35 of Chattogram City Corporation",
-    "thana": ["Chattogram City Corporation"],
-    "thana_bn": ["চট্টগ্রাম সিটি কর্পোরেশন"],
+    "thana": ["Kotwali", "Bakalia", "Chawkbazar"],
+    "thana_bn": ["কোতোয়ালী", "বাকলিয়া", "চকবাজার"],
     "pauroshava": [],
     "pauroshava_bn": [],
     "unions": ["Ward 15", "Ward 16", "Ward 17", "Ward 18", "Ward 19", "Ward 20", "Ward 21", "Ward 22", "Ward 23", "Ward 31", "Ward 32", "Ward 33", "Ward 34", "Ward 35"],
     "unions_bn": ["ওয়ার্ড ১৫", "ওয়ার্ড ১৬", "ওয়ার্ড ১৭", "ওয়ার্ড ১৮", "ওয়ার্ড ১৯", "ওয়ার্ড ২০", "ওয়ার্ড ২১", "ওয়ার্ড ২২", "ওয়ার্ড ২৩", "ওয়ার্ড ৩১", "ওয়ার্ড ৩২", "ওয়ার্ড ৩৩", "ওয়ার্ড ৩৪", "ওয়ার্ড ৩৫"],
-    "search_tags": ["Chattogram-9", "চট্টগ্রাম-৯", "Chattogram City Corporation"]
+    "search_tags": ["Chattogram-9", "চট্টগ্রাম-৯", "Kotwali", "Bakalia", "Chawkbazar", "CCC"]
   },
   {
     "id": 287,
@@ -4583,13 +4583,13 @@
     "district_bn": "চট্টগ্রাম",
     "composition_bn": "চট্টগ্রাম সিটি কর্পোরেশনের ওয়ার্ড নম্বর-০৮, ১১, ১২, ১৩, ১৪, ২৪, ২৫ ও ২৬",
     "composition_en": "Ward numbers 08, 11, 12, 13, 14, 24, 25 and 26 of Chattogram City Corporation",
-    "thana": ["Chattogram City Corporation"],
-    "thana_bn": ["চট্টগ্রাম সিটি কর্পোরেশন"],
+    "thana": ["Khulshi", "Pahartali", "Halishahar", "Double Mooring"],
+    "thana_bn": ["খুলশী", "পাহাড়তলী", "হালিশহর", "ডবলমুরিং"],
     "pauroshava": [],
     "pauroshava_bn": [],
     "unions": ["Ward 08", "Ward 11", "Ward 12", "Ward 13", "Ward 14", "Ward 24", "Ward 25", "Ward 26"],
     "unions_bn": ["ওয়ার্ড ০৮", "ওয়ার্ড ১১", "ওয়ার্ড ১২", "ওয়ার্ড ১৩", "ওয়ার্ড ১৪", "ওয়ার্ড ২৪", "ওয়ার্ড ২৫", "ওয়ার্ড ২৬"],
-    "search_tags": ["Chattogram-10", "চট্টগ্রাম-১০", "Chattogram City Corporation"]
+    "search_tags": ["Chattogram-10", "চট্টগ্রাম-১০", "Khulshi", "Pahartali", "Halishahar", "Double Mooring", "CCC"]
   },
   {
     "id": 288,
@@ -4599,13 +4599,13 @@
     "district_bn": "চট্টগ্রাম",
     "composition_bn": "চট্টগ্রাম সিটি কর্পোরেশনের ওয়ার্ড নম্বর-২৭, ২৮, ২৯, ৩০, ৩৬, ৩৭, ৩৮, ৩৯, ৪০ ও ৪১",
     "composition_en": "Ward numbers 27, 28, 29, 30, 36, 37, 38, 39, 40 and 41 of Chattogram City Corporation",
-    "thana": ["Chattogram City Corporation"],
-    "thana_bn": ["চট্টগ্রাম সিটি কর্পোরেশন"],
+    "thana": ["Bandar", "Patenga", "EPZ", "Double Mooring", "Halishahar"],
+    "thana_bn": ["বন্দর", "পতেঙ্গা", "ইপিজেড", "ডবলমুরিং", "হালিশহর"],
     "pauroshava": [],
     "pauroshava_bn": [],
     "unions": ["Ward 27", "Ward 28", "Ward 29", "Ward 30", "Ward 36", "Ward 37", "Ward 38", "Ward 39", "Ward 40", "Ward 41"],
     "unions_bn": ["ওয়ার্ড ২৭", "ওয়ার্ড ২৮", "ওয়ার্ড ২৯", "ওয়ার্ড ৩০", "ওয়ার্ড ৩৬", "ওয়ার্ড ৩৭", "ওয়ার্ড ৩৮", "ওয়ার্ড ৩৯", "ওয়ার্ড ৪০", "ওয়ার্ড ৪১"],
-    "search_tags": ["Chattogram-11", "চট্টগ্রাম-১১", "Chattogram City Corporation"]
+    "search_tags": ["Chattogram-11", "চট্টগ্রাম-১১", "Bandar", "Patenga", "EPZ", "CCC"]
   },
   {
     "id": 289,
@@ -4621,7 +4621,7 @@
     "pauroshava_bn": ["পটিয়া"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Chattogram-12", "চট্টগ্রাম-১২", "Patiya"]
+    "search_tags": ["Chattogram-12", "চট্টগ্রাম-১২", "Patiya", "পটিয়া"]
   },
   {
     "id": 290,
@@ -4629,7 +4629,7 @@
     "no_bn": "চট্টগ্রাম-১৩",
     "district_en": "Chattogram",
     "district_bn": "চট্টগ্রাম",
-    "composition_bn": "(ক) আনোয়ার উপজেলা এবং (খ) কর্ণফুলী উপজেলা",
+    "composition_bn": "(ক) আনোয়ারা উপজেলা এবং (খ) কর্ণফুলী উপজেলা",
     "composition_en": "(a) Anwara Upazila and (b) Karnaphuli Upazila",
     "thana": ["Anwara", "Karnaphuli"],
     "thana_bn": ["আনোয়ারা", "কর্ণফুলী"],
@@ -4653,7 +4653,7 @@
     "pauroshava_bn": ["চন্দনাইশ"],
     "unions": ["Keochia", "Kaliaish", "Bajalia", "Dharmapur", "Puranagar", "Khagria"],
     "unions_bn": ["কেওচিয়া", "কালিয়াইশ", "বাজালিয়া", "ধর্মপুর", "পুরানগড়", "খাগরিয়া"],
-    "search_tags": ["Chattogram-14", "চট্টগ্রাম-১৪", "Chandanaish", "Satkania"]
+    "search_tags": ["Chattogram-14", "চট্টগ্রাম-১৪", "Chandanaish", "Satkania", "Keochia", " खাগরিয়া"]
   },
   {
     "id": 292,
@@ -4685,7 +4685,7 @@
     "pauroshava_bn": ["বাঁশখালী"],
     "unions": [],
     "unions_bn": [],
-    "search_tags": ["Chattogram-16", "চট্টগ্রাম-১৬", "Banshkhali"]
+    "search_tags": ["Chattogram-16", "চট্টগ্রাম-১৬", "Banshkhali", "বাঁশখালী"]
   },
   {
     "id": 294,
@@ -4725,10 +4725,10 @@
     "no_bn": "কক্সবাজার-৩",
     "district_en": "Cox's Bazar",
     "district_bn": "কক্সবাজার",
-    "composition_bn": "(ক) কক্সবাজার সদর উপজেলা (খ) ঈদগাও উপজেলা এবং (গ) রামু উপজেলা",
+    "composition_bn": "(ক) কক্সবাজার সদর উপজেলা (খ) ঈদগাঁও উপজেলা এবং (গ) রামু উপজেলা",
     "composition_en": "(a) Cox's Bazar Sadar Upazila, (b) Eidgaon Upazila and (c) Ramu Upazila",
     "thana": ["Cox's Bazar Sadar", "Eidgaon", "Ramu"],
-    "thana_bn": ["কক্সবাজার সদর", "ঈদগাও", "রামু"],
+    "thana_bn": ["কক্সবাজার সদর", "ঈদগাঁও", "রামু"],
     "pauroshava": ["Cox's Bazar"],
     "pauroshava_bn": ["কক্সবাজার"],
     "unions": [],
@@ -4777,8 +4777,8 @@
     "composition_en": "Rangamati Hill District",
     "thana": ["Rangamati Sadar", "Kaptai", "Kawkhali", "Baghaichhari", "Barkal", "Langadu", "Rajasthali", "Belaichhari", "Juraichhari", "Naniarchar"],
     "thana_bn": ["রাঙ্গামাটি সদর", "কাপ্তাই", "কাউখালী", "বাঘাইছড়ি", "বরকল", "লংগদু", "রাজস্থলী", "বিলাইছড়ি", "জুরাইছড়ি", "নানিয়ারচর"],
-    "pauroshava": ["Rangamati"],
-    "pauroshava_bn": ["রাঙ্গামাটি"],
+    "pauroshava": ["Rangamati", "Baghaichhari"],
+    "pauroshava_bn": ["রাঙ্গামাটি", "বাঘাইছড়ি"],
     "unions": [],
     "unions_bn": [],
     "search_tags": ["Rangamati", "রাঙ্গামাটি", "Hill District"]
@@ -4798,5 +4798,5 @@
     "unions": [],
     "unions_bn": [],
     "search_tags": ["Bandarban", "বান্দরবান", "Hill District"]
-  }
+  }  
 ]
